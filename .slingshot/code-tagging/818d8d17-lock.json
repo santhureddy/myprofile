@@ -1,0 +1,177 @@
+{
+  "components\\ui\\separator.tsx": {
+    "filename": "separator.tsx",
+    "path": "components\\ui\\separator.tsx",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "604a0f": {
+        "user": "Santhosh Mahanthesh",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1773081083,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.2.0",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {},
+        "hash": "8fd11a8d",
+        "messageId": null,
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "604a0f",
+        "hash": "86f7e48a",
+        "encoded": "'use%20client'",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "604a0f",
+        "hash": "024d393f",
+        "encoded": "import%20*%20as%20React%20from%20'react'",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "604a0f",
+        "hash": "340e9b0b",
+        "encoded": "import%20*%20as%20SeparatorPrimitive%20from%20'@radix-ui/react-separator'",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "604a0f",
+        "hash": "23e1c3b7",
+        "encoded": "import%20%7B%20cn%20%7D%20from%20'@/lib/utils'",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "604a0f",
+        "hash": "715d57b2",
+        "encoded": "const%20Separator%20=%20React.forwardRef%3C",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "604a0f",
+        "hash": "b2d7b89a",
+        "encoded": "React.ElementRef%3Ctypeof%20SeparatorPrimitive.Root%3E,",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "604a0f",
+        "hash": "5a9bc519",
+        "encoded": "React.ComponentPropsWithoutRef%3Ctypeof%20SeparatorPrimitive.Root%3E",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "604a0f",
+        "hash": "16218628",
+        "encoded": "%3E((",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "604a0f",
+        "hash": "c548a487",
+        "encoded": "%7B%20className,%20orientation%20=%20'horizontal',%20decorative%20=%20true,%20...props%20%7D,",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "604a0f",
+        "hash": "1123e164",
+        "encoded": "ref",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "604a0f",
+        "hash": "bf0814a1",
+        "encoded": ")%20=%3E%20(",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "604a0f",
+        "hash": "8082d9dc",
+        "encoded": "%3CSeparatorPrimitive.Root",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "604a0f",
+        "hash": "6a72bcd0",
+        "encoded": "ref=%7Bref%7D",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "604a0f",
+        "hash": "5a969fd9",
+        "encoded": "decorative=%7Bdecorative%7D",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "604a0f",
+        "hash": "3065b74a",
+        "encoded": "orientation=%7Borientation%7D",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "604a0f",
+        "hash": "684f0839",
+        "encoded": "className=%7Bcn(",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "604a0f",
+        "hash": "7ebf7670",
+        "encoded": "'shrink-0%20bg-border',",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "604a0f",
+        "hash": "62890823",
+        "encoded": "orientation%20===%20'horizontal'%20?%20'h-%5B1px%5D%20w-full'%20:%20'h-full%20w-%5B1px%5D',",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "604a0f",
+        "hash": "b9e9b35e",
+        "encoded": "className",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "604a0f",
+        "hash": "3e623306",
+        "encoded": ")%7D",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "604a0f",
+        "hash": "ff3f0a61",
+        "encoded": "%7B...props%7D",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "604a0f",
+        "hash": "4bab8b51",
+        "encoded": "/%3E",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "604a0f",
+        "hash": "58af9381",
+        "encoded": "))",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "604a0f",
+        "hash": "7aed3e54",
+        "encoded": "Separator.displayName%20=%20SeparatorPrimitive.Root.displayName",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "604a0f",
+        "hash": "d2407f36",
+        "encoded": "export%20%7B%20Separator%20%7D",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

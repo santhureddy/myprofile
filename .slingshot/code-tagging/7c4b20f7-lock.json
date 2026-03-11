@@ -1,0 +1,219 @@
+{
+  "components\\ui\\theme-toggle.tsx": {
+    "filename": "theme-toggle.tsx",
+    "path": "components\\ui\\theme-toggle.tsx",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "9aac71": {
+        "user": "Santhosh Mahanthesh",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1773081116,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.2.0",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {},
+        "hash": "2a4b2262",
+        "messageId": null,
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "9aac71",
+        "hash": "86f7e48a",
+        "encoded": "'use%20client'",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "9aac71",
+        "hash": "024d393f",
+        "encoded": "import%20*%20as%20React%20from%20'react'",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "9aac71",
+        "hash": "fcb5e3e7",
+        "encoded": "import%20%7B%20Moon,%20Sun%20%7D%20from%20'lucide-react'",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "9aac71",
+        "hash": "c1a7b095",
+        "encoded": "import%20%7B%20useTheme%20%7D%20from%20'next-themes'",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "9aac71",
+        "hash": "000ccb18",
+        "encoded": "import%20%7B%20Button%20%7D%20from%20'./button'",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "9aac71",
+        "hash": "85efff7f",
+        "encoded": "export%20function%20ThemeToggle()%20%7B",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "9aac71",
+        "hash": "73b9e2da",
+        "encoded": "const%20%7B%20theme,%20setTheme%20%7D%20=%20useTheme()",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "9aac71",
+        "hash": "4bec5c17",
+        "encoded": "const%20%5Bmounted,%20setMounted%5D%20=%20React.useState(false)",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "9aac71",
+        "hash": "cb91a430",
+        "encoded": "React.useEffect(()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "9aac71",
+        "hash": "e69d0505",
+        "encoded": "setMounted(true)",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "9aac71",
+        "hash": "7df87028",
+        "encoded": "%7D,%20%5B%5D)",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "9aac71",
+        "hash": "adeda5e2",
+        "encoded": "if%20(!mounted)%20%7B",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "9aac71",
+        "hash": "48881d79",
+        "encoded": "return%20(",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "9aac71",
+        "hash": "b65c871d",
+        "encoded": "%3CButton%20variant=%22ghost%22%20size=%22icon%22%20disabled%3E",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "9aac71",
+        "hash": "f0bfd52c",
+        "encoded": "%3CSun%20className=%22h-%5B1.2rem%5D%20w-%5B1.2rem%5D%22%20/%3E",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "9aac71",
+        "hash": "b82e8bb5",
+        "encoded": "%3Cspan%20className=%22sr-only%22%3EToggle%20theme%3C/span%3E",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "9aac71",
+        "hash": "23796077",
+        "encoded": "%3C/Button%3E",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "9aac71",
+        "hash": "f10aaf3b",
+        "encoded": ")",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "9aac71",
+        "hash": "4c3814eb",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "9aac71",
+        "hash": "5047e5a5",
+        "encoded": "return%20(",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "9aac71",
+        "hash": "6dbe675b",
+        "encoded": "%3CButton",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "9aac71",
+        "hash": "a25b01c0",
+        "encoded": "variant=%22ghost%22",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "9aac71",
+        "hash": "0b2f59ce",
+        "encoded": "size=%22icon%22",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "9aac71",
+        "hash": "b0d6fa81",
+        "encoded": "onClick=%7B()%20=%3E%20setTheme(theme%20===%20'light'%20?%20'dark'%20:%20'light')%7D",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "9aac71",
+        "hash": "05502ca9",
+        "encoded": "className=%22relative%22",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "9aac71",
+        "hash": "342678df",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "9aac71",
+        "hash": "1a863811",
+        "encoded": "%3CSun%20className=%22h-%5B1.2rem%5D%20w-%5B1.2rem%5D%20rotate-0%20scale-100%20transition-all%20dark:-rotate-90%20dark:scale-0%22%20/%3E",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "9aac71",
+        "hash": "e5d357b0",
+        "encoded": "%3CMoon%20className=%22absolute%20h-%5B1.2rem%5D%20w-%5B1.2rem%5D%20rotate-90%20scale-0%20transition-all%20dark:rotate-0%20dark:scale-100%22%20/%3E",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "9aac71",
+        "hash": "6564789e",
+        "encoded": "%3Cspan%20className=%22sr-only%22%3EToggle%20theme%3C/span%3E",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "9aac71",
+        "hash": "a17f16d9",
+        "encoded": "%3C/Button%3E",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "9aac71",
+        "hash": "ab5057c6",
+        "encoded": ")",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "9aac71",
+        "hash": "b14d68ea",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

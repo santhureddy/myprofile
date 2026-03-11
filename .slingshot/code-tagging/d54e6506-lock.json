@@ -1,0 +1,249 @@
+{
+  "components\\ui\\badge.tsx": {
+    "filename": "badge.tsx",
+    "path": "components\\ui\\badge.tsx",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "529720": {
+        "user": "Santhosh Mahanthesh",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1773081068,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.2.0",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {},
+        "hash": "4e28462a",
+        "messageId": null,
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "529720",
+        "hash": "881c11e1",
+        "encoded": "import%20*%20as%20React%20from%20'react'",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "529720",
+        "hash": "4516aacc",
+        "encoded": "import%20%7B%20cva,%20type%20VariantProps%20%7D%20from%20'class-variance-authority'",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "529720",
+        "hash": "9a178f78",
+        "encoded": "import%20%7B%20cn%20%7D%20from%20'@/lib/utils'",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "529720",
+        "hash": "0156775a",
+        "encoded": "const%20badgeVariants%20=%20cva(",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "529720",
+        "hash": "3ff40c98",
+        "encoded": "'inline-flex%20items-center%20rounded-full%20border%20px-2.5%20py-0.5%20text-xs%20font-semibold%20transition-colors%20focus:outline-none%20focus:ring-2%20focus:ring-ring%20focus:ring-offset-2',",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "529720",
+        "hash": "a4aefdc4",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "529720",
+        "hash": "54d66663",
+        "encoded": "variants:%20%7B",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "529720",
+        "hash": "740dd5e5",
+        "encoded": "variant:%20%7B",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "529720",
+        "hash": "a9471b32",
+        "encoded": "default:",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "529720",
+        "hash": "afe83921",
+        "encoded": "'border-transparent%20bg-primary%20text-primary-foreground%20hover:bg-primary/80',",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "529720",
+        "hash": "ac62bfe9",
+        "encoded": "secondary:",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "529720",
+        "hash": "1c79b855",
+        "encoded": "'border-transparent%20bg-secondary%20text-secondary-foreground%20hover:bg-secondary/80',",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "529720",
+        "hash": "ff04ec10",
+        "encoded": "destructive:",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "529720",
+        "hash": "9886707d",
+        "encoded": "'border-transparent%20bg-destructive%20text-destructive-foreground%20hover:bg-destructive/80',",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "529720",
+        "hash": "08df44b9",
+        "encoded": "outline:%20'text-foreground',",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "529720",
+        "hash": "fc371ea5",
+        "encoded": "success:",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "529720",
+        "hash": "35fa4ad4",
+        "encoded": "'border-transparent%20bg-green-100%20text-green-800%20dark:bg-green-800%20dark:text-green-100',",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "529720",
+        "hash": "c130ba03",
+        "encoded": "warning:",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "529720",
+        "hash": "27776265",
+        "encoded": "'border-transparent%20bg-yellow-100%20text-yellow-800%20dark:bg-yellow-800%20dark:text-yellow-100',",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "529720",
+        "hash": "d9786763",
+        "encoded": "info:",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "529720",
+        "hash": "996ef8ca",
+        "encoded": "'border-transparent%20bg-blue-100%20text-blue-800%20dark:bg-blue-800%20dark:text-blue-100',",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "529720",
+        "hash": "6d666e52",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "529720",
+        "hash": "ae69351d",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "529720",
+        "hash": "20c7552a",
+        "encoded": "defaultVariants:%20%7B",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "529720",
+        "hash": "6c18f6fe",
+        "encoded": "variant:%20'default',",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "529720",
+        "hash": "0b87a378",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "529720",
+        "hash": "a7947416",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "529720",
+        "hash": "590602dd",
+        "encoded": ")",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "529720",
+        "hash": "b73f338c",
+        "encoded": "export%20interface%20BadgeProps",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "529720",
+        "hash": "79219530",
+        "encoded": "extends%20React.HTMLAttributes%3CHTMLDivElement%3E,",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "529720",
+        "hash": "7a2508ba",
+        "encoded": "VariantProps%3Ctypeof%20badgeVariants%3E%20%7B%7D",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "529720",
+        "hash": "8b2682bf",
+        "encoded": "function%20Badge(%7B%20className,%20variant,%20...props%20%7D:%20BadgeProps)%20%7B",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "529720",
+        "hash": "5b7ca928",
+        "encoded": "return%20(",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "529720",
+        "hash": "ee991fb4",
+        "encoded": "%3Cdiv%20className=%7Bcn(badgeVariants(%7B%20variant%20%7D),%20className)%7D%20%7B...props%7D%20/%3E",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "529720",
+        "hash": "a9a06ea1",
+        "encoded": ")",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "529720",
+        "hash": "1b754c76",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "529720",
+        "hash": "e662fbf1",
+        "encoded": "export%20%7B%20Badge,%20badgeVariants%20%7D",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

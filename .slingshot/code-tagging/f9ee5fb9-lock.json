@@ -1,0 +1,192 @@
+{
+  "next.config.js": {
+    "filename": "next.config.js",
+    "path": "next.config.js",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "e8b30c": {
+        "user": "Santhosh Mahanthesh",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1773080765,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.2.0",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {},
+        "hash": "cdfdf4ff",
+        "messageId": null,
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "aee7ca": {
+        "user": "Santhosh Mahanthesh",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1773081898,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.2.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {},
+        "hash": "05c43871",
+        "messageId": null,
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "aee7ca",
+        "hash": "78530446",
+        "encoded": "/**%20@type%20%7Bimport('next').NextConfig%7D%20*/",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "aee7ca",
+        "hash": "6dabf37d",
+        "encoded": "const%20nextConfig%20=%20%7B",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "aee7ca",
+        "hash": "b7df3362",
+        "encoded": "images:%20%7B",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "aee7ca",
+        "hash": "fc7e78cf",
+        "encoded": "domains:%20%5B'images.unsplash.com',%20'via.placeholder.com'%5D,",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "aee7ca",
+        "hash": "de3b39de",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "aee7ca",
+        "hash": "4a821ad9",
+        "encoded": "typescript:%20%7B",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "aee7ca",
+        "hash": "29fb1f44",
+        "encoded": "ignoreBuildErrors:%20false,",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "aee7ca",
+        "hash": "56b41f88",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "aee7ca",
+        "hash": "2e99cc5e",
+        "encoded": "eslint:%20%7B",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "aee7ca",
+        "hash": "5910a175",
+        "encoded": "ignoreDuringBuilds:%20false,",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "aee7ca",
+        "hash": "edd993f3",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "aee7ca",
+        "hash": "e9a9f96c",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "aee7ca",
+        "hash": "4129a3c0",
+        "encoded": "module.exports%20=%20nextConfig",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "e8b30c",
+        "hash": "27e49a74",
+        "encoded": "const%20nextConfig%20=%20%7B",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "e8b30c",
+        "hash": "8bc0a78b",
+        "encoded": "images:%20%7B",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "e8b30c",
+        "hash": "c6ad6abd",
+        "encoded": "domains:%20%5B'images.unsplash.com',%20'via.placeholder.com'%5D,",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "e8b30c",
+        "hash": "7ce81970",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "e8b30c",
+        "hash": "55cc4f6c",
+        "encoded": "typescript:%20%7B",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "e8b30c",
+        "hash": "117a51ab",
+        "encoded": "ignoreBuildErrors:%20false,",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "e8b30c",
+        "hash": "ae69351d",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "e8b30c",
+        "hash": "7807609d",
+        "encoded": "eslint:%20%7B",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "e8b30c",
+        "hash": "6c70abe4",
+        "encoded": "ignoreDuringBuilds:%20false,",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "e8b30c",
+        "hash": "0b87a378",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "e8b30c",
+        "hash": "a7947416",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "e8b30c",
+        "hash": "d5c92a09",
+        "encoded": "module.exports%20=%20nextConfig",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

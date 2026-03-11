@@ -1,0 +1,909 @@
+{
+  "components\\layout\\footer.tsx": {
+    "filename": "footer.tsx",
+    "path": "components\\layout\\footer.tsx",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "c079de": {
+        "user": "Santhosh Mahanthesh",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1773081173,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.2.0",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {},
+        "hash": "37158fe3",
+        "messageId": null,
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "c079de",
+        "hash": "86f7e48a",
+        "encoded": "'use%20client'",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "c079de",
+        "hash": "a029a234",
+        "encoded": "import%20%7B%20motion%20%7D%20from%20'framer-motion'",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "c079de",
+        "hash": "dc0314ff",
+        "encoded": "import%20%7B%20Github,%20Linkedin,%20Mail,%20Phone,%20MapPin,%20Heart%20%7D%20from%20'lucide-react'",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "c079de",
+        "hash": "8e531260",
+        "encoded": "import%20%7B%20Button%20%7D%20from%20'@/components/ui/button'",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "c079de",
+        "hash": "3a3b0f9f",
+        "encoded": "import%20%7B%20Separator%20%7D%20from%20'@/components/ui/separator'",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "c079de",
+        "hash": "e30d37fb",
+        "encoded": "import%20%7B%20personalInfo%20%7D%20from%20'@/data/portfolio'",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "c079de",
+        "hash": "47f7f4d1",
+        "encoded": "import%20%7B%20scrollToElement%20%7D%20from%20'@/lib/utils'",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "c079de",
+        "hash": "be02ef0d",
+        "encoded": "const%20socialLinks%20=%20%5B",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "c079de",
+        "hash": "190a3676",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "c079de",
+        "hash": "3af2e575",
+        "encoded": "name:%20'LinkedIn',",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "c079de",
+        "hash": "1d172517",
+        "encoded": "href:%20personalInfo.linkedin,",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "c079de",
+        "hash": "114992bb",
+        "encoded": "icon:%20Linkedin,",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "c079de",
+        "hash": "e2e3b363",
+        "encoded": "color:%20'hover:text-blue-600'",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "c079de",
+        "hash": "e682a066",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "c079de",
+        "hash": "f06cfb55",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "c079de",
+        "hash": "c518ee0f",
+        "encoded": "name:%20'Email',",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "c079de",
+        "hash": "0e7e3028",
+        "encoded": "href:%20%60mailto:$%7BpersonalInfo.email%7D%60,",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "c079de",
+        "hash": "944ac03b",
+        "encoded": "icon:%20Mail,",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "c079de",
+        "hash": "4365fad4",
+        "encoded": "color:%20'hover:text-green-600'",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "c079de",
+        "hash": "044c21b3",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "c079de",
+        "hash": "2ce76d4f",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "c079de",
+        "hash": "5fce0cd9",
+        "encoded": "name:%20'Phone',",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "c079de",
+        "hash": "0df3113b",
+        "encoded": "href:%20%60tel:$%7BpersonalInfo.phone%7D%60,",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "c079de",
+        "hash": "bb8bd291",
+        "encoded": "icon:%20Phone,",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "c079de",
+        "hash": "9db96b7f",
+        "encoded": "color:%20'hover:text-purple-600'",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "c079de",
+        "hash": "a7947416",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "c079de",
+        "hash": "9abeeb59",
+        "encoded": "%5D",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "c079de",
+        "hash": "777ba9e4",
+        "encoded": "const%20quickLinks%20=%20%5B",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "c079de",
+        "hash": "860f3a6f",
+        "encoded": "%7B%20name:%20'About',%20href:%20'about'%20%7D,",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "c079de",
+        "hash": "54350a97",
+        "encoded": "%7B%20name:%20'Experience',%20href:%20'experience'%20%7D,",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "c079de",
+        "hash": "3c1ba4fa",
+        "encoded": "%7B%20name:%20'Skills',%20href:%20'skills'%20%7D,",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "c079de",
+        "hash": "b83812c7",
+        "encoded": "%7B%20name:%20'Projects',%20href:%20'projects'%20%7D,",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "c079de",
+        "hash": "c5d838cc",
+        "encoded": "%7B%20name:%20'Contact',%20href:%20'contact'%20%7D",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "c079de",
+        "hash": "99c0c76b",
+        "encoded": "%5D",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "c079de",
+        "hash": "aaeacb43",
+        "encoded": "export%20function%20Footer()%20%7B",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "c079de",
+        "hash": "eb38bbd8",
+        "encoded": "const%20currentYear%20=%20new%20Date().getFullYear()",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "c079de",
+        "hash": "1d8709c4",
+        "encoded": "const%20handleNavClick%20=%20(href:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "c079de",
+        "hash": "ca3ac90e",
+        "encoded": "scrollToElement(href)",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "c079de",
+        "hash": "d6071ac7",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "c079de",
+        "hash": "806be84c",
+        "encoded": "return%20(",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "c079de",
+        "hash": "32c549b6",
+        "encoded": "%3Cfooter%20className=%22bg-muted/30%20border-t%20border-border%22%3E",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "c079de",
+        "hash": "49f24365",
+        "encoded": "%3Cdiv%20className=%22container%20mx-auto%20px-4%20py-12%22%3E",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "c079de",
+        "hash": "4fc8100d",
+        "encoded": "%3Cdiv%20className=%22grid%20grid-cols-1%20md:grid-cols-4%20gap-8%22%3E",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "c079de",
+        "hash": "fcc747f7",
+        "encoded": "%7B/*%20Brand%20Section%20*/%7D",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "c079de",
+        "hash": "d61b379d",
+        "encoded": "%3Cmotion.div",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "c079de",
+        "hash": "cf0545e7",
+        "encoded": "initial=%7B%7B%20opacity:%200,%20y:%2020%20%7D%7D",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "c079de",
+        "hash": "0a89cffb",
+        "encoded": "whileInView=%7B%7B%20opacity:%201,%20y:%200%20%7D%7D",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "c079de",
+        "hash": "a5f7a735",
+        "encoded": "transition=%7B%7B%20duration:%200.5%20%7D%7D",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "c079de",
+        "hash": "efbdba2e",
+        "encoded": "viewport=%7B%7B%20once:%20true%20%7D%7D",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "c079de",
+        "hash": "eb0a71ba",
+        "encoded": "className=%22md:col-span-2%22",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "c079de",
+        "hash": "dfb55fce",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "c079de",
+        "hash": "f3fcd8e2",
+        "encoded": "%3Cdiv%20className=%22flex%20items-center%20space-x-3%20mb-4%22%3E",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "c079de",
+        "hash": "045b7410",
+        "encoded": "%3Cdiv%20className=%22w-12%20h-12%20bg-primary%20rounded-lg%20flex%20items-center%20justify-center%22%3E",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "c079de",
+        "hash": "5b9a2608",
+        "encoded": "%3Cspan%20className=%22text-primary-foreground%20font-bold%20text-xl%22%3E",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "c079de",
+        "hash": "895ccccb",
+        "encoded": "%7BpersonalInfo.name.split('%20').map(n%20=%3E%20n%5B0%5D).join('')%7D",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "c079de",
+        "hash": "6f8364e5",
+        "encoded": "%3C/span%3E",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "c079de",
+        "hash": "43826c56",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "c079de",
+        "hash": "69630a23",
+        "encoded": "%3Cdiv%3E",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "c079de",
+        "hash": "972f495c",
+        "encoded": "%3Ch3%20className=%22font-heading%20font-bold%20text-xl%22%3E%7BpersonalInfo.name%7D%3C/h3%3E",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "c079de",
+        "hash": "3346c228",
+        "encoded": "%3Cp%20className=%22text-muted-foreground%20text-sm%22%3E%7BpersonalInfo.title%7D%3C/p%3E",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "c079de",
+        "hash": "e9e5ba05",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "c079de",
+        "hash": "aa21e153",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "c079de",
+        "hash": "a284863a",
+        "encoded": "%3Cp%20className=%22text-muted-foreground%20text-sm%20leading-relaxed%20mb-4%22%3E",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "c079de",
+        "hash": "811e03cc",
+        "encoded": "%7BpersonalInfo.summary%7D",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "c079de",
+        "hash": "f7146e68",
+        "encoded": "%3C/p%3E",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "c079de",
+        "hash": "17830b59",
+        "encoded": "%3Cdiv%20className=%22flex%20items-center%20text-sm%20text-muted-foreground%22%3E",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "c079de",
+        "hash": "b69b86d6",
+        "encoded": "%3CMapPin%20className=%22h-4%20w-4%20mr-2%22%20/%3E",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "c079de",
+        "hash": "c0646647",
+        "encoded": "%7BpersonalInfo.location%7D",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "c079de",
+        "hash": "4fa5e5b5",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "c079de",
+        "hash": "7c682839",
+        "encoded": "%3C/motion.div%3E",
+        "prevChunkIds": []
+      },
+      "77": {
+        "chunkId": "c079de",
+        "hash": "32c65938",
+        "encoded": "%7B/*%20Quick%20Links%20*/%7D",
+        "prevChunkIds": []
+      },
+      "78": {
+        "chunkId": "c079de",
+        "hash": "087a791c",
+        "encoded": "%3Cmotion.div",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "c079de",
+        "hash": "50e0bee5",
+        "encoded": "initial=%7B%7B%20opacity:%200,%20y:%2020%20%7D%7D",
+        "prevChunkIds": []
+      },
+      "80": {
+        "chunkId": "c079de",
+        "hash": "014bf35e",
+        "encoded": "whileInView=%7B%7B%20opacity:%201,%20y:%200%20%7D%7D",
+        "prevChunkIds": []
+      },
+      "81": {
+        "chunkId": "c079de",
+        "hash": "105f09bd",
+        "encoded": "transition=%7B%7B%20duration:%200.5,%20delay:%200.1%20%7D%7D",
+        "prevChunkIds": []
+      },
+      "82": {
+        "chunkId": "c079de",
+        "hash": "f0abcdaf",
+        "encoded": "viewport=%7B%7B%20once:%20true%20%7D%7D",
+        "prevChunkIds": []
+      },
+      "83": {
+        "chunkId": "c079de",
+        "hash": "b94265bc",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "84": {
+        "chunkId": "c079de",
+        "hash": "22f8e7f7",
+        "encoded": "%3Ch4%20className=%22font-semibold%20text-foreground%20mb-4%22%3EQuick%20Links%3C/h4%3E",
+        "prevChunkIds": []
+      },
+      "85": {
+        "chunkId": "c079de",
+        "hash": "1aab7249",
+        "encoded": "%3Cul%20className=%22space-y-2%22%3E",
+        "prevChunkIds": []
+      },
+      "86": {
+        "chunkId": "c079de",
+        "hash": "04b72752",
+        "encoded": "%7BquickLinks.map((link)%20=%3E%20(",
+        "prevChunkIds": []
+      },
+      "87": {
+        "chunkId": "c079de",
+        "hash": "ba436667",
+        "encoded": "%3Cli%20key=%7Blink.name%7D%3E",
+        "prevChunkIds": []
+      },
+      "88": {
+        "chunkId": "c079de",
+        "hash": "9df75e13",
+        "encoded": "%3Cbutton",
+        "prevChunkIds": []
+      },
+      "89": {
+        "chunkId": "c079de",
+        "hash": "14e5382f",
+        "encoded": "onClick=%7B()%20=%3E%20handleNavClick(link.href)%7D",
+        "prevChunkIds": []
+      },
+      "90": {
+        "chunkId": "c079de",
+        "hash": "92fb4df1",
+        "encoded": "className=%22text-muted-foreground%20hover:text-foreground%20transition-colors%20text-sm%22",
+        "prevChunkIds": []
+      },
+      "91": {
+        "chunkId": "c079de",
+        "hash": "80cdc945",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "92": {
+        "chunkId": "c079de",
+        "hash": "6ef16203",
+        "encoded": "%7Blink.name%7D",
+        "prevChunkIds": []
+      },
+      "93": {
+        "chunkId": "c079de",
+        "hash": "ca5eb060",
+        "encoded": "%3C/button%3E",
+        "prevChunkIds": []
+      },
+      "94": {
+        "chunkId": "c079de",
+        "hash": "3fed251e",
+        "encoded": "%3C/li%3E",
+        "prevChunkIds": []
+      },
+      "95": {
+        "chunkId": "c079de",
+        "hash": "f44cb817",
+        "encoded": "))%7D",
+        "prevChunkIds": []
+      },
+      "96": {
+        "chunkId": "c079de",
+        "hash": "da07c2f1",
+        "encoded": "%3C/ul%3E",
+        "prevChunkIds": []
+      },
+      "97": {
+        "chunkId": "c079de",
+        "hash": "3bd92f82",
+        "encoded": "%3C/motion.div%3E",
+        "prevChunkIds": []
+      },
+      "99": {
+        "chunkId": "c079de",
+        "hash": "01c62311",
+        "encoded": "%7B/*%20Connect%20*/%7D",
+        "prevChunkIds": []
+      },
+      "100": {
+        "chunkId": "c079de",
+        "hash": "5b30a1b8",
+        "encoded": "%3Cmotion.div",
+        "prevChunkIds": []
+      },
+      "101": {
+        "chunkId": "c079de",
+        "hash": "ded00977",
+        "encoded": "initial=%7B%7B%20opacity:%200,%20y:%2020%20%7D%7D",
+        "prevChunkIds": []
+      },
+      "102": {
+        "chunkId": "c079de",
+        "hash": "137004b0",
+        "encoded": "whileInView=%7B%7B%20opacity:%201,%20y:%200%20%7D%7D",
+        "prevChunkIds": []
+      },
+      "103": {
+        "chunkId": "c079de",
+        "hash": "70af7b47",
+        "encoded": "transition=%7B%7B%20duration:%200.5,%20delay:%200.2%20%7D%7D",
+        "prevChunkIds": []
+      },
+      "104": {
+        "chunkId": "c079de",
+        "hash": "e93363a9",
+        "encoded": "viewport=%7B%7B%20once:%20true%20%7D%7D",
+        "prevChunkIds": []
+      },
+      "105": {
+        "chunkId": "c079de",
+        "hash": "e731cece",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "106": {
+        "chunkId": "c079de",
+        "hash": "49f0f93b",
+        "encoded": "%3Ch4%20className=%22font-semibold%20text-foreground%20mb-4%22%3EConnect%3C/h4%3E",
+        "prevChunkIds": []
+      },
+      "107": {
+        "chunkId": "c079de",
+        "hash": "1b06e748",
+        "encoded": "%3Cdiv%20className=%22space-y-3%22%3E",
+        "prevChunkIds": []
+      },
+      "108": {
+        "chunkId": "c079de",
+        "hash": "844bf252",
+        "encoded": "%7BsocialLinks.map((social)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "109": {
+        "chunkId": "c079de",
+        "hash": "a03c31a9",
+        "encoded": "const%20Icon%20=%20social.icon",
+        "prevChunkIds": []
+      },
+      "110": {
+        "chunkId": "c079de",
+        "hash": "8629c112",
+        "encoded": "return%20(",
+        "prevChunkIds": []
+      },
+      "111": {
+        "chunkId": "c079de",
+        "hash": "d88d78cb",
+        "encoded": "%3CButton",
+        "prevChunkIds": []
+      },
+      "112": {
+        "chunkId": "c079de",
+        "hash": "bc295d37",
+        "encoded": "key=%7Bsocial.name%7D",
+        "prevChunkIds": []
+      },
+      "113": {
+        "chunkId": "c079de",
+        "hash": "fcf03a40",
+        "encoded": "variant=%22ghost%22",
+        "prevChunkIds": []
+      },
+      "114": {
+        "chunkId": "c079de",
+        "hash": "c276cc0f",
+        "encoded": "size=%22sm%22",
+        "prevChunkIds": []
+      },
+      "115": {
+        "chunkId": "c079de",
+        "hash": "6c2448b6",
+        "encoded": "asChild",
+        "prevChunkIds": []
+      },
+      "116": {
+        "chunkId": "c079de",
+        "hash": "440ff2c1",
+        "encoded": "className=%22justify-start%20p-0%20h-auto%20font-normal%22",
+        "prevChunkIds": []
+      },
+      "117": {
+        "chunkId": "c079de",
+        "hash": "d3b7a559",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "118": {
+        "chunkId": "c079de",
+        "hash": "3a8c33b6",
+        "encoded": "%3Ca",
+        "prevChunkIds": []
+      },
+      "119": {
+        "chunkId": "c079de",
+        "hash": "1f7ccdfa",
+        "encoded": "href=%7Bsocial.href%7D",
+        "prevChunkIds": []
+      },
+      "120": {
+        "chunkId": "c079de",
+        "hash": "9a40850a",
+        "encoded": "target=%7Bsocial.name%20!==%20'Phone'%20?%20'_blank'%20:%20undefined%7D",
+        "prevChunkIds": []
+      },
+      "121": {
+        "chunkId": "c079de",
+        "hash": "812f9a87",
+        "encoded": "rel=%7Bsocial.name%20!==%20'Phone'%20?%20'noopener%20noreferrer'%20:%20undefined%7D",
+        "prevChunkIds": []
+      },
+      "122": {
+        "chunkId": "c079de",
+        "hash": "024d9584",
+        "encoded": "className=%7B%60flex%20items-center%20text-muted-foreground%20$%7Bsocial.color%7D%20transition-colors%60%7D",
+        "prevChunkIds": []
+      },
+      "123": {
+        "chunkId": "c079de",
+        "hash": "9629ecbb",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "124": {
+        "chunkId": "c079de",
+        "hash": "61a3798e",
+        "encoded": "%3CIcon%20className=%22h-4%20w-4%20mr-2%22%20/%3E",
+        "prevChunkIds": []
+      },
+      "125": {
+        "chunkId": "c079de",
+        "hash": "6506d565",
+        "encoded": "%3Cspan%20className=%22text-sm%22%3E%7Bsocial.name%7D%3C/span%3E",
+        "prevChunkIds": []
+      },
+      "126": {
+        "chunkId": "c079de",
+        "hash": "66a2c0a4",
+        "encoded": "%3C/a%3E",
+        "prevChunkIds": []
+      },
+      "127": {
+        "chunkId": "c079de",
+        "hash": "efbda65a",
+        "encoded": "%3C/Button%3E",
+        "prevChunkIds": []
+      },
+      "128": {
+        "chunkId": "c079de",
+        "hash": "8f0425be",
+        "encoded": ")",
+        "prevChunkIds": []
+      },
+      "129": {
+        "chunkId": "c079de",
+        "hash": "fa44cc6c",
+        "encoded": "%7D)%7D",
+        "prevChunkIds": []
+      },
+      "130": {
+        "chunkId": "c079de",
+        "hash": "abcb5519",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "131": {
+        "chunkId": "c079de",
+        "hash": "646db9bb",
+        "encoded": "%3C/motion.div%3E",
+        "prevChunkIds": []
+      },
+      "132": {
+        "chunkId": "c079de",
+        "hash": "2601914f",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "134": {
+        "chunkId": "c079de",
+        "hash": "aaaebf78",
+        "encoded": "%3CSeparator%20className=%22my-8%22%20/%3E",
+        "prevChunkIds": []
+      },
+      "136": {
+        "chunkId": "c079de",
+        "hash": "6df85210",
+        "encoded": "%7B/*%20Bottom%20Section%20*/%7D",
+        "prevChunkIds": []
+      },
+      "137": {
+        "chunkId": "c079de",
+        "hash": "670313c9",
+        "encoded": "%3Cmotion.div",
+        "prevChunkIds": []
+      },
+      "138": {
+        "chunkId": "c079de",
+        "hash": "f451b31f",
+        "encoded": "initial=%7B%7B%20opacity:%200%20%7D%7D",
+        "prevChunkIds": []
+      },
+      "139": {
+        "chunkId": "c079de",
+        "hash": "42d033b9",
+        "encoded": "whileInView=%7B%7B%20opacity:%201%20%7D%7D",
+        "prevChunkIds": []
+      },
+      "140": {
+        "chunkId": "c079de",
+        "hash": "2897c852",
+        "encoded": "transition=%7B%7B%20duration:%200.5,%20delay:%200.3%20%7D%7D",
+        "prevChunkIds": []
+      },
+      "141": {
+        "chunkId": "c079de",
+        "hash": "43a6880c",
+        "encoded": "viewport=%7B%7B%20once:%20true%20%7D%7D",
+        "prevChunkIds": []
+      },
+      "142": {
+        "chunkId": "c079de",
+        "hash": "48d6ab21",
+        "encoded": "className=%22flex%20flex-col%20md:flex-row%20items-center%20justify-between%20text-sm%20text-muted-foreground%22",
+        "prevChunkIds": []
+      },
+      "143": {
+        "chunkId": "c079de",
+        "hash": "0f175731",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "144": {
+        "chunkId": "c079de",
+        "hash": "37f07db9",
+        "encoded": "%3Cdiv%20className=%22flex%20items-center%20mb-4%20md:mb-0%22%3E",
+        "prevChunkIds": []
+      },
+      "145": {
+        "chunkId": "c079de",
+        "hash": "de7a66f8",
+        "encoded": "%3Cspan%3E%C2%A9%20%7BcurrentYear%7D%20%7BpersonalInfo.name%7D.%20All%20rights%20reserved.%3C/span%3E",
+        "prevChunkIds": []
+      },
+      "146": {
+        "chunkId": "c079de",
+        "hash": "194c4752",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "147": {
+        "chunkId": "c079de",
+        "hash": "246435cd",
+        "encoded": "%3Cdiv%20className=%22flex%20items-center%22%3E",
+        "prevChunkIds": []
+      },
+      "148": {
+        "chunkId": "c079de",
+        "hash": "16643e3b",
+        "encoded": "%3Cspan%3EBuilt%20with%3C/span%3E",
+        "prevChunkIds": []
+      },
+      "149": {
+        "chunkId": "c079de",
+        "hash": "9560fc80",
+        "encoded": "%3CHeart%20className=%22h-4%20w-4%20mx-1%20text-red-500%20fill-current%22%20/%3E",
+        "prevChunkIds": []
+      },
+      "150": {
+        "chunkId": "c079de",
+        "hash": "59e73968",
+        "encoded": "%3Cspan%3Eusing%20Next.js%20&%20Tailwind%20CSS%3C/span%3E",
+        "prevChunkIds": []
+      },
+      "151": {
+        "chunkId": "c079de",
+        "hash": "43bf98fc",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "152": {
+        "chunkId": "c079de",
+        "hash": "173696e9",
+        "encoded": "%3C/motion.div%3E",
+        "prevChunkIds": []
+      },
+      "153": {
+        "chunkId": "c079de",
+        "hash": "f8393a65",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "154": {
+        "chunkId": "c079de",
+        "hash": "69991e08",
+        "encoded": "%3C/footer%3E",
+        "prevChunkIds": []
+      },
+      "155": {
+        "chunkId": "c079de",
+        "hash": "5b3ab2ba",
+        "encoded": ")",
+        "prevChunkIds": []
+      },
+      "156": {
+        "chunkId": "c079de",
+        "hash": "c2938672",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

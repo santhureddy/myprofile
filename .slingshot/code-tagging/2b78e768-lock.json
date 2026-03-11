@@ -1,0 +1,63 @@
+{
+  "postcss.config.js": {
+    "filename": "postcss.config.js",
+    "path": "postcss.config.js",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "333ce9": {
+        "user": "Santhosh Mahanthesh",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1773080791,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.2.0",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {},
+        "hash": "e5885ff3",
+        "messageId": null,
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "333ce9",
+        "hash": "37fae63c",
+        "encoded": "module.exports%20=%20%7B",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "333ce9",
+        "hash": "5c9d1ae3",
+        "encoded": "plugins:%20%7B",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "333ce9",
+        "hash": "660aa9cd",
+        "encoded": "tailwindcss:%20%7B%7D,",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "333ce9",
+        "hash": "e5ad3b8a",
+        "encoded": "autoprefixer:%20%7B%7D,",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "333ce9",
+        "hash": "de3b39de",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "333ce9",
+        "hash": "c189436e",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

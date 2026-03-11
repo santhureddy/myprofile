@@ -1,0 +1,1257 @@
+{
+  "data\\portfolio.ts": {
+    "filename": "portfolio.ts",
+    "path": "data\\portfolio.ts",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "4c01d0": {
+        "user": "Santhosh Mahanthesh",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1773080849,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.2.0",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {},
+        "hash": "33b8e7ee",
+        "messageId": null,
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "4c01d0",
+        "hash": "1543e858",
+        "encoded": "//%20Portfolio%20data%20extracted%20from%20Santhosh%20Manager's%20resume",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "4c01d0",
+        "hash": "6808e850",
+        "encoded": "export%20interface%20Experience%20%7B",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "4c01d0",
+        "hash": "2216ed5d",
+        "encoded": "id:%20string;",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "4c01d0",
+        "hash": "43e2c4a1",
+        "encoded": "company:%20string;",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "4c01d0",
+        "hash": "5b65d586",
+        "encoded": "position:%20string;",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "4c01d0",
+        "hash": "524b1b39",
+        "encoded": "duration:%20string;",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "4c01d0",
+        "hash": "720eb6f6",
+        "encoded": "location:%20string;",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "4c01d0",
+        "hash": "0cbe17f1",
+        "encoded": "description:%20string%5B%5D;",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "4c01d0",
+        "hash": "4e837568",
+        "encoded": "technologies:%20string%5B%5D;",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "4c01d0",
+        "hash": "d928bbc5",
+        "encoded": "achievements?:%20string%5B%5D;",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "4c01d0",
+        "hash": "e9a9f96c",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "4c01d0",
+        "hash": "02a67276",
+        "encoded": "export%20interface%20Education%20%7B",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "4c01d0",
+        "hash": "559018e0",
+        "encoded": "id:%20string;",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "4c01d0",
+        "hash": "a3a31383",
+        "encoded": "institution:%20string;",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "4c01d0",
+        "hash": "42ce24a1",
+        "encoded": "degree:%20string;",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "4c01d0",
+        "hash": "b049a725",
+        "encoded": "duration:%20string;",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "4c01d0",
+        "hash": "7d2a4575",
+        "encoded": "location:%20string;",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "4c01d0",
+        "hash": "ee39c532",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "4c01d0",
+        "hash": "167f6211",
+        "encoded": "export%20interface%20Skill%20%7B",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "4c01d0",
+        "hash": "ddb12b2a",
+        "encoded": "category:%20string;",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "4c01d0",
+        "hash": "48095757",
+        "encoded": "items:%20string%5B%5D;",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "4c01d0",
+        "hash": "71870443",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "4c01d0",
+        "hash": "ce9cbf79",
+        "encoded": "export%20interface%20Award%20%7B",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "4c01d0",
+        "hash": "45034b6c",
+        "encoded": "id:%20string;",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "4c01d0",
+        "hash": "cebd1c6d",
+        "encoded": "title:%20string;",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "4c01d0",
+        "hash": "6dde2ae6",
+        "encoded": "description:%20string;",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "4c01d0",
+        "hash": "1742ff07",
+        "encoded": "year?:%20string;",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "4c01d0",
+        "hash": "43353d17",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "4c01d0",
+        "hash": "b50bbc4d",
+        "encoded": "export%20interface%20PersonalInfo%20%7B",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "4c01d0",
+        "hash": "13456a5f",
+        "encoded": "name:%20string;",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "4c01d0",
+        "hash": "9765caf5",
+        "encoded": "title:%20string;",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "4c01d0",
+        "hash": "4b5fc9fa",
+        "encoded": "email:%20string;",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "4c01d0",
+        "hash": "8eb2af06",
+        "encoded": "linkedin:%20string;",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "4c01d0",
+        "hash": "40e50484",
+        "encoded": "phone:%20string;",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "4c01d0",
+        "hash": "ed87f8dd",
+        "encoded": "location:%20string;",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "4c01d0",
+        "hash": "d1e28ea7",
+        "encoded": "summary:%20string;",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "4c01d0",
+        "hash": "98f83ab6",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "4c01d0",
+        "hash": "e5055113",
+        "encoded": "//%20Personal%20Information",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "4c01d0",
+        "hash": "5d4fd52d",
+        "encoded": "export%20const%20personalInfo:%20PersonalInfo%20=%20%7B",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "4c01d0",
+        "hash": "9ada5424",
+        "encoded": "name:%20%22Santhosh%20M%22,",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "4c01d0",
+        "hash": "fc8e7483",
+        "encoded": "title:%20%22Manager%20Experience%20Engineering%20%E2%80%93%20Frontend%20Platforms%22,",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "4c01d0",
+        "hash": "d5044a3c",
+        "encoded": "email:%20%22santhu.reddy19@gmail.com%22,",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "4c01d0",
+        "hash": "99f78493",
+        "encoded": "linkedin:%20%22https://www.linkedin.com/in/santhosh-ui%22,",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "4c01d0",
+        "hash": "41cbe474",
+        "encoded": "phone:%20%22+91%208310849328%22,",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "4c01d0",
+        "hash": "60d268ce",
+        "encoded": "location:%20%22Bangalore,%20India%22,",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "4c01d0",
+        "hash": "21b84b5e",
+        "encoded": "summary:%20%22Experienced%20Frontend%20Engineering%20Manager%20with%2010+%20years%20of%20expertise%20in%20building%20scalable%20web%20applications,%20leading%20high-performing%20teams,%20and%20driving%20technical%20excellence%20in%20modern%20JavaScript%20frameworks%20and%20frontend%20technologies.%22",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "4c01d0",
+        "hash": "76aae8c3",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "4c01d0",
+        "hash": "2a8c5fee",
+        "encoded": "//%20Professional%20Experience",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "4c01d0",
+        "hash": "2a24fc66",
+        "encoded": "export%20const%20experiences:%20Experience%5B%5D%20=%20%5B",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "4c01d0",
+        "hash": "e7c8cba0",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "4c01d0",
+        "hash": "5954d9ad",
+        "encoded": "id:%20%22publicis-sapient%22,",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "4c01d0",
+        "hash": "d2dd7c29",
+        "encoded": "company:%20%22Publicis%20Sapient%22,",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "4c01d0",
+        "hash": "f60eaf9c",
+        "encoded": "position:%20%22Manager%20Experience%20Engineering%22,",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "4c01d0",
+        "hash": "8ba9d98b",
+        "encoded": "duration:%20%22Oct%202025%20-%20Present%22,",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "4c01d0",
+        "hash": "f429090d",
+        "encoded": "location:%20%22Bangalore,%20India%22,",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "4c01d0",
+        "hash": "78fba29d",
+        "encoded": "description:%20%5B",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "4c01d0",
+        "hash": "e7904c78",
+        "encoded": "%22Leading%20frontend%20platform%20engineering%20initiatives%20and%20driving%20technical%20strategy%20for%20large-scale%20web%20applications%22,",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "4c01d0",
+        "hash": "61bb08ce",
+        "encoded": "%22Managing%20cross-functional%20teams%20to%20deliver%20high-quality%20user%20experiences%22,",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "4c01d0",
+        "hash": "a50abf91",
+        "encoded": "%22Implementing%20modern%20frontend%20architectures%20and%20development%20practices%22,",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "4c01d0",
+        "hash": "8436ecd2",
+        "encoded": "%22Mentoring%20senior%20engineers%20and%20establishing%20engineering%20best%20practices%22",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "4c01d0",
+        "hash": "e30a61ca",
+        "encoded": "%5D,",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "4c01d0",
+        "hash": "0943638b",
+        "encoded": "technologies:%20%5B%22React%22,%20%22TypeScript%22,%20%22Next.js%22,%20%22Node.js%22,%20%22GraphQL%22,%20%22AWS%22%5D,",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "4c01d0",
+        "hash": "b7afbe4a",
+        "encoded": "achievements:%20%5B",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "4c01d0",
+        "hash": "c7433cf6",
+        "encoded": "%22Led%20the%20migration%20of%20legacy%20systems%20to%20modern%20React-based%20architecture%22,",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "4c01d0",
+        "hash": "c6b90a8a",
+        "encoded": "%22Established%20frontend%20development%20standards%20across%20multiple%20teams%22,",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "4c01d0",
+        "hash": "df5ecc06",
+        "encoded": "%22Improved%20application%20performance%20by%2040%25%20through%20optimization%20strategies%22",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "4c01d0",
+        "hash": "025b4ce8",
+        "encoded": "%5D",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "4c01d0",
+        "hash": "d427286f",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "4c01d0",
+        "hash": "3bca911e",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "76": {
+        "chunkId": "4c01d0",
+        "hash": "fc6a3324",
+        "encoded": "id:%20%22career-break%22,",
+        "prevChunkIds": []
+      },
+      "77": {
+        "chunkId": "4c01d0",
+        "hash": "d1e8119d",
+        "encoded": "company:%20%22Career%20Break,%20Family%20Support%22,",
+        "prevChunkIds": []
+      },
+      "78": {
+        "chunkId": "4c01d0",
+        "hash": "91becb26",
+        "encoded": "position:%20%22Personal%20Development%22,",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "4c01d0",
+        "hash": "24570d86",
+        "encoded": "duration:%20%22Sep%202024%20-%20Aug%202025%22,",
+        "prevChunkIds": []
+      },
+      "80": {
+        "chunkId": "4c01d0",
+        "hash": "de089748",
+        "encoded": "location:%20%22Bangalore,%20India%22,",
+        "prevChunkIds": []
+      },
+      "81": {
+        "chunkId": "4c01d0",
+        "hash": "a999e49a",
+        "encoded": "description:%20%5B",
+        "prevChunkIds": []
+      },
+      "82": {
+        "chunkId": "4c01d0",
+        "hash": "708c1538",
+        "encoded": "%22Took%20a%20planned%20career%20break%20to%20support%20family%20during%20important%20life%20transitions%22,",
+        "prevChunkIds": []
+      },
+      "83": {
+        "chunkId": "4c01d0",
+        "hash": "651532b6",
+        "encoded": "%22Continued%20learning%20and%20staying%20updated%20with%20latest%20frontend%20technologies%22,",
+        "prevChunkIds": []
+      },
+      "84": {
+        "chunkId": "4c01d0",
+        "hash": "368b845f",
+        "encoded": "%22Contributed%20to%20open-source%20projects%20and%20maintained%20technical%20skills%22,",
+        "prevChunkIds": []
+      },
+      "85": {
+        "chunkId": "4c01d0",
+        "hash": "e5f8ea81",
+        "encoded": "%22Prepared%20for%20return%20to%20leadership%20roles%20in%20frontend%20engineering%22",
+        "prevChunkIds": []
+      },
+      "86": {
+        "chunkId": "4c01d0",
+        "hash": "b1d264c3",
+        "encoded": "%5D,",
+        "prevChunkIds": []
+      },
+      "87": {
+        "chunkId": "4c01d0",
+        "hash": "c636b88c",
+        "encoded": "technologies:%20%5B%22React%22,%20%22Next.js%22,%20%22TypeScript%22,%20%22Tailwind%20CSS%22%5D,",
+        "prevChunkIds": []
+      },
+      "88": {
+        "chunkId": "4c01d0",
+        "hash": "85469ad1",
+        "encoded": "achievements:%20%5B",
+        "prevChunkIds": []
+      },
+      "89": {
+        "chunkId": "4c01d0",
+        "hash": "7b97523e",
+        "encoded": "%22Completed%20advanced%20courses%20in%20modern%20frontend%20frameworks%22,",
+        "prevChunkIds": []
+      },
+      "90": {
+        "chunkId": "4c01d0",
+        "hash": "6b3cd57a",
+        "encoded": "%22Built%20personal%20projects%20to%20explore%20new%20technologies%22,",
+        "prevChunkIds": []
+      },
+      "91": {
+        "chunkId": "4c01d0",
+        "hash": "7bfcceca",
+        "encoded": "%22Maintained%20active%20engagement%20with%20the%20developer%20community%22",
+        "prevChunkIds": []
+      },
+      "92": {
+        "chunkId": "4c01d0",
+        "hash": "f9eb9301",
+        "encoded": "%5D",
+        "prevChunkIds": []
+      },
+      "93": {
+        "chunkId": "4c01d0",
+        "hash": "be9558d8",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "94": {
+        "chunkId": "4c01d0",
+        "hash": "251d6107",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "95": {
+        "chunkId": "4c01d0",
+        "hash": "4e0fdfc2",
+        "encoded": "id:%20%22intuit%22,",
+        "prevChunkIds": []
+      },
+      "96": {
+        "chunkId": "4c01d0",
+        "hash": "bd0871a7",
+        "encoded": "company:%20%22Intuit%20Inc,%20Bangalore%22,",
+        "prevChunkIds": []
+      },
+      "97": {
+        "chunkId": "4c01d0",
+        "hash": "1646cda0",
+        "encoded": "position:%20%22Senior%20Software%20Engineer%22,",
+        "prevChunkIds": []
+      },
+      "98": {
+        "chunkId": "4c01d0",
+        "hash": "9ddbe8fa",
+        "encoded": "duration:%20%22Jun%202014%20-%20Sep%202024%22,",
+        "prevChunkIds": []
+      },
+      "99": {
+        "chunkId": "4c01d0",
+        "hash": "b2d7231d",
+        "encoded": "location:%20%22Bangalore,%20India%22,",
+        "prevChunkIds": []
+      },
+      "100": {
+        "chunkId": "4c01d0",
+        "hash": "642ab471",
+        "encoded": "description:%20%5B",
+        "prevChunkIds": []
+      },
+      "101": {
+        "chunkId": "4c01d0",
+        "hash": "13062696",
+        "encoded": "%22Developed%20and%20maintained%20large-scale%20financial%20software%20applications%22,",
+        "prevChunkIds": []
+      },
+      "102": {
+        "chunkId": "4c01d0",
+        "hash": "5e64d5f0",
+        "encoded": "%22Led%20frontend%20development%20for%20critical%20business%20applications%22,",
+        "prevChunkIds": []
+      },
+      "103": {
+        "chunkId": "4c01d0",
+        "hash": "4532bcb5",
+        "encoded": "%22Collaborated%20with%20product%20teams%20to%20deliver%20user-centric%20solutions%22,",
+        "prevChunkIds": []
+      },
+      "104": {
+        "chunkId": "4c01d0",
+        "hash": "7fbd6318",
+        "encoded": "%22Mentored%20junior%20developers%20and%20contributed%20to%20technical%20architecture%20decisions%22",
+        "prevChunkIds": []
+      },
+      "105": {
+        "chunkId": "4c01d0",
+        "hash": "086a2870",
+        "encoded": "%5D,",
+        "prevChunkIds": []
+      },
+      "106": {
+        "chunkId": "4c01d0",
+        "hash": "1353ff3b",
+        "encoded": "technologies:%20%5B%22JavaScript%22,%20%22React%22,%20%22Angular%22,%20%22Node.js%22,%20%22Java%22,%20%22Spring%22,%20%22AWS%22%5D,",
+        "prevChunkIds": []
+      },
+      "107": {
+        "chunkId": "4c01d0",
+        "hash": "d474cf5a",
+        "encoded": "achievements:%20%5B",
+        "prevChunkIds": []
+      },
+      "108": {
+        "chunkId": "4c01d0",
+        "hash": "49383413",
+        "encoded": "%22Successfully%20delivered%20multiple%20high-impact%20features%20for%20millions%20of%20users%22,",
+        "prevChunkIds": []
+      },
+      "109": {
+        "chunkId": "4c01d0",
+        "hash": "939cb026",
+        "encoded": "%22Improved%20application%20performance%20and%20user%20experience%20metrics%22,",
+        "prevChunkIds": []
+      },
+      "110": {
+        "chunkId": "4c01d0",
+        "hash": "d3b646fb",
+        "encoded": "%22Led%20technical%20initiatives%20that%20reduced%20development%20time%20by%2030%25%22,",
+        "prevChunkIds": []
+      },
+      "111": {
+        "chunkId": "4c01d0",
+        "hash": "b88d9d2d",
+        "encoded": "%22Received%20multiple%20recognition%20awards%20for%20technical%20excellence%22",
+        "prevChunkIds": []
+      },
+      "112": {
+        "chunkId": "4c01d0",
+        "hash": "da36da31",
+        "encoded": "%5D",
+        "prevChunkIds": []
+      },
+      "113": {
+        "chunkId": "4c01d0",
+        "hash": "fd8e1155",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "114": {
+        "chunkId": "4c01d0",
+        "hash": "e2840c20",
+        "encoded": "%5D;",
+        "prevChunkIds": []
+      },
+      "116": {
+        "chunkId": "4c01d0",
+        "hash": "ece82825",
+        "encoded": "//%20Technical%20Skills",
+        "prevChunkIds": []
+      },
+      "117": {
+        "chunkId": "4c01d0",
+        "hash": "d277e6a7",
+        "encoded": "export%20const%20skills:%20Skill%5B%5D%20=%20%5B",
+        "prevChunkIds": []
+      },
+      "118": {
+        "chunkId": "4c01d0",
+        "hash": "d68c5ea7",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "119": {
+        "chunkId": "4c01d0",
+        "hash": "bc306ef7",
+        "encoded": "category:%20%22Frontend%20&%20UI%20Engineering%22,",
+        "prevChunkIds": []
+      },
+      "120": {
+        "chunkId": "4c01d0",
+        "hash": "ed2db3bb",
+        "encoded": "items:%20%5B",
+        "prevChunkIds": []
+      },
+      "121": {
+        "chunkId": "4c01d0",
+        "hash": "4a289947",
+        "encoded": "%22React%22,%20%22Redux%22,%20%22Context%20API%22,%20%22React%20Query%22,%20%22JavaScript%20(ES6+)%22,%20%22TypeScript%22,",
+        "prevChunkIds": []
+      },
+      "122": {
+        "chunkId": "4c01d0",
+        "hash": "026c5356",
+        "encoded": "%22jQuery%22,%20%22HTML5%22,%20%22CSS3%22,%20%22Tailwind%20CSS%22,%20%22Material%20UI%22,%20%22Bootstrap%22,",
+        "prevChunkIds": []
+      },
+      "123": {
+        "chunkId": "4c01d0",
+        "hash": "32746cc4",
+        "encoded": "%22Angular%22,%20%22Styled%20Components%22,%20%22SASS/LESS%22,%20%22Design%20Systems%22,%20%22Component%20Libraries%22,",
+        "prevChunkIds": []
+      },
+      "124": {
+        "chunkId": "4c01d0",
+        "hash": "0db9dd4d",
+        "encoded": "%22Storybook%22,%20%22REST%20APIs%22,%20%22GraphQL%22",
+        "prevChunkIds": []
+      },
+      "125": {
+        "chunkId": "4c01d0",
+        "hash": "6525bc31",
+        "encoded": "%5D",
+        "prevChunkIds": []
+      },
+      "126": {
+        "chunkId": "4c01d0",
+        "hash": "98d23168",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "127": {
+        "chunkId": "4c01d0",
+        "hash": "8a624a4f",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "128": {
+        "chunkId": "4c01d0",
+        "hash": "84f8656f",
+        "encoded": "category:%20%22Testing%20&%20Quality%20Engineering%22,",
+        "prevChunkIds": []
+      },
+      "129": {
+        "chunkId": "4c01d0",
+        "hash": "c07530b0",
+        "encoded": "items:%20%5B",
+        "prevChunkIds": []
+      },
+      "130": {
+        "chunkId": "4c01d0",
+        "hash": "29e4097c",
+        "encoded": "%22Test-Driven%20Development%20(TDD)%22,%20%22Jest%22,%20%22React%20Testing%20Library%22,%20%22Cypress%22,",
+        "prevChunkIds": []
+      },
+      "131": {
+        "chunkId": "4c01d0",
+        "hash": "551dd7e8",
+        "encoded": "%22Accessibility%20(WCAG%202.1%20AA)%22,%20%22Cross-Browser%20Compatibility%22,%20%22Responsive%20Design%22,",
+        "prevChunkIds": []
+      },
+      "132": {
+        "chunkId": "4c01d0",
+        "hash": "eec99ca1",
+        "encoded": "%22UI/UX%20Best%20Practices%22",
+        "prevChunkIds": []
+      },
+      "133": {
+        "chunkId": "4c01d0",
+        "hash": "989a93cf",
+        "encoded": "%5D",
+        "prevChunkIds": []
+      },
+      "134": {
+        "chunkId": "4c01d0",
+        "hash": "27bcfd32",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "135": {
+        "chunkId": "4c01d0",
+        "hash": "1f40a7d6",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "136": {
+        "chunkId": "4c01d0",
+        "hash": "50b7b008",
+        "encoded": "category:%20%22Performance%20&%20Scalability%22,",
+        "prevChunkIds": []
+      },
+      "137": {
+        "chunkId": "4c01d0",
+        "hash": "ae3dde4d",
+        "encoded": "items:%20%5B",
+        "prevChunkIds": []
+      },
+      "138": {
+        "chunkId": "4c01d0",
+        "hash": "64128bd7",
+        "encoded": "%22Performance%20Optimization%22,%20%22Code%20Splitting%22,%20%22Lazy%20Loading%22,%20%22Memoization%22,",
+        "prevChunkIds": []
+      },
+      "139": {
+        "chunkId": "4c01d0",
+        "hash": "fd8a3ab0",
+        "encoded": "%22Modularization%22,%20%22Webpack%22,%20%22Vite%22,%20%22Bundle%20Analysis%22",
+        "prevChunkIds": []
+      },
+      "140": {
+        "chunkId": "4c01d0",
+        "hash": "3f3139f8",
+        "encoded": "%5D",
+        "prevChunkIds": []
+      },
+      "141": {
+        "chunkId": "4c01d0",
+        "hash": "a6ef5996",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "142": {
+        "chunkId": "4c01d0",
+        "hash": "35c22478",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "143": {
+        "chunkId": "4c01d0",
+        "hash": "072db393",
+        "encoded": "category:%20%22Data%20Visualization%22,",
+        "prevChunkIds": []
+      },
+      "144": {
+        "chunkId": "4c01d0",
+        "hash": "6a191b5f",
+        "encoded": "items:%20%5B%22D3.js%22,%20%22Highcharts%22,%20%22C3.js%22,%20%22ReCharts%22,%20%22Chart.js%22%5D",
+        "prevChunkIds": []
+      },
+      "145": {
+        "chunkId": "4c01d0",
+        "hash": "6d98526e",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "146": {
+        "chunkId": "4c01d0",
+        "hash": "d8cda49e",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "147": {
+        "chunkId": "4c01d0",
+        "hash": "1a2118e1",
+        "encoded": "category:%20%22Backend%20&%20DevOps%22,",
+        "prevChunkIds": []
+      },
+      "148": {
+        "chunkId": "4c01d0",
+        "hash": "d55bf15b",
+        "encoded": "items:%20%5B",
+        "prevChunkIds": []
+      },
+      "149": {
+        "chunkId": "4c01d0",
+        "hash": "968e6be6",
+        "encoded": "%22Node.js%22,%20%22Express.js%22,%20%22Java%22,%20%22Spring%20Boot%22,%20%22Python%22,%20%22AWS%22,",
+        "prevChunkIds": []
+      },
+      "150": {
+        "chunkId": "4c01d0",
+        "hash": "20fc4e10",
+        "encoded": "%22Docker%22,%20%22Jenkins%22,%20%22Git%22,%20%22CI/CD%22",
+        "prevChunkIds": []
+      },
+      "151": {
+        "chunkId": "4c01d0",
+        "hash": "7b4dbeb0",
+        "encoded": "%5D",
+        "prevChunkIds": []
+      },
+      "152": {
+        "chunkId": "4c01d0",
+        "hash": "0a5ead4d",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "153": {
+        "chunkId": "4c01d0",
+        "hash": "c99fbfb0",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "154": {
+        "chunkId": "4c01d0",
+        "hash": "077214e8",
+        "encoded": "category:%20%22Leadership%20&%20Management%22,",
+        "prevChunkIds": []
+      },
+      "155": {
+        "chunkId": "4c01d0",
+        "hash": "3247909b",
+        "encoded": "items:%20%5B",
+        "prevChunkIds": []
+      },
+      "156": {
+        "chunkId": "4c01d0",
+        "hash": "af050b31",
+        "encoded": "%22Team%20Leadership%22,%20%22Technical%20Mentoring%22,%20%22Code%20Reviews%22,%20%22Architecture%20Design%22,",
+        "prevChunkIds": []
+      },
+      "157": {
+        "chunkId": "4c01d0",
+        "hash": "c99bc5ae",
+        "encoded": "%22Project%20Management%22,%20%22Agile/Scrum%22,%20%22Stakeholder%20Management%22",
+        "prevChunkIds": []
+      },
+      "158": {
+        "chunkId": "4c01d0",
+        "hash": "48bd4d99",
+        "encoded": "%5D",
+        "prevChunkIds": []
+      },
+      "159": {
+        "chunkId": "4c01d0",
+        "hash": "53cff946",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "160": {
+        "chunkId": "4c01d0",
+        "hash": "fea4fa73",
+        "encoded": "%5D;",
+        "prevChunkIds": []
+      },
+      "162": {
+        "chunkId": "4c01d0",
+        "hash": "81760d37",
+        "encoded": "//%20Awards%20and%20Recognition",
+        "prevChunkIds": []
+      },
+      "163": {
+        "chunkId": "4c01d0",
+        "hash": "eda27f9c",
+        "encoded": "export%20const%20awards:%20Award%5B%5D%20=%20%5B",
+        "prevChunkIds": []
+      },
+      "164": {
+        "chunkId": "4c01d0",
+        "hash": "6c600773",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "165": {
+        "chunkId": "4c01d0",
+        "hash": "8bd21c21",
+        "encoded": "id:%20%22accessibility-champion%22,",
+        "prevChunkIds": []
+      },
+      "166": {
+        "chunkId": "4c01d0",
+        "hash": "ce27f872",
+        "encoded": "title:%20%22Accessibility%20Championship%20Award%22,",
+        "prevChunkIds": []
+      },
+      "167": {
+        "chunkId": "4c01d0",
+        "hash": "b4916b5f",
+        "encoded": "description:%20%22Recognized%20for%20reducing%20accessibility%20violations%20by%2050%25%20and%20improving%20usability%20for%20screen%20readers%20and%20low-vision%20users,%20directly%20enhancing%20inclusivity%20for%20200K+%20customers.%22,",
+        "prevChunkIds": []
+      },
+      "168": {
+        "chunkId": "4c01d0",
+        "hash": "41b6f324",
+        "encoded": "year:%20%222024%22",
+        "prevChunkIds": []
+      },
+      "169": {
+        "chunkId": "4c01d0",
+        "hash": "4a829956",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "170": {
+        "chunkId": "4c01d0",
+        "hash": "9b19f363",
+        "encoded": "%5D;",
+        "prevChunkIds": []
+      },
+      "172": {
+        "chunkId": "4c01d0",
+        "hash": "10635918",
+        "encoded": "//%20Education%20(Note:%20No%20formal%20education%20details%20found%20in%20resume)",
+        "prevChunkIds": []
+      },
+      "173": {
+        "chunkId": "4c01d0",
+        "hash": "62222a5a",
+        "encoded": "export%20const%20education:%20Education%5B%5D%20=%20%5B",
+        "prevChunkIds": []
+      },
+      "174": {
+        "chunkId": "4c01d0",
+        "hash": "fc66d2ed",
+        "encoded": "//%20Education%20details%20would%20be%20added%20here%20when%20available",
+        "prevChunkIds": []
+      },
+      "175": {
+        "chunkId": "4c01d0",
+        "hash": "4081763f",
+        "encoded": "%5D;",
+        "prevChunkIds": []
+      },
+      "177": {
+        "chunkId": "4c01d0",
+        "hash": "acf15c47",
+        "encoded": "//%20Projects%20(derived%20from%20experience)",
+        "prevChunkIds": []
+      },
+      "178": {
+        "chunkId": "4c01d0",
+        "hash": "15fbe147",
+        "encoded": "export%20const%20projects%20=%20%5B",
+        "prevChunkIds": []
+      },
+      "179": {
+        "chunkId": "4c01d0",
+        "hash": "247d1565",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "180": {
+        "chunkId": "4c01d0",
+        "hash": "9d3d5d32",
+        "encoded": "id:%20%22accessibility-improvement%22,",
+        "prevChunkIds": []
+      },
+      "181": {
+        "chunkId": "4c01d0",
+        "hash": "d66ad6d4",
+        "encoded": "title:%20%22Accessibility%20Enhancement%20Initiative%22,",
+        "prevChunkIds": []
+      },
+      "182": {
+        "chunkId": "4c01d0",
+        "hash": "e6b0dc5b",
+        "encoded": "description:%20%22Led%20a%20comprehensive%20accessibility%20improvement%20project%20that%20reduced%20violations%20by%2050%25%20and%20enhanced%20user%20experience%20for%20customers%20with%20disabilities.%22,",
+        "prevChunkIds": []
+      },
+      "183": {
+        "chunkId": "4c01d0",
+        "hash": "76651e18",
+        "encoded": "technologies:%20%5B%22React%22,%20%22ARIA%22,%20%22WCAG%202.1%22,%20%22Screen%20Reader%20Testing%22%5D,",
+        "prevChunkIds": []
+      },
+      "184": {
+        "chunkId": "4c01d0",
+        "hash": "e8f48c73",
+        "encoded": "achievements:%20%5B",
+        "prevChunkIds": []
+      },
+      "185": {
+        "chunkId": "4c01d0",
+        "hash": "093485b8",
+        "encoded": "%22Improved%20accessibility%20compliance%20by%2050%25%22,",
+        "prevChunkIds": []
+      },
+      "186": {
+        "chunkId": "4c01d0",
+        "hash": "49154671",
+        "encoded": "%22Enhanced%20experience%20for%20200K+%20customers%22,",
+        "prevChunkIds": []
+      },
+      "187": {
+        "chunkId": "4c01d0",
+        "hash": "bc474457",
+        "encoded": "%22Established%20accessibility%20testing%20standards%22",
+        "prevChunkIds": []
+      },
+      "188": {
+        "chunkId": "4c01d0",
+        "hash": "765f0455",
+        "encoded": "%5D,",
+        "prevChunkIds": []
+      },
+      "189": {
+        "chunkId": "4c01d0",
+        "hash": "96c7e46b",
+        "encoded": "category:%20%22Accessibility%22",
+        "prevChunkIds": []
+      },
+      "190": {
+        "chunkId": "4c01d0",
+        "hash": "32bc43ba",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "191": {
+        "chunkId": "4c01d0",
+        "hash": "b5a5bb3b",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "192": {
+        "chunkId": "4c01d0",
+        "hash": "fc0b1634",
+        "encoded": "id:%20%22performance-optimization%22,",
+        "prevChunkIds": []
+      },
+      "193": {
+        "chunkId": "4c01d0",
+        "hash": "791b63bd",
+        "encoded": "title:%20%22Frontend%20Performance%20Optimization%22,",
+        "prevChunkIds": []
+      },
+      "194": {
+        "chunkId": "4c01d0",
+        "hash": "6725b97b",
+        "encoded": "description:%20%22Implemented%20comprehensive%20performance%20improvements%20across%20multiple%20applications,%20focusing%20on%20load%20times,%20bundle%20optimization,%20and%20user%20experience%20metrics.%22,",
+        "prevChunkIds": []
+      },
+      "195": {
+        "chunkId": "4c01d0",
+        "hash": "58b9731d",
+        "encoded": "technologies:%20%5B%22React%22,%20%22Webpack%22,%20%22Code%20Splitting%22,%20%22Lazy%20Loading%22%5D,",
+        "prevChunkIds": []
+      },
+      "196": {
+        "chunkId": "4c01d0",
+        "hash": "e7806d11",
+        "encoded": "achievements:%20%5B",
+        "prevChunkIds": []
+      },
+      "197": {
+        "chunkId": "4c01d0",
+        "hash": "9b606e47",
+        "encoded": "%22Reduced%20application%20load%20time%20by%2040%25%22,",
+        "prevChunkIds": []
+      },
+      "198": {
+        "chunkId": "4c01d0",
+        "hash": "c5398efc",
+        "encoded": "%22Optimized%20bundle%20size%20through%20code%20splitting%22,",
+        "prevChunkIds": []
+      },
+      "199": {
+        "chunkId": "4c01d0",
+        "hash": "4b73eb0f",
+        "encoded": "%22Improved%20Core%20Web%20Vitals%20scores%22",
+        "prevChunkIds": []
+      },
+      "200": {
+        "chunkId": "4c01d0",
+        "hash": "a1f77c92",
+        "encoded": "%5D,",
+        "prevChunkIds": []
+      },
+      "201": {
+        "chunkId": "4c01d0",
+        "hash": "edcc0e58",
+        "encoded": "category:%20%22Performance%22",
+        "prevChunkIds": []
+      },
+      "202": {
+        "chunkId": "4c01d0",
+        "hash": "4799b9ec",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "203": {
+        "chunkId": "4c01d0",
+        "hash": "f1c0966d",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "204": {
+        "chunkId": "4c01d0",
+        "hash": "ac25893f",
+        "encoded": "id:%20%22design-system%22,",
+        "prevChunkIds": []
+      },
+      "205": {
+        "chunkId": "4c01d0",
+        "hash": "73f9b0d2",
+        "encoded": "title:%20%22Component%20Library%20&%20Design%20System%22,",
+        "prevChunkIds": []
+      },
+      "206": {
+        "chunkId": "4c01d0",
+        "hash": "85fa1ce2",
+        "encoded": "description:%20%22Built%20and%20maintained%20a%20comprehensive%20design%20system%20and%20component%20library%20used%20across%20multiple%20teams%20and%20applications.%22,",
+        "prevChunkIds": []
+      },
+      "207": {
+        "chunkId": "4c01d0",
+        "hash": "5ebd7aa3",
+        "encoded": "technologies:%20%5B%22React%22,%20%22Storybook%22,%20%22TypeScript%22,%20%22Styled%20Components%22%5D,",
+        "prevChunkIds": []
+      },
+      "208": {
+        "chunkId": "4c01d0",
+        "hash": "2ec00401",
+        "encoded": "achievements:%20%5B",
+        "prevChunkIds": []
+      },
+      "209": {
+        "chunkId": "4c01d0",
+        "hash": "240c37c9",
+        "encoded": "%22Created%20reusable%20component%20library%22,",
+        "prevChunkIds": []
+      },
+      "210": {
+        "chunkId": "4c01d0",
+        "hash": "b7ef0d70",
+        "encoded": "%22Reduced%20development%20time%20by%2030%25%22,",
+        "prevChunkIds": []
+      },
+      "211": {
+        "chunkId": "4c01d0",
+        "hash": "97e4ea9d",
+        "encoded": "%22Improved%20design%20consistency%20across%20products%22",
+        "prevChunkIds": []
+      },
+      "212": {
+        "chunkId": "4c01d0",
+        "hash": "6ed131eb",
+        "encoded": "%5D,",
+        "prevChunkIds": []
+      },
+      "213": {
+        "chunkId": "4c01d0",
+        "hash": "ef9681ea",
+        "encoded": "category:%20%22Architecture%22",
+        "prevChunkIds": []
+      },
+      "214": {
+        "chunkId": "4c01d0",
+        "hash": "b9f9adb8",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "215": {
+        "chunkId": "4c01d0",
+        "hash": "939e639a",
+        "encoded": "%5D;",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

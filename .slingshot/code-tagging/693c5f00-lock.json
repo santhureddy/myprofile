@@ -1,0 +1,754 @@
+{
+  "app\\layout.tsx": {
+    "filename": "layout.tsx",
+    "path": "app\\layout.tsx",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "fcecda": {
+        "user": "Santhosh Mahanthesh",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1773080913,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.2.0",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {},
+        "hash": "78d9587c",
+        "messageId": null,
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "7f07cc": {
+        "user": "Santhosh Mahanthesh",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1773081898,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.2.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {},
+        "hash": "784b6ec7",
+        "messageId": null,
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "7f07cc",
+        "hash": "6eca1277",
+        "encoded": "import%20'./globals.css'",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "1": {
+        "chunkId": "7f07cc",
+        "hash": "2052c601",
+        "encoded": "import%20%7B%20Inter%20%7D%20from%20'next/font/google'",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "2": {
+        "chunkId": "7f07cc",
+        "hash": "933b9f1e",
+        "encoded": "import%20%7B%20ThemeProvider%20%7D%20from%20'@/components/theme-provider'",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "3": {
+        "chunkId": "7f07cc",
+        "hash": "2e273454",
+        "encoded": "import%20%7B%20cn%20%7D%20from%20'@/lib/utils'",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "4": {
+        "chunkId": "7f07cc",
+        "hash": "c3321f31",
+        "encoded": "import%20%7B%20Metadata%20%7D%20from%20'next'",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "6": {
+        "chunkId": "fcecda",
+        "hash": "14dd9fc2",
+        "encoded": "const%20inter%20=%20Inter(%7B",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "7": {
+        "chunkId": "fcecda",
+        "hash": "ad3651d7",
+        "encoded": "subsets:%20%5B'latin'%5D,",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "8": {
+        "chunkId": "fcecda",
+        "hash": "097db3d5",
+        "encoded": "variable:%20'--font-inter',",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "9": {
+        "chunkId": "fcecda",
+        "hash": "9ae22b8c",
+        "encoded": "display:%20'swap',",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "10": {
+        "chunkId": "fcecda",
+        "hash": "fc9a0b8c",
+        "encoded": "%7D)",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "12": {
+        "chunkId": "fcecda",
+        "hash": "928c88e5",
+        "encoded": "export%20const%20metadata:%20Metadata%20=%20%7B",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "13": {
+        "chunkId": "fcecda",
+        "hash": "e616f554",
+        "encoded": "title:%20'Santhosh%20M%20-%20Frontend%20Engineering%20Manager',",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "14": {
+        "chunkId": "fcecda",
+        "hash": "49c05dcb",
+        "encoded": "description:%20'Experienced%20Frontend%20Engineering%20Manager%20with%2010+%20years%20of%20expertise%20in%20building%20scalable%20web%20applications,%20leading%20high-performing%20teams,%20and%20driving%20technical%20excellence.',",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "15": {
+        "chunkId": "fcecda",
+        "hash": "68a82554",
+        "encoded": "keywords:%20%5B",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "16": {
+        "chunkId": "fcecda",
+        "hash": "6519c04f",
+        "encoded": "'Frontend%20Engineer',",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "17": {
+        "chunkId": "fcecda",
+        "hash": "6ac84bcb",
+        "encoded": "'Engineering%20Manager',",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "18": {
+        "chunkId": "fcecda",
+        "hash": "5bd29b03",
+        "encoded": "'React%20Developer',",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "19": {
+        "chunkId": "fcecda",
+        "hash": "fc68eca0",
+        "encoded": "'JavaScript%20Expert',",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "20": {
+        "chunkId": "fcecda",
+        "hash": "d647b523",
+        "encoded": "'TypeScript',",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "21": {
+        "chunkId": "fcecda",
+        "hash": "73680643",
+        "encoded": "'Next.js',",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "22": {
+        "chunkId": "fcecda",
+        "hash": "e9dbeb50",
+        "encoded": "'Web%20Development',",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "23": {
+        "chunkId": "fcecda",
+        "hash": "1ddec733",
+        "encoded": "'UI/UX',",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "24": {
+        "chunkId": "fcecda",
+        "hash": "c231da9d",
+        "encoded": "'Accessibility',",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "25": {
+        "chunkId": "fcecda",
+        "hash": "4d94b927",
+        "encoded": "'Performance%20Optimization'",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "26": {
+        "chunkId": "fcecda",
+        "hash": "efd4a9c3",
+        "encoded": "%5D,",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "27": {
+        "chunkId": "fcecda",
+        "hash": "90cd9cb0",
+        "encoded": "authors:%20%5B%7B%20name:%20'Santhosh%20M'%20%7D%5D,",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "28": {
+        "chunkId": "fcecda",
+        "hash": "a20513e6",
+        "encoded": "creator:%20'Santhosh%20M',",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "29": {
+        "chunkId": "fcecda",
+        "hash": "7f009428",
+        "encoded": "openGraph:%20%7B",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "30": {
+        "chunkId": "fcecda",
+        "hash": "b860392d",
+        "encoded": "type:%20'website',",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "31": {
+        "chunkId": "fcecda",
+        "hash": "7d9282c8",
+        "encoded": "locale:%20'en_US',",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "32": {
+        "chunkId": "fcecda",
+        "hash": "669d44fb",
+        "encoded": "url:%20'https://santhosh-portfolio.vercel.app',",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "33": {
+        "chunkId": "fcecda",
+        "hash": "02fb89b1",
+        "encoded": "title:%20'Santhosh%20M%20-%20Frontend%20Engineering%20Manager',",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "34": {
+        "chunkId": "fcecda",
+        "hash": "1aa4bd23",
+        "encoded": "description:%20'Experienced%20Frontend%20Engineering%20Manager%20with%2010+%20years%20of%20expertise%20in%20building%20scalable%20web%20applications.',",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "35": {
+        "chunkId": "fcecda",
+        "hash": "5281129a",
+        "encoded": "siteName:%20'Santhosh%20M%20Portfolio',",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "36": {
+        "chunkId": "fcecda",
+        "hash": "6bb93cd8",
+        "encoded": "%7D,",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "37": {
+        "chunkId": "fcecda",
+        "hash": "50643481",
+        "encoded": "twitter:%20%7B",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "38": {
+        "chunkId": "fcecda",
+        "hash": "b413d314",
+        "encoded": "card:%20'summary_large_image',",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "39": {
+        "chunkId": "fcecda",
+        "hash": "9562370e",
+        "encoded": "title:%20'Santhosh%20M%20-%20Frontend%20Engineering%20Manager',",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "40": {
+        "chunkId": "fcecda",
+        "hash": "7c0b5a47",
+        "encoded": "description:%20'Experienced%20Frontend%20Engineering%20Manager%20with%2010+%20years%20of%20expertise%20in%20building%20scalable%20web%20applications.',",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "41": {
+        "chunkId": "fcecda",
+        "hash": "96f2690f",
+        "encoded": "creator:%20'@santhosh_ui',",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "42": {
+        "chunkId": "fcecda",
+        "hash": "81d4c2f1",
+        "encoded": "%7D,",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "43": {
+        "chunkId": "fcecda",
+        "hash": "fae0d44c",
+        "encoded": "robots:%20%7B",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "44": {
+        "chunkId": "fcecda",
+        "hash": "0fb0cc95",
+        "encoded": "index:%20true,",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "45": {
+        "chunkId": "fcecda",
+        "hash": "7f4dee2f",
+        "encoded": "follow:%20true,",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "46": {
+        "chunkId": "fcecda",
+        "hash": "16ddbf08",
+        "encoded": "googleBot:%20%7B",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "47": {
+        "chunkId": "fcecda",
+        "hash": "20b51070",
+        "encoded": "index:%20true,",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "48": {
+        "chunkId": "fcecda",
+        "hash": "fbc56cc7",
+        "encoded": "follow:%20true,",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "49": {
+        "chunkId": "fcecda",
+        "hash": "ec70767c",
+        "encoded": "'max-video-preview':%20-1,",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "50": {
+        "chunkId": "fcecda",
+        "hash": "767ac210",
+        "encoded": "'max-image-preview':%20'large',",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "51": {
+        "chunkId": "fcecda",
+        "hash": "fbeee650",
+        "encoded": "'max-snippet':%20-1,",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "52": {
+        "chunkId": "fcecda",
+        "hash": "cfafa4e3",
+        "encoded": "%7D,",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "53": {
+        "chunkId": "fcecda",
+        "hash": "0cbb9f72",
+        "encoded": "%7D,",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "54": {
+        "chunkId": "fcecda",
+        "hash": "57556d13",
+        "encoded": "verification:%20%7B",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "55": {
+        "chunkId": "fcecda",
+        "hash": "dde1aa8f",
+        "encoded": "google:%20'your-google-verification-code',",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "56": {
+        "chunkId": "fcecda",
+        "hash": "ad50244c",
+        "encoded": "%7D,",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "57": {
+        "chunkId": "fcecda",
+        "hash": "17837346",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "59": {
+        "chunkId": "fcecda",
+        "hash": "e8f238f7",
+        "encoded": "interface%20RootLayoutProps%20%7B",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "60": {
+        "chunkId": "fcecda",
+        "hash": "ebf33dae",
+        "encoded": "children:%20React.ReactNode",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "61": {
+        "chunkId": "fcecda",
+        "hash": "92368879",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "63": {
+        "chunkId": "fcecda",
+        "hash": "b6ed0eb5",
+        "encoded": "export%20default%20function%20RootLayout(%7B%20children%20%7D:%20RootLayoutProps)%20%7B",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "64": {
+        "chunkId": "fcecda",
+        "hash": "69fe114a",
+        "encoded": "return%20(",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "65": {
+        "chunkId": "fcecda",
+        "hash": "781535fa",
+        "encoded": "%3Chtml%20lang=%22en%22%20suppressHydrationWarning%3E",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "66": {
+        "chunkId": "fcecda",
+        "hash": "baa33cc8",
+        "encoded": "%3Chead%3E",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "67": {
+        "chunkId": "fcecda",
+        "hash": "07e1c369",
+        "encoded": "%3Clink%20rel=%22icon%22%20href=%22/favicon.ico%22%20/%3E",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "68": {
+        "chunkId": "fcecda",
+        "hash": "9c388b0e",
+        "encoded": "%3Clink%20rel=%22apple-touch-icon%22%20sizes=%22180x180%22%20href=%22/apple-touch-icon.png%22%20/%3E",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "69": {
+        "chunkId": "fcecda",
+        "hash": "fad5ddc4",
+        "encoded": "%3Clink%20rel=%22icon%22%20type=%22image/png%22%20sizes=%2232x32%22%20href=%22/favicon-32x32.png%22%20/%3E",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "70": {
+        "chunkId": "fcecda",
+        "hash": "9bf49ca2",
+        "encoded": "%3Clink%20rel=%22icon%22%20type=%22image/png%22%20sizes=%2216x16%22%20href=%22/favicon-16x16.png%22%20/%3E",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "71": {
+        "chunkId": "fcecda",
+        "hash": "f49f8c12",
+        "encoded": "%3Clink%20rel=%22manifest%22%20href=%22/site.webmanifest%22%20/%3E",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "72": {
+        "chunkId": "fcecda",
+        "hash": "f135d732",
+        "encoded": "%3C/head%3E",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "73": {
+        "chunkId": "fcecda",
+        "hash": "06ba0a7a",
+        "encoded": "%3Cbody",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "74": {
+        "chunkId": "fcecda",
+        "hash": "37dfe5c5",
+        "encoded": "className=%7Bcn(",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "75": {
+        "chunkId": "fcecda",
+        "hash": "c2a64aea",
+        "encoded": "'min-h-screen%20bg-background%20font-sans%20antialiased',",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "76": {
+        "chunkId": "fcecda",
+        "hash": "d8176d8f",
+        "encoded": "inter.variable",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "77": {
+        "chunkId": "fcecda",
+        "hash": "53f2a987",
+        "encoded": ")%7D",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "78": {
+        "chunkId": "fcecda",
+        "hash": "a9766ac8",
+        "encoded": "%3E",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "79": {
+        "chunkId": "fcecda",
+        "hash": "6bf47087",
+        "encoded": "%3CThemeProvider",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "80": {
+        "chunkId": "fcecda",
+        "hash": "1f5df847",
+        "encoded": "attribute=%22class%22",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "81": {
+        "chunkId": "fcecda",
+        "hash": "858e8a9b",
+        "encoded": "defaultTheme=%22system%22",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "82": {
+        "chunkId": "fcecda",
+        "hash": "19361694",
+        "encoded": "enableSystem",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "83": {
+        "chunkId": "fcecda",
+        "hash": "06187a95",
+        "encoded": "disableTransitionOnChange",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "84": {
+        "chunkId": "fcecda",
+        "hash": "a15980df",
+        "encoded": "%3E",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "85": {
+        "chunkId": "fcecda",
+        "hash": "77429a6d",
+        "encoded": "%3Cdiv%20className=%22relative%20flex%20min-h-screen%20flex-col%22%3E",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "86": {
+        "chunkId": "fcecda",
+        "hash": "b03f076f",
+        "encoded": "%3Cdiv%20className=%22flex-1%22%3E%7Bchildren%7D%3C/div%3E",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "87": {
+        "chunkId": "fcecda",
+        "hash": "290e4883",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "88": {
+        "chunkId": "fcecda",
+        "hash": "c0c88063",
+        "encoded": "%3C/ThemeProvider%3E",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "89": {
+        "chunkId": "fcecda",
+        "hash": "f0b0c7de",
+        "encoded": "%3C/body%3E",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "90": {
+        "chunkId": "fcecda",
+        "hash": "2850fd34",
+        "encoded": "%3C/html%3E",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "91": {
+        "chunkId": "fcecda",
+        "hash": "f71fc212",
+        "encoded": ")",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      },
+      "92": {
+        "chunkId": "fcecda",
+        "hash": "06a855c2",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "fcecda"
+        ]
+      }
+    }
+  }
+}

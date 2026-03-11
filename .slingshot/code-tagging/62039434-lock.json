@@ -1,0 +1,183 @@
+{
+  "app\\page.tsx": {
+    "filename": "page.tsx",
+    "path": "app\\page.tsx",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "15e7b6": {
+        "user": "Santhosh Mahanthesh",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1773080925,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.2.0",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {},
+        "hash": "032b5d55",
+        "messageId": null,
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "15e7b6",
+        "hash": "ca0a7bff",
+        "encoded": "import%20%7B%20HeroSection%20%7D%20from%20'@/components/sections/hero-section'",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "15e7b6",
+        "hash": "d141ef68",
+        "encoded": "import%20%7B%20AboutSection%20%7D%20from%20'@/components/sections/about-section'",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "15e7b6",
+        "hash": "78b3cdf8",
+        "encoded": "import%20%7B%20ExperienceSection%20%7D%20from%20'@/components/sections/experience-section'",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "15e7b6",
+        "hash": "2c8140e9",
+        "encoded": "import%20%7B%20SkillsSection%20%7D%20from%20'@/components/sections/skills-section'",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "15e7b6",
+        "hash": "8b0a4c1a",
+        "encoded": "import%20%7B%20ProjectsSection%20%7D%20from%20'@/components/sections/projects-section'",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "15e7b6",
+        "hash": "d30bbda9",
+        "encoded": "import%20%7B%20ContactSection%20%7D%20from%20'@/components/sections/contact-section'",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "15e7b6",
+        "hash": "4f399f62",
+        "encoded": "import%20%7B%20Header%20%7D%20from%20'@/components/layout/header'",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "15e7b6",
+        "hash": "1a711b24",
+        "encoded": "import%20%7B%20Footer%20%7D%20from%20'@/components/layout/footer'",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "15e7b6",
+        "hash": "eabb3793",
+        "encoded": "import%20%7B%20ScrollToTop%20%7D%20from%20'@/components/ui/scroll-to-top'",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "15e7b6",
+        "hash": "326a159a",
+        "encoded": "export%20default%20function%20HomePage()%20%7B",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "15e7b6",
+        "hash": "588b7e4f",
+        "encoded": "return%20(",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "15e7b6",
+        "hash": "753757ca",
+        "encoded": "%3C%3E",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "15e7b6",
+        "hash": "2025047f",
+        "encoded": "%3CHeader%20/%3E",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "15e7b6",
+        "hash": "698ea4fc",
+        "encoded": "%3Cmain%20className=%22relative%22%3E",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "15e7b6",
+        "hash": "ed0546b0",
+        "encoded": "%3CHeroSection%20/%3E",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "15e7b6",
+        "hash": "d2df5575",
+        "encoded": "%3CAboutSection%20/%3E",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "15e7b6",
+        "hash": "4b43d68c",
+        "encoded": "%3CExperienceSection%20/%3E",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "15e7b6",
+        "hash": "11647f73",
+        "encoded": "%3CSkillsSection%20/%3E",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "15e7b6",
+        "hash": "7ba93719",
+        "encoded": "%3CProjectsSection%20/%3E",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "15e7b6",
+        "hash": "67638309",
+        "encoded": "%3CContactSection%20/%3E",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "15e7b6",
+        "hash": "a9641468",
+        "encoded": "%3C/main%3E",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "15e7b6",
+        "hash": "85bc23c6",
+        "encoded": "%3CFooter%20/%3E",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "15e7b6",
+        "hash": "a291362a",
+        "encoded": "%3CScrollToTop%20/%3E",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "15e7b6",
+        "hash": "5b01ab99",
+        "encoded": "%3C/%3E",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "15e7b6",
+        "hash": "0306068e",
+        "encoded": ")",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "15e7b6",
+        "hash": "e256b81a",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

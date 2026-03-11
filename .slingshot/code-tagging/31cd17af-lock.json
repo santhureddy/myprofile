@@ -1,0 +1,999 @@
+{
+  "components\\sections\\experience-section.tsx": {
+    "filename": "experience-section.tsx",
+    "path": "components\\sections\\experience-section.tsx",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "0a5bda": {
+        "user": "Santhosh Mahanthesh",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1773081274,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.2.0",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {},
+        "hash": "6da9b9b7",
+        "messageId": null,
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "0a5bda",
+        "hash": "86f7e48a",
+        "encoded": "'use%20client'",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "0a5bda",
+        "hash": "a029a234",
+        "encoded": "import%20%7B%20motion%20%7D%20from%20'framer-motion'",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "0a5bda",
+        "hash": "f279e5eb",
+        "encoded": "import%20%7B%20useInView%20%7D%20from%20'react-intersection-observer'",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "0a5bda",
+        "hash": "3a278a3a",
+        "encoded": "import%20%7B%20Building,%20Calendar,%20MapPin,%20ChevronRight%20%7D%20from%20'lucide-react'",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "0a5bda",
+        "hash": "ce6e6d0e",
+        "encoded": "import%20%7B%20Card,%20CardContent,%20CardHeader,%20CardTitle%20%7D%20from%20'@/components/ui/card'",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "0a5bda",
+        "hash": "06aa5882",
+        "encoded": "import%20%7B%20Badge%20%7D%20from%20'@/components/ui/badge'",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "0a5bda",
+        "hash": "a6bbb012",
+        "encoded": "import%20%7B%20experiences%20%7D%20from%20'@/data/portfolio'",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "0a5bda",
+        "hash": "1addb1e8",
+        "encoded": "export%20function%20ExperienceSection()%20%7B",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "0a5bda",
+        "hash": "f112a7dc",
+        "encoded": "const%20%7B%20ref,%20inView%20%7D%20=%20useInView(%7B",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "0a5bda",
+        "hash": "01b79b90",
+        "encoded": "triggerOnce:%20true,",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "0a5bda",
+        "hash": "fc99ccc2",
+        "encoded": "threshold:%200.1",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "0a5bda",
+        "hash": "a45084a6",
+        "encoded": "%7D)",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "0a5bda",
+        "hash": "188d8d1b",
+        "encoded": "const%20containerVariants%20=%20%7B",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "0a5bda",
+        "hash": "46bf8b20",
+        "encoded": "hidden:%20%7B%20opacity:%200%20%7D,",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "0a5bda",
+        "hash": "ecd2c705",
+        "encoded": "visible:%20%7B",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "0a5bda",
+        "hash": "c84163f5",
+        "encoded": "opacity:%201,",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "0a5bda",
+        "hash": "b76a76a4",
+        "encoded": "transition:%20%7B",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "0a5bda",
+        "hash": "b4e6e970",
+        "encoded": "delayChildren:%200.2,",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "0a5bda",
+        "hash": "e7e6f7ea",
+        "encoded": "staggerChildren:%200.2",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "0a5bda",
+        "hash": "4c3814eb",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "0a5bda",
+        "hash": "7b3531ab",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "0a5bda",
+        "hash": "71870443",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "0a5bda",
+        "hash": "e774c3d9",
+        "encoded": "const%20itemVariants%20=%20%7B",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "0a5bda",
+        "hash": "a91e933b",
+        "encoded": "hidden:%20%7B%20x:%20-20,%20opacity:%200%20%7D,",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "0a5bda",
+        "hash": "8d36f6fc",
+        "encoded": "visible:%20%7B",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "0a5bda",
+        "hash": "f723c3a2",
+        "encoded": "x:%200,",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "0a5bda",
+        "hash": "65937839",
+        "encoded": "opacity:%201,",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "0a5bda",
+        "hash": "adf9466c",
+        "encoded": "transition:%20%7B",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "0a5bda",
+        "hash": "0eb786c9",
+        "encoded": "duration:%200.5",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "0a5bda",
+        "hash": "0e2c0edc",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "0a5bda",
+        "hash": "b8d59d8e",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "0a5bda",
+        "hash": "dfad4947",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "0a5bda",
+        "hash": "0837bdd1",
+        "encoded": "return%20(",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "0a5bda",
+        "hash": "c64add78",
+        "encoded": "%3Csection%20id=%22experience%22%20className=%22section-padding%22%3E",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "0a5bda",
+        "hash": "d8c089fb",
+        "encoded": "%3Cdiv%20className=%22container%20mx-auto%20px-4%22%3E",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "0a5bda",
+        "hash": "534be694",
+        "encoded": "%3Cmotion.div",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "0a5bda",
+        "hash": "058f2937",
+        "encoded": "ref=%7Bref%7D",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "0a5bda",
+        "hash": "eeb3641c",
+        "encoded": "variants=%7BcontainerVariants%7D",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "0a5bda",
+        "hash": "47f18c0e",
+        "encoded": "initial=%22hidden%22",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "0a5bda",
+        "hash": "49ba6d8c",
+        "encoded": "animate=%7BinView%20?%20%22visible%22%20:%20%22hidden%22%7D",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "0a5bda",
+        "hash": "45b67155",
+        "encoded": "className=%22max-w-4xl%20mx-auto%22",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "0a5bda",
+        "hash": "10f37b89",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "0a5bda",
+        "hash": "b146c060",
+        "encoded": "%7B/*%20Section%20Header%20*/%7D",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "0a5bda",
+        "hash": "30ac27cf",
+        "encoded": "%3Cmotion.div%20variants=%7BitemVariants%7D%20className=%22text-center%20mb-16%22%3E",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "0a5bda",
+        "hash": "4435a2fb",
+        "encoded": "%3CBadge%20variant=%22outline%22%20className=%22mb-4%22%3E",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "0a5bda",
+        "hash": "ed8cc095",
+        "encoded": "Experience",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "0a5bda",
+        "hash": "5b4ed621",
+        "encoded": "%3C/Badge%3E",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "0a5bda",
+        "hash": "e959a1f5",
+        "encoded": "%3Ch2%20className=%22text-3xl%20md:text-4xl%20lg:text-5xl%20font-bold%20font-heading%20mb-6%22%3E",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "0a5bda",
+        "hash": "2b933d9f",
+        "encoded": "Professional",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "0a5bda",
+        "hash": "2d2c6ece",
+        "encoded": "%3Cspan%20className=%22gradient-text%22%3E%20Journey%3C/span%3E",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "0a5bda",
+        "hash": "f3cb4ac5",
+        "encoded": "%3C/h2%3E",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "0a5bda",
+        "hash": "5cfc4d91",
+        "encoded": "%3Cp%20className=%22text-lg%20text-muted-foreground%20max-w-2xl%20mx-auto%20leading-relaxed%22%3E",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "0a5bda",
+        "hash": "547984cb",
+        "encoded": "A%20decade%20of%20building%20exceptional%20digital%20experiences%20across%20various%20industries",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "0a5bda",
+        "hash": "a66f3fc7",
+        "encoded": "and%20leading%20high-performing%20engineering%20teams.",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "0a5bda",
+        "hash": "6596aa0e",
+        "encoded": "%3C/p%3E",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "0a5bda",
+        "hash": "add8319e",
+        "encoded": "%3C/motion.div%3E",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "0a5bda",
+        "hash": "3c873a05",
+        "encoded": "%7B/*%20Experience%20Timeline%20*/%7D",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "0a5bda",
+        "hash": "9c215a60",
+        "encoded": "%3Cdiv%20className=%22relative%22%3E",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "0a5bda",
+        "hash": "a9090cda",
+        "encoded": "%7B/*%20Timeline%20Line%20*/%7D",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "0a5bda",
+        "hash": "1fecb7b0",
+        "encoded": "%3Cdiv%20className=%22absolute%20left-8%20top-0%20bottom-0%20w-0.5%20bg-border%20hidden%20md:block%22%20/%3E",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "0a5bda",
+        "hash": "9639a30a",
+        "encoded": "%3Cdiv%20className=%22space-y-8%22%3E",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "0a5bda",
+        "hash": "f0301503",
+        "encoded": "%7Bexperiences.map((experience,%20index)%20=%3E%20(",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "0a5bda",
+        "hash": "c2b90c69",
+        "encoded": "%3Cmotion.div",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "0a5bda",
+        "hash": "7f10ff34",
+        "encoded": "key=%7Bexperience.id%7D",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "0a5bda",
+        "hash": "e3b3c5bd",
+        "encoded": "variants=%7BitemVariants%7D",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "0a5bda",
+        "hash": "1f6fcae9",
+        "encoded": "className=%22relative%22",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "0a5bda",
+        "hash": "87a3a036",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "0a5bda",
+        "hash": "f130d3be",
+        "encoded": "%7B/*%20Timeline%20Dot%20*/%7D",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "0a5bda",
+        "hash": "a6b37b82",
+        "encoded": "%3Cdiv%20className=%22absolute%20left-6%20top-8%20w-4%20h-4%20bg-primary%20rounded-full%20border-4%20border-background%20hidden%20md:block%22%20/%3E",
+        "prevChunkIds": []
+      },
+      "77": {
+        "chunkId": "0a5bda",
+        "hash": "4af8278f",
+        "encoded": "%3CCard%20className=%22md:ml-16%20hover:shadow-lg%20transition-all%20duration-300%20group%22%3E",
+        "prevChunkIds": []
+      },
+      "78": {
+        "chunkId": "0a5bda",
+        "hash": "63d0082e",
+        "encoded": "%3CCardHeader%20className=%22pb-4%22%3E",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "0a5bda",
+        "hash": "1a43bf2e",
+        "encoded": "%3Cdiv%20className=%22flex%20flex-col%20md:flex-row%20md:items-start%20md:justify-between%20gap-4%22%3E",
+        "prevChunkIds": []
+      },
+      "80": {
+        "chunkId": "0a5bda",
+        "hash": "d104598d",
+        "encoded": "%3Cdiv%20className=%22flex-1%22%3E",
+        "prevChunkIds": []
+      },
+      "81": {
+        "chunkId": "0a5bda",
+        "hash": "9f52af14",
+        "encoded": "%3CCardTitle%20className=%22text-xl%20font-bold%20group-hover:text-primary%20transition-colors%22%3E",
+        "prevChunkIds": []
+      },
+      "82": {
+        "chunkId": "0a5bda",
+        "hash": "e5ec2b86",
+        "encoded": "%7Bexperience.position%7D",
+        "prevChunkIds": []
+      },
+      "83": {
+        "chunkId": "0a5bda",
+        "hash": "ea4c0d31",
+        "encoded": "%3C/CardTitle%3E",
+        "prevChunkIds": []
+      },
+      "84": {
+        "chunkId": "0a5bda",
+        "hash": "f447fcfb",
+        "encoded": "%3Cdiv%20className=%22flex%20items-center%20text-muted-foreground%20mt-2%20mb-3%22%3E",
+        "prevChunkIds": []
+      },
+      "85": {
+        "chunkId": "0a5bda",
+        "hash": "41259283",
+        "encoded": "%3CBuilding%20className=%22h-4%20w-4%20mr-2%22%20/%3E",
+        "prevChunkIds": []
+      },
+      "86": {
+        "chunkId": "0a5bda",
+        "hash": "bd04c200",
+        "encoded": "%3Cspan%20className=%22font-medium%22%3E%7Bexperience.company%7D%3C/span%3E",
+        "prevChunkIds": []
+      },
+      "87": {
+        "chunkId": "0a5bda",
+        "hash": "290e4883",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "88": {
+        "chunkId": "0a5bda",
+        "hash": "02619e31",
+        "encoded": "%3Cdiv%20className=%22flex%20flex-col%20sm:flex-row%20sm:items-center%20gap-2%20text-sm%20text-muted-foreground%22%3E",
+        "prevChunkIds": []
+      },
+      "89": {
+        "chunkId": "0a5bda",
+        "hash": "554755cb",
+        "encoded": "%3Cdiv%20className=%22flex%20items-center%22%3E",
+        "prevChunkIds": []
+      },
+      "90": {
+        "chunkId": "0a5bda",
+        "hash": "7c261252",
+        "encoded": "%3CCalendar%20className=%22h-4%20w-4%20mr-1%22%20/%3E",
+        "prevChunkIds": []
+      },
+      "91": {
+        "chunkId": "0a5bda",
+        "hash": "931ea483",
+        "encoded": "%3Cspan%3E%7Bexperience.duration%7D%3C/span%3E",
+        "prevChunkIds": []
+      },
+      "92": {
+        "chunkId": "0a5bda",
+        "hash": "94f93d35",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "93": {
+        "chunkId": "0a5bda",
+        "hash": "f3a32702",
+        "encoded": "%3Cdiv%20className=%22flex%20items-center%22%3E",
+        "prevChunkIds": []
+      },
+      "94": {
+        "chunkId": "0a5bda",
+        "hash": "0a351e8f",
+        "encoded": "%3CMapPin%20className=%22h-4%20w-4%20mr-1%22%20/%3E",
+        "prevChunkIds": []
+      },
+      "95": {
+        "chunkId": "0a5bda",
+        "hash": "723754ae",
+        "encoded": "%3Cspan%3E%7Bexperience.location%7D%3C/span%3E",
+        "prevChunkIds": []
+      },
+      "96": {
+        "chunkId": "0a5bda",
+        "hash": "1334f196",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "97": {
+        "chunkId": "0a5bda",
+        "hash": "c9250a34",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "98": {
+        "chunkId": "0a5bda",
+        "hash": "8cab0943",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "99": {
+        "chunkId": "0a5bda",
+        "hash": "182897f5",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "100": {
+        "chunkId": "0a5bda",
+        "hash": "c72b188f",
+        "encoded": "%3C/CardHeader%3E",
+        "prevChunkIds": []
+      },
+      "102": {
+        "chunkId": "0a5bda",
+        "hash": "138759a2",
+        "encoded": "%3CCardContent%3E",
+        "prevChunkIds": []
+      },
+      "103": {
+        "chunkId": "0a5bda",
+        "hash": "8ad82d41",
+        "encoded": "%7B/*%20Description%20*/%7D",
+        "prevChunkIds": []
+      },
+      "104": {
+        "chunkId": "0a5bda",
+        "hash": "5f88e6e2",
+        "encoded": "%3Cdiv%20className=%22mb-6%22%3E",
+        "prevChunkIds": []
+      },
+      "105": {
+        "chunkId": "0a5bda",
+        "hash": "a4291782",
+        "encoded": "%3Cul%20className=%22space-y-2%22%3E",
+        "prevChunkIds": []
+      },
+      "106": {
+        "chunkId": "0a5bda",
+        "hash": "8acdb9a3",
+        "encoded": "%7Bexperience.description.map((item,%20itemIndex)%20=%3E%20(",
+        "prevChunkIds": []
+      },
+      "107": {
+        "chunkId": "0a5bda",
+        "hash": "a2037e78",
+        "encoded": "%3Cli%20key=%7BitemIndex%7D%20className=%22flex%20items-start%22%3E",
+        "prevChunkIds": []
+      },
+      "108": {
+        "chunkId": "0a5bda",
+        "hash": "f4e147f9",
+        "encoded": "%3CChevronRight%20className=%22h-4%20w-4%20text-primary%20mt-0.5%20mr-2%20flex-shrink-0%22%20/%3E",
+        "prevChunkIds": []
+      },
+      "109": {
+        "chunkId": "0a5bda",
+        "hash": "ea3f10cc",
+        "encoded": "%3Cspan%20className=%22text-muted-foreground%20text-sm%20leading-relaxed%22%3E",
+        "prevChunkIds": []
+      },
+      "110": {
+        "chunkId": "0a5bda",
+        "hash": "5c465cdb",
+        "encoded": "%7Bitem%7D",
+        "prevChunkIds": []
+      },
+      "111": {
+        "chunkId": "0a5bda",
+        "hash": "29157378",
+        "encoded": "%3C/span%3E",
+        "prevChunkIds": []
+      },
+      "112": {
+        "chunkId": "0a5bda",
+        "hash": "3e801a6a",
+        "encoded": "%3C/li%3E",
+        "prevChunkIds": []
+      },
+      "113": {
+        "chunkId": "0a5bda",
+        "hash": "c420a94d",
+        "encoded": "))%7D",
+        "prevChunkIds": []
+      },
+      "114": {
+        "chunkId": "0a5bda",
+        "hash": "89fdada6",
+        "encoded": "%3C/ul%3E",
+        "prevChunkIds": []
+      },
+      "115": {
+        "chunkId": "0a5bda",
+        "hash": "9dac9300",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "117": {
+        "chunkId": "0a5bda",
+        "hash": "3a8b33fb",
+        "encoded": "%7B/*%20Technologies%20*/%7D",
+        "prevChunkIds": []
+      },
+      "118": {
+        "chunkId": "0a5bda",
+        "hash": "8ca2177c",
+        "encoded": "%3Cdiv%20className=%22mb-4%22%3E",
+        "prevChunkIds": []
+      },
+      "119": {
+        "chunkId": "0a5bda",
+        "hash": "6d6933aa",
+        "encoded": "%3Ch4%20className=%22text-sm%20font-semibold%20mb-3%22%3ETechnologies%20&%20Tools%3C/h4%3E",
+        "prevChunkIds": []
+      },
+      "120": {
+        "chunkId": "0a5bda",
+        "hash": "21a98098",
+        "encoded": "%3Cdiv%20className=%22flex%20flex-wrap%20gap-2%22%3E",
+        "prevChunkIds": []
+      },
+      "121": {
+        "chunkId": "0a5bda",
+        "hash": "bd298b66",
+        "encoded": "%7Bexperience.technologies.map((tech)%20=%3E%20(",
+        "prevChunkIds": []
+      },
+      "122": {
+        "chunkId": "0a5bda",
+        "hash": "e3c8b519",
+        "encoded": "%3CBadge%20key=%7Btech%7D%20variant=%22secondary%22%20className=%22text-xs%22%3E",
+        "prevChunkIds": []
+      },
+      "123": {
+        "chunkId": "0a5bda",
+        "hash": "62b89413",
+        "encoded": "%7Btech%7D",
+        "prevChunkIds": []
+      },
+      "124": {
+        "chunkId": "0a5bda",
+        "hash": "37009330",
+        "encoded": "%3C/Badge%3E",
+        "prevChunkIds": []
+      },
+      "125": {
+        "chunkId": "0a5bda",
+        "hash": "12b1fd58",
+        "encoded": "))%7D",
+        "prevChunkIds": []
+      },
+      "126": {
+        "chunkId": "0a5bda",
+        "hash": "2d4fb4c8",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "127": {
+        "chunkId": "0a5bda",
+        "hash": "04268475",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "129": {
+        "chunkId": "0a5bda",
+        "hash": "19aaddf2",
+        "encoded": "%7B/*%20Achievements%20*/%7D",
+        "prevChunkIds": []
+      },
+      "130": {
+        "chunkId": "0a5bda",
+        "hash": "e8299312",
+        "encoded": "%7Bexperience.achievements%20&&%20experience.achievements.length%20%3E%200%20&&%20(",
+        "prevChunkIds": []
+      },
+      "131": {
+        "chunkId": "0a5bda",
+        "hash": "5dd520f5",
+        "encoded": "%3Cdiv%3E",
+        "prevChunkIds": []
+      },
+      "132": {
+        "chunkId": "0a5bda",
+        "hash": "74496533",
+        "encoded": "%3Ch4%20className=%22text-sm%20font-semibold%20mb-3%22%3EKey%20Achievements%3C/h4%3E",
+        "prevChunkIds": []
+      },
+      "133": {
+        "chunkId": "0a5bda",
+        "hash": "03e8fcb0",
+        "encoded": "%3Cul%20className=%22space-y-2%22%3E",
+        "prevChunkIds": []
+      },
+      "134": {
+        "chunkId": "0a5bda",
+        "hash": "c59b328a",
+        "encoded": "%7Bexperience.achievements.map((achievement,%20achievementIndex)%20=%3E%20(",
+        "prevChunkIds": []
+      },
+      "135": {
+        "chunkId": "0a5bda",
+        "hash": "622b6362",
+        "encoded": "%3Cli%20key=%7BachievementIndex%7D%20className=%22flex%20items-start%22%3E",
+        "prevChunkIds": []
+      },
+      "136": {
+        "chunkId": "0a5bda",
+        "hash": "3ddf02b5",
+        "encoded": "%3Cdiv%20className=%22w-1.5%20h-1.5%20bg-primary%20rounded-full%20mt-2%20mr-3%20flex-shrink-0%22%20/%3E",
+        "prevChunkIds": []
+      },
+      "137": {
+        "chunkId": "0a5bda",
+        "hash": "c561bbc7",
+        "encoded": "%3Cspan%20className=%22text-sm%20text-muted-foreground%20leading-relaxed%22%3E",
+        "prevChunkIds": []
+      },
+      "138": {
+        "chunkId": "0a5bda",
+        "hash": "5e8c3ce1",
+        "encoded": "%7Bachievement%7D",
+        "prevChunkIds": []
+      },
+      "139": {
+        "chunkId": "0a5bda",
+        "hash": "0839d3ef",
+        "encoded": "%3C/span%3E",
+        "prevChunkIds": []
+      },
+      "140": {
+        "chunkId": "0a5bda",
+        "hash": "90cb5664",
+        "encoded": "%3C/li%3E",
+        "prevChunkIds": []
+      },
+      "141": {
+        "chunkId": "0a5bda",
+        "hash": "001d4db5",
+        "encoded": "))%7D",
+        "prevChunkIds": []
+      },
+      "142": {
+        "chunkId": "0a5bda",
+        "hash": "14a9e628",
+        "encoded": "%3C/ul%3E",
+        "prevChunkIds": []
+      },
+      "143": {
+        "chunkId": "0a5bda",
+        "hash": "55300e09",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "144": {
+        "chunkId": "0a5bda",
+        "hash": "372b643e",
+        "encoded": ")%7D",
+        "prevChunkIds": []
+      },
+      "145": {
+        "chunkId": "0a5bda",
+        "hash": "c5bc95c7",
+        "encoded": "%3C/CardContent%3E",
+        "prevChunkIds": []
+      },
+      "146": {
+        "chunkId": "0a5bda",
+        "hash": "2cf18f82",
+        "encoded": "%3C/Card%3E",
+        "prevChunkIds": []
+      },
+      "147": {
+        "chunkId": "0a5bda",
+        "hash": "2349e759",
+        "encoded": "%3C/motion.div%3E",
+        "prevChunkIds": []
+      },
+      "148": {
+        "chunkId": "0a5bda",
+        "hash": "ea8c24d5",
+        "encoded": "))%7D",
+        "prevChunkIds": []
+      },
+      "149": {
+        "chunkId": "0a5bda",
+        "hash": "8cd9d5da",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "150": {
+        "chunkId": "0a5bda",
+        "hash": "0aa60449",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "152": {
+        "chunkId": "0a5bda",
+        "hash": "20543fa5",
+        "encoded": "%7B/*%20Call%20to%20Action%20*/%7D",
+        "prevChunkIds": []
+      },
+      "153": {
+        "chunkId": "0a5bda",
+        "hash": "13098b67",
+        "encoded": "%3Cmotion.div",
+        "prevChunkIds": []
+      },
+      "154": {
+        "chunkId": "0a5bda",
+        "hash": "854f8c34",
+        "encoded": "variants=%7BitemVariants%7D",
+        "prevChunkIds": []
+      },
+      "155": {
+        "chunkId": "0a5bda",
+        "hash": "3ea7b78f",
+        "encoded": "className=%22text-center%20mt-16%22",
+        "prevChunkIds": []
+      },
+      "156": {
+        "chunkId": "0a5bda",
+        "hash": "d8564e23",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "157": {
+        "chunkId": "0a5bda",
+        "hash": "80a2cea6",
+        "encoded": "%3Cdiv%20className=%22bg-muted/50%20rounded-lg%20p-8%22%3E",
+        "prevChunkIds": []
+      },
+      "158": {
+        "chunkId": "0a5bda",
+        "hash": "191b323f",
+        "encoded": "%3Ch3%20className=%22text-xl%20font-bold%20font-heading%20mb-4%22%3E",
+        "prevChunkIds": []
+      },
+      "159": {
+        "chunkId": "0a5bda",
+        "hash": "d6e40e67",
+        "encoded": "Ready%20to%20Work%20Together?",
+        "prevChunkIds": []
+      },
+      "160": {
+        "chunkId": "0a5bda",
+        "hash": "aca13366",
+        "encoded": "%3C/h3%3E",
+        "prevChunkIds": []
+      },
+      "161": {
+        "chunkId": "0a5bda",
+        "hash": "c1ec918b",
+        "encoded": "%3Cp%20className=%22text-muted-foreground%20mb-6%22%3E",
+        "prevChunkIds": []
+      },
+      "162": {
+        "chunkId": "0a5bda",
+        "hash": "7ce98337",
+        "encoded": "I'm%20always%20interested%20in%20discussing%20new%20opportunities%20and%20challenging%20projects.",
+        "prevChunkIds": []
+      },
+      "163": {
+        "chunkId": "0a5bda",
+        "hash": "538242f8",
+        "encoded": "%3C/p%3E",
+        "prevChunkIds": []
+      },
+      "164": {
+        "chunkId": "0a5bda",
+        "hash": "426569a5",
+        "encoded": "%3CBadge%20variant=%22outline%22%20className=%22cursor-pointer%20hover:bg-primary%20hover:text-primary-foreground%20transition-colors%22%3E",
+        "prevChunkIds": []
+      },
+      "165": {
+        "chunkId": "0a5bda",
+        "hash": "1e05185a",
+        "encoded": "Let's%20Connect",
+        "prevChunkIds": []
+      },
+      "166": {
+        "chunkId": "0a5bda",
+        "hash": "dc0a32da",
+        "encoded": "%3C/Badge%3E",
+        "prevChunkIds": []
+      },
+      "167": {
+        "chunkId": "0a5bda",
+        "hash": "0aab1393",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "168": {
+        "chunkId": "0a5bda",
+        "hash": "876a8119",
+        "encoded": "%3C/motion.div%3E",
+        "prevChunkIds": []
+      },
+      "169": {
+        "chunkId": "0a5bda",
+        "hash": "1848a483",
+        "encoded": "%3C/motion.div%3E",
+        "prevChunkIds": []
+      },
+      "170": {
+        "chunkId": "0a5bda",
+        "hash": "0e821075",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "171": {
+        "chunkId": "0a5bda",
+        "hash": "97ce0a7e",
+        "encoded": "%3C/section%3E",
+        "prevChunkIds": []
+      },
+      "172": {
+        "chunkId": "0a5bda",
+        "hash": "99553965",
+        "encoded": ")",
+        "prevChunkIds": []
+      },
+      "173": {
+        "chunkId": "0a5bda",
+        "hash": "2107d871",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

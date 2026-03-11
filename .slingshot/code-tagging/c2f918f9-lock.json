@@ -1,0 +1,333 @@
+{
+  "components\\ui\\button.tsx": {
+    "filename": "button.tsx",
+    "path": "components\\ui\\button.tsx",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "28e609": {
+        "user": "Santhosh Mahanthesh",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1773081033,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.2.0",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {},
+        "hash": "b6b6d957",
+        "messageId": null,
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "28e609",
+        "hash": "881c11e1",
+        "encoded": "import%20*%20as%20React%20from%20'react'",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "28e609",
+        "hash": "6e0aca3b",
+        "encoded": "import%20%7B%20Slot%20%7D%20from%20'@radix-ui/react-slot'",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "28e609",
+        "hash": "b0d553cd",
+        "encoded": "import%20%7B%20cva,%20type%20VariantProps%20%7D%20from%20'class-variance-authority'",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "28e609",
+        "hash": "2e273454",
+        "encoded": "import%20%7B%20cn%20%7D%20from%20'@/lib/utils'",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "28e609",
+        "hash": "d11cd592",
+        "encoded": "const%20buttonVariants%20=%20cva(",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "28e609",
+        "hash": "ec732420",
+        "encoded": "'inline-flex%20items-center%20justify-center%20whitespace-nowrap%20rounded-md%20text-sm%20font-medium%20ring-offset-background%20transition-colors%20focus-visible:outline-none%20focus-visible:ring-2%20focus-visible:ring-ring%20focus-visible:ring-offset-2%20disabled:pointer-events-none%20disabled:opacity-50',",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "28e609",
+        "hash": "4b860d0d",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "28e609",
+        "hash": "384884e1",
+        "encoded": "variants:%20%7B",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "28e609",
+        "hash": "cc34c485",
+        "encoded": "variant:%20%7B",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "28e609",
+        "hash": "61030c01",
+        "encoded": "default:%20'bg-primary%20text-primary-foreground%20hover:bg-primary/90',",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "28e609",
+        "hash": "cd3bf244",
+        "encoded": "destructive:",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "28e609",
+        "hash": "749d2e5f",
+        "encoded": "'bg-destructive%20text-destructive-foreground%20hover:bg-destructive/90',",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "28e609",
+        "hash": "a7ce7a66",
+        "encoded": "outline:",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "28e609",
+        "hash": "23b05c2c",
+        "encoded": "'border%20border-input%20bg-background%20hover:bg-accent%20hover:text-accent-foreground',",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "28e609",
+        "hash": "a39ee328",
+        "encoded": "secondary:",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "28e609",
+        "hash": "8791a94e",
+        "encoded": "'bg-secondary%20text-secondary-foreground%20hover:bg-secondary/80',",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "28e609",
+        "hash": "6265df83",
+        "encoded": "ghost:%20'hover:bg-accent%20hover:text-accent-foreground',",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "28e609",
+        "hash": "f28a6fa8",
+        "encoded": "link:%20'text-primary%20underline-offset-4%20hover:underline',",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "28e609",
+        "hash": "0b42153b",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "28e609",
+        "hash": "a69b4f0e",
+        "encoded": "size:%20%7B",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "28e609",
+        "hash": "86a29fe7",
+        "encoded": "default:%20'h-10%20px-4%20py-2',",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "28e609",
+        "hash": "76807f1c",
+        "encoded": "sm:%20'h-9%20rounded-md%20px-3',",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "28e609",
+        "hash": "8d31bedf",
+        "encoded": "lg:%20'h-11%20rounded-md%20px-8',",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "28e609",
+        "hash": "878a1e86",
+        "encoded": "icon:%20'h-10%20w-10',",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "28e609",
+        "hash": "642c1a07",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "28e609",
+        "hash": "0b87a378",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "28e609",
+        "hash": "e6d37a11",
+        "encoded": "defaultVariants:%20%7B",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "28e609",
+        "hash": "d787c5c4",
+        "encoded": "variant:%20'default',",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "28e609",
+        "hash": "9215b5ac",
+        "encoded": "size:%20'default',",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "28e609",
+        "hash": "f8124d3b",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "28e609",
+        "hash": "43353d17",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "28e609",
+        "hash": "47ea41e0",
+        "encoded": ")",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "28e609",
+        "hash": "c4b84bca",
+        "encoded": "export%20interface%20ButtonProps",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "28e609",
+        "hash": "6a8ee2db",
+        "encoded": "extends%20React.ButtonHTMLAttributes%3CHTMLButtonElement%3E,",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "28e609",
+        "hash": "4daff7f0",
+        "encoded": "VariantProps%3Ctypeof%20buttonVariants%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "28e609",
+        "hash": "a5f535e8",
+        "encoded": "asChild?:%20boolean",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "28e609",
+        "hash": "1b754c76",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "28e609",
+        "hash": "72569457",
+        "encoded": "const%20Button%20=%20React.forwardRef%3CHTMLButtonElement,%20ButtonProps%3E(",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "28e609",
+        "hash": "bddea574",
+        "encoded": "(%7B%20className,%20variant,%20size,%20asChild%20=%20false,%20...props%20%7D,%20ref)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "28e609",
+        "hash": "059942e3",
+        "encoded": "const%20Comp%20=%20asChild%20?%20Slot%20:%20'button'",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "28e609",
+        "hash": "e72468f5",
+        "encoded": "return%20(",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "28e609",
+        "hash": "a413654b",
+        "encoded": "%3CComp",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "28e609",
+        "hash": "8f1ea70b",
+        "encoded": "className=%7Bcn(buttonVariants(%7B%20variant,%20size,%20className%20%7D))%7D",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "28e609",
+        "hash": "5c4812c2",
+        "encoded": "ref=%7Bref%7D",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "28e609",
+        "hash": "2f4d0bf8",
+        "encoded": "%7B...props%7D",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "28e609",
+        "hash": "36656d66",
+        "encoded": "/%3E",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "28e609",
+        "hash": "bd67edb6",
+        "encoded": ")",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "28e609",
+        "hash": "6a5bdc1a",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "28e609",
+        "hash": "5f71c65e",
+        "encoded": ")",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "28e609",
+        "hash": "1dcf216d",
+        "encoded": "Button.displayName%20=%20'Button'",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "28e609",
+        "hash": "2a46d31f",
+        "encoded": "export%20%7B%20Button,%20buttonVariants%20%7D",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

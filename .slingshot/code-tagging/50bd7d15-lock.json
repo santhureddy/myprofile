@@ -1,0 +1,825 @@
+{
+  "components\\layout\\header.tsx": {
+    "filename": "header.tsx",
+    "path": "components\\layout\\header.tsx",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "11df04": {
+        "user": "Santhosh Mahanthesh",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1773081146,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.2.0",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {},
+        "hash": "0d4ea2b0",
+        "messageId": null,
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "11df04",
+        "hash": "86f7e48a",
+        "encoded": "'use%20client'",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "11df04",
+        "hash": "cc0f03a8",
+        "encoded": "import%20%7B%20useState,%20useEffect%20%7D%20from%20'react'",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "11df04",
+        "hash": "7c70b844",
+        "encoded": "import%20%7B%20motion,%20AnimatePresence%20%7D%20from%20'framer-motion'",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "11df04",
+        "hash": "f55af027",
+        "encoded": "import%20%7B%20Menu,%20X%20%7D%20from%20'lucide-react'",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "11df04",
+        "hash": "5a61f423",
+        "encoded": "import%20%7B%20Button%20%7D%20from%20'@/components/ui/button'",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "11df04",
+        "hash": "065589c2",
+        "encoded": "import%20%7B%20ThemeToggle%20%7D%20from%20'@/components/ui/theme-toggle'",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "11df04",
+        "hash": "d96365d0",
+        "encoded": "import%20%7B%20cn,%20scrollToElement%20%7D%20from%20'@/lib/utils'",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "11df04",
+        "hash": "955ac3cc",
+        "encoded": "import%20%7B%20personalInfo%20%7D%20from%20'@/data/portfolio'",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "11df04",
+        "hash": "7135d528",
+        "encoded": "const%20navItems%20=%20%5B",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "11df04",
+        "hash": "70083c37",
+        "encoded": "%7B%20name:%20'Home',%20href:%20'hero'%20%7D,",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "11df04",
+        "hash": "f55a8302",
+        "encoded": "%7B%20name:%20'About',%20href:%20'about'%20%7D,",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "11df04",
+        "hash": "64463356",
+        "encoded": "%7B%20name:%20'Experience',%20href:%20'experience'%20%7D,",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "11df04",
+        "hash": "5b067516",
+        "encoded": "%7B%20name:%20'Skills',%20href:%20'skills'%20%7D,",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "11df04",
+        "hash": "a9b11f0b",
+        "encoded": "%7B%20name:%20'Projects',%20href:%20'projects'%20%7D,",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "11df04",
+        "hash": "426ce9f4",
+        "encoded": "%7B%20name:%20'Contact',%20href:%20'contact'%20%7D,",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "11df04",
+        "hash": "11021678",
+        "encoded": "%5D",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "11df04",
+        "hash": "ec080317",
+        "encoded": "export%20function%20Header()%20%7B",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "11df04",
+        "hash": "d7dfdbba",
+        "encoded": "const%20%5BisScrolled,%20setIsScrolled%5D%20=%20useState(false)",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "11df04",
+        "hash": "4a2514c9",
+        "encoded": "const%20%5BisMobileMenuOpen,%20setIsMobileMenuOpen%5D%20=%20useState(false)",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "11df04",
+        "hash": "16088e24",
+        "encoded": "useEffect(()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "11df04",
+        "hash": "2a17ee5c",
+        "encoded": "const%20handleScroll%20=%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "11df04",
+        "hash": "83d01b65",
+        "encoded": "setIsScrolled(window.scrollY%20%3E%2050)",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "11df04",
+        "hash": "e256b81a",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "11df04",
+        "hash": "ec7d11cb",
+        "encoded": "window.addEventListener('scroll',%20handleScroll)",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "11df04",
+        "hash": "67fe70d0",
+        "encoded": "return%20()%20=%3E%20window.removeEventListener('scroll',%20handleScroll)",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "11df04",
+        "hash": "638a0b5e",
+        "encoded": "%7D,%20%5B%5D)",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "11df04",
+        "hash": "ac0b05f8",
+        "encoded": "const%20handleNavClick%20=%20(href:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "11df04",
+        "hash": "f4f1fb06",
+        "encoded": "scrollToElement(href)",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "11df04",
+        "hash": "184165c1",
+        "encoded": "setIsMobileMenuOpen(false)",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "11df04",
+        "hash": "dfad4947",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "11df04",
+        "hash": "0837bdd1",
+        "encoded": "return%20(",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "11df04",
+        "hash": "d78e2f75",
+        "encoded": "%3Cmotion.header",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "11df04",
+        "hash": "828ae51f",
+        "encoded": "initial=%7B%7B%20y:%20-100%20%7D%7D",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "11df04",
+        "hash": "0ce15ee6",
+        "encoded": "animate=%7B%7B%20y:%200%20%7D%7D",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "11df04",
+        "hash": "551b6034",
+        "encoded": "transition=%7B%7B%20duration:%200.5%20%7D%7D",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "11df04",
+        "hash": "db97a443",
+        "encoded": "className=%7Bcn(",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "11df04",
+        "hash": "fe3fb4ba",
+        "encoded": "'fixed%20top-0%20left-0%20right-0%20z-50%20transition-all%20duration-300',",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "11df04",
+        "hash": "f26e6829",
+        "encoded": "isScrolled",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "11df04",
+        "hash": "85be3fb1",
+        "encoded": "?%20'bg-background/80%20backdrop-blur-md%20border-b%20border-border%20shadow-sm'",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "11df04",
+        "hash": "313473f6",
+        "encoded": ":%20'bg-transparent'",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "11df04",
+        "hash": "cde453d1",
+        "encoded": ")%7D",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "11df04",
+        "hash": "117ff266",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "11df04",
+        "hash": "416d9cf9",
+        "encoded": "%3Cdiv%20className=%22container%20mx-auto%20px-4%22%3E",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "11df04",
+        "hash": "ac48dfb9",
+        "encoded": "%3Cdiv%20className=%22flex%20items-center%20justify-between%20h-16%22%3E",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "11df04",
+        "hash": "072f291c",
+        "encoded": "%7B/*%20Logo%20*/%7D",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "11df04",
+        "hash": "ab86b88e",
+        "encoded": "%3Cmotion.div",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "11df04",
+        "hash": "71aede03",
+        "encoded": "initial=%7B%7B%20opacity:%200,%20x:%20-20%20%7D%7D",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "11df04",
+        "hash": "dd990d82",
+        "encoded": "animate=%7B%7B%20opacity:%201,%20x:%200%20%7D%7D",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "11df04",
+        "hash": "368030a4",
+        "encoded": "transition=%7B%7B%20duration:%200.5,%20delay:%200.1%20%7D%7D",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "11df04",
+        "hash": "32fc653b",
+        "encoded": "className=%22flex%20items-center%20space-x-2%22",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "11df04",
+        "hash": "a8235f5b",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "11df04",
+        "hash": "81568393",
+        "encoded": "%3Cdiv%20className=%22w-10%20h-10%20bg-primary%20rounded-lg%20flex%20items-center%20justify-center%22%3E",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "11df04",
+        "hash": "abcf61e8",
+        "encoded": "%3Cspan%20className=%22text-primary-foreground%20font-bold%20text-lg%22%3E",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "11df04",
+        "hash": "895ccccb",
+        "encoded": "%7BpersonalInfo.name.split('%20').map(n%20=%3E%20n%5B0%5D).join('')%7D",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "11df04",
+        "hash": "6f8364e5",
+        "encoded": "%3C/span%3E",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "11df04",
+        "hash": "43826c56",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "11df04",
+        "hash": "753d19f5",
+        "encoded": "%3Cdiv%20className=%22hidden%20sm:block%22%3E",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "11df04",
+        "hash": "9f72e1e8",
+        "encoded": "%3Ch1%20className=%22font-heading%20font-semibold%20text-lg%22%3E",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "11df04",
+        "hash": "62a222fe",
+        "encoded": "%7BpersonalInfo.name%7D",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "11df04",
+        "hash": "931b1c87",
+        "encoded": "%3C/h1%3E",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "11df04",
+        "hash": "9fe0308e",
+        "encoded": "%3Cp%20className=%22text-xs%20text-muted-foreground%22%3E",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "11df04",
+        "hash": "cec95cf9",
+        "encoded": "Frontend%20Engineering%20Manager",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "11df04",
+        "hash": "932f2754",
+        "encoded": "%3C/p%3E",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "11df04",
+        "hash": "d333aa3e",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "11df04",
+        "hash": "c98240dd",
+        "encoded": "%3C/motion.div%3E",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "11df04",
+        "hash": "df15ac80",
+        "encoded": "%7B/*%20Desktop%20Navigation%20*/%7D",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "11df04",
+        "hash": "77702c4c",
+        "encoded": "%3Cnav%20className=%22hidden%20md:flex%20items-center%20space-x-8%22%3E",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "11df04",
+        "hash": "f608b734",
+        "encoded": "%7BnavItems.map((item,%20index)%20=%3E%20(",
+        "prevChunkIds": []
+      },
+      "76": {
+        "chunkId": "11df04",
+        "hash": "e0bce98b",
+        "encoded": "%3Cmotion.button",
+        "prevChunkIds": []
+      },
+      "77": {
+        "chunkId": "11df04",
+        "hash": "3462173c",
+        "encoded": "key=%7Bitem.name%7D",
+        "prevChunkIds": []
+      },
+      "78": {
+        "chunkId": "11df04",
+        "hash": "ee01e2b2",
+        "encoded": "initial=%7B%7B%20opacity:%200,%20y:%20-20%20%7D%7D",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "11df04",
+        "hash": "513a9d5c",
+        "encoded": "animate=%7B%7B%20opacity:%201,%20y:%200%20%7D%7D",
+        "prevChunkIds": []
+      },
+      "80": {
+        "chunkId": "11df04",
+        "hash": "35ee8797",
+        "encoded": "transition=%7B%7B%20duration:%200.5,%20delay:%200.1%20+%20index%20*%200.1%20%7D%7D",
+        "prevChunkIds": []
+      },
+      "81": {
+        "chunkId": "11df04",
+        "hash": "68d58b1b",
+        "encoded": "onClick=%7B()%20=%3E%20handleNavClick(item.href)%7D",
+        "prevChunkIds": []
+      },
+      "82": {
+        "chunkId": "11df04",
+        "hash": "99aaed5a",
+        "encoded": "className=%22text-sm%20font-medium%20text-foreground/80%20hover:text-foreground%20transition-colors%20relative%20group%22",
+        "prevChunkIds": []
+      },
+      "83": {
+        "chunkId": "11df04",
+        "hash": "b94265bc",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "84": {
+        "chunkId": "11df04",
+        "hash": "2d35c779",
+        "encoded": "%7Bitem.name%7D",
+        "prevChunkIds": []
+      },
+      "85": {
+        "chunkId": "11df04",
+        "hash": "4e1d60ce",
+        "encoded": "%3Cspan%20className=%22absolute%20-bottom-1%20left-0%20w-0%20h-0.5%20bg-primary%20transition-all%20duration-300%20group-hover:w-full%22%20/%3E",
+        "prevChunkIds": []
+      },
+      "86": {
+        "chunkId": "11df04",
+        "hash": "3bbb9704",
+        "encoded": "%3C/motion.button%3E",
+        "prevChunkIds": []
+      },
+      "87": {
+        "chunkId": "11df04",
+        "hash": "987d829d",
+        "encoded": "))%7D",
+        "prevChunkIds": []
+      },
+      "88": {
+        "chunkId": "11df04",
+        "hash": "a0fb520e",
+        "encoded": "%3C/nav%3E",
+        "prevChunkIds": []
+      },
+      "90": {
+        "chunkId": "11df04",
+        "hash": "5fd68985",
+        "encoded": "%7B/*%20Actions%20*/%7D",
+        "prevChunkIds": []
+      },
+      "91": {
+        "chunkId": "11df04",
+        "hash": "8ffdab62",
+        "encoded": "%3Cdiv%20className=%22flex%20items-center%20space-x-4%22%3E",
+        "prevChunkIds": []
+      },
+      "92": {
+        "chunkId": "11df04",
+        "hash": "6ff0c781",
+        "encoded": "%3CThemeToggle%20/%3E",
+        "prevChunkIds": []
+      },
+      "94": {
+        "chunkId": "11df04",
+        "hash": "9b743c55",
+        "encoded": "%7B/*%20Mobile%20Menu%20Button%20*/%7D",
+        "prevChunkIds": []
+      },
+      "95": {
+        "chunkId": "11df04",
+        "hash": "01580ab7",
+        "encoded": "%3CButton",
+        "prevChunkIds": []
+      },
+      "96": {
+        "chunkId": "11df04",
+        "hash": "a9e8c7fa",
+        "encoded": "variant=%22ghost%22",
+        "prevChunkIds": []
+      },
+      "97": {
+        "chunkId": "11df04",
+        "hash": "7869b86b",
+        "encoded": "size=%22icon%22",
+        "prevChunkIds": []
+      },
+      "98": {
+        "chunkId": "11df04",
+        "hash": "84077afd",
+        "encoded": "className=%22md:hidden%22",
+        "prevChunkIds": []
+      },
+      "99": {
+        "chunkId": "11df04",
+        "hash": "e4315d4a",
+        "encoded": "onClick=%7B()%20=%3E%20setIsMobileMenuOpen(!isMobileMenuOpen)%7D",
+        "prevChunkIds": []
+      },
+      "100": {
+        "chunkId": "11df04",
+        "hash": "dbe01f13",
+        "encoded": "aria-label=%22Toggle%20mobile%20menu%22",
+        "prevChunkIds": []
+      },
+      "101": {
+        "chunkId": "11df04",
+        "hash": "0b4c93a1",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "102": {
+        "chunkId": "11df04",
+        "hash": "18551d37",
+        "encoded": "%7BisMobileMenuOpen%20?%20(",
+        "prevChunkIds": []
+      },
+      "103": {
+        "chunkId": "11df04",
+        "hash": "befa4cec",
+        "encoded": "%3CX%20className=%22h-5%20w-5%22%20/%3E",
+        "prevChunkIds": []
+      },
+      "104": {
+        "chunkId": "11df04",
+        "hash": "8668dd17",
+        "encoded": ")%20:%20(",
+        "prevChunkIds": []
+      },
+      "105": {
+        "chunkId": "11df04",
+        "hash": "bae697f3",
+        "encoded": "%3CMenu%20className=%22h-5%20w-5%22%20/%3E",
+        "prevChunkIds": []
+      },
+      "106": {
+        "chunkId": "11df04",
+        "hash": "096237ca",
+        "encoded": ")%7D",
+        "prevChunkIds": []
+      },
+      "107": {
+        "chunkId": "11df04",
+        "hash": "03a3ac51",
+        "encoded": "%3C/Button%3E",
+        "prevChunkIds": []
+      },
+      "108": {
+        "chunkId": "11df04",
+        "hash": "8052e42b",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "109": {
+        "chunkId": "11df04",
+        "hash": "32a49628",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "110": {
+        "chunkId": "11df04",
+        "hash": "61040c56",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "112": {
+        "chunkId": "11df04",
+        "hash": "7c14c579",
+        "encoded": "%7B/*%20Mobile%20Navigation%20*/%7D",
+        "prevChunkIds": []
+      },
+      "113": {
+        "chunkId": "11df04",
+        "hash": "f3d8efbd",
+        "encoded": "%3CAnimatePresence%3E",
+        "prevChunkIds": []
+      },
+      "114": {
+        "chunkId": "11df04",
+        "hash": "ea86470c",
+        "encoded": "%7BisMobileMenuOpen%20&&%20(",
+        "prevChunkIds": []
+      },
+      "115": {
+        "chunkId": "11df04",
+        "hash": "a10d5df3",
+        "encoded": "%3Cmotion.div",
+        "prevChunkIds": []
+      },
+      "116": {
+        "chunkId": "11df04",
+        "hash": "2e6c76f2",
+        "encoded": "initial=%7B%7B%20opacity:%200,%20height:%200%20%7D%7D",
+        "prevChunkIds": []
+      },
+      "117": {
+        "chunkId": "11df04",
+        "hash": "fc986591",
+        "encoded": "animate=%7B%7B%20opacity:%201,%20height:%20'auto'%20%7D%7D",
+        "prevChunkIds": []
+      },
+      "118": {
+        "chunkId": "11df04",
+        "hash": "ea81b31d",
+        "encoded": "exit=%7B%7B%20opacity:%200,%20height:%200%20%7D%7D",
+        "prevChunkIds": []
+      },
+      "119": {
+        "chunkId": "11df04",
+        "hash": "5a7cfee0",
+        "encoded": "transition=%7B%7B%20duration:%200.3%20%7D%7D",
+        "prevChunkIds": []
+      },
+      "120": {
+        "chunkId": "11df04",
+        "hash": "0781100c",
+        "encoded": "className=%22md:hidden%20bg-background/95%20backdrop-blur-md%20border-b%20border-border%22",
+        "prevChunkIds": []
+      },
+      "121": {
+        "chunkId": "11df04",
+        "hash": "86ce749d",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "122": {
+        "chunkId": "11df04",
+        "hash": "f57655b7",
+        "encoded": "%3Cnav%20className=%22container%20mx-auto%20px-4%20py-4%22%3E",
+        "prevChunkIds": []
+      },
+      "123": {
+        "chunkId": "11df04",
+        "hash": "da6d32ed",
+        "encoded": "%3Cdiv%20className=%22flex%20flex-col%20space-y-4%22%3E",
+        "prevChunkIds": []
+      },
+      "124": {
+        "chunkId": "11df04",
+        "hash": "464e9da7",
+        "encoded": "%7BnavItems.map((item,%20index)%20=%3E%20(",
+        "prevChunkIds": []
+      },
+      "125": {
+        "chunkId": "11df04",
+        "hash": "dd93aa47",
+        "encoded": "%3Cmotion.button",
+        "prevChunkIds": []
+      },
+      "126": {
+        "chunkId": "11df04",
+        "hash": "7cd341f2",
+        "encoded": "key=%7Bitem.name%7D",
+        "prevChunkIds": []
+      },
+      "127": {
+        "chunkId": "11df04",
+        "hash": "ba2b98df",
+        "encoded": "initial=%7B%7B%20opacity:%200,%20x:%20-20%20%7D%7D",
+        "prevChunkIds": []
+      },
+      "128": {
+        "chunkId": "11df04",
+        "hash": "7fec1f10",
+        "encoded": "animate=%7B%7B%20opacity:%201,%20x:%200%20%7D%7D",
+        "prevChunkIds": []
+      },
+      "129": {
+        "chunkId": "11df04",
+        "hash": "3816f5c1",
+        "encoded": "transition=%7B%7B%20duration:%200.3,%20delay:%20index%20*%200.1%20%7D%7D",
+        "prevChunkIds": []
+      },
+      "130": {
+        "chunkId": "11df04",
+        "hash": "c63538d9",
+        "encoded": "onClick=%7B()%20=%3E%20handleNavClick(item.href)%7D",
+        "prevChunkIds": []
+      },
+      "131": {
+        "chunkId": "11df04",
+        "hash": "21489b22",
+        "encoded": "className=%22text-left%20text-sm%20font-medium%20text-foreground/80%20hover:text-foreground%20transition-colors%20py-2%22",
+        "prevChunkIds": []
+      },
+      "132": {
+        "chunkId": "11df04",
+        "hash": "5595a791",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "133": {
+        "chunkId": "11df04",
+        "hash": "d175fd93",
+        "encoded": "%7Bitem.name%7D",
+        "prevChunkIds": []
+      },
+      "134": {
+        "chunkId": "11df04",
+        "hash": "0eb6f4b2",
+        "encoded": "%3C/motion.button%3E",
+        "prevChunkIds": []
+      },
+      "135": {
+        "chunkId": "11df04",
+        "hash": "482095cc",
+        "encoded": "))%7D",
+        "prevChunkIds": []
+      },
+      "136": {
+        "chunkId": "11df04",
+        "hash": "ce7890bc",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "137": {
+        "chunkId": "11df04",
+        "hash": "8858787f",
+        "encoded": "%3C/nav%3E",
+        "prevChunkIds": []
+      },
+      "138": {
+        "chunkId": "11df04",
+        "hash": "30c2bac2",
+        "encoded": "%3C/motion.div%3E",
+        "prevChunkIds": []
+      },
+      "139": {
+        "chunkId": "11df04",
+        "hash": "1e7ab575",
+        "encoded": ")%7D",
+        "prevChunkIds": []
+      },
+      "140": {
+        "chunkId": "11df04",
+        "hash": "52a21831",
+        "encoded": "%3C/AnimatePresence%3E",
+        "prevChunkIds": []
+      },
+      "141": {
+        "chunkId": "11df04",
+        "hash": "9922bcff",
+        "encoded": "%3C/motion.header%3E",
+        "prevChunkIds": []
+      },
+      "142": {
+        "chunkId": "11df04",
+        "hash": "a578af76",
+        "encoded": ")",
+        "prevChunkIds": []
+      },
+      "143": {
+        "chunkId": "11df04",
+        "hash": "52c5d6be",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      }
+    }
+  }
+}
