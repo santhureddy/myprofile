@@ -11,6 +11,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://santhosh-portfolio.vercel.app'),
   title: 'Santhosh M - Frontend Engineering Manager',
   description: 'Experienced Frontend Engineering Manager with 10+ years of expertise in building scalable web applications, leading high-performing teams, and driving technical excellence.',
   keywords: [
@@ -30,7 +31,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://santhosh-portfolio.vercel.app',
+    url: '/',
     title: 'Santhosh M - Frontend Engineering Manager',
     description: 'Experienced Frontend Engineering Manager with 10+ years of expertise in building scalable web applications.',
     siteName: 'Santhosh M Portfolio',
