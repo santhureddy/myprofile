@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Test</title>
+</head>
+<body>
+    <h1>Image Loading Test</h1>
+    <div>
+        <h2>Tech Background 1:</h2>
+        <img src="/images/tech-bg-1.jpg" alt="Tech BG 1" style="width: 200px; height: 150px; border: 1px solid #ccc;" onload="console.log('tech-bg-1.jpg loaded')" onerror="console.error('tech-bg-1.jpg failed to load')">
+    </div>
+    <div>
+        <h2>Code Background:</h2>
+        <img src="/images/code-bg.jpg" alt="Code BG" style="width: 200px; height: 150px; border: 1px solid #ccc;" onload="console.log('code-bg.jpg loaded')" onerror="console.error('code-bg.jpg failed to load')">
+    </div>
+    <div>
+        <h2>Server Background:</h2>
+        <img src="/images/server-bg.jpg" alt="Server BG" style="width: 200px; height: 150px; border: 1px solid #ccc;" onload="console.log('server-bg.jpg loaded')" onerror="console.error('server-bg.jpg failed to load')">
+    </div>
+    <script>
+        console.log('Image test page loaded');
+        // Check if images exist
+        fetch('/images/tech-bg-1.jpg')
+            .then(response => {
+                console.log('tech-bg-1.jpg fetch status:', response.status);
+            })
+            .catch(error => {
+                console.error('tech-bg-1.jpg fetch error:', error);
+            });
+    </script>
+</body>
+</html>

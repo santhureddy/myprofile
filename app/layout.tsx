@@ -12,8 +12,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://santhosh-portfolio.vercel.app'),
-  title: 'Santhosh M - Frontend Engineering Manager',
-  description: 'Experienced Frontend Engineering Manager with 10+ years of expertise in building scalable web applications, leading high-performing teams, and driving technical excellence.',
+  title: 'Santhosh - Frontend Engineering Manager',
+  description: 'Experienced Frontend Engineering Manager with 16+ years of expertise in building scalable web applications, leading high-performing teams, and driving technical excellence.',
   keywords: [
     'Frontend Engineer',
     'Engineering Manager', 
@@ -26,20 +26,20 @@ export const metadata: Metadata = {
     'Accessibility',
     'Performance Optimization'
   ],
-  authors: [{ name: 'Santhosh M' }],
-  creator: 'Santhosh M',
+  authors: [{ name: 'Santhosh ' }],
+  creator: 'Santhosh ',
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: '/',
-    title: 'Santhosh M - Frontend Engineering Manager',
-    description: 'Experienced Frontend Engineering Manager with 10+ years of expertise in building scalable web applications.',
-    siteName: 'Santhosh M Portfolio',
+    title: 'Santhosh  - Frontend Engineering Manager',
+    description: 'Experienced Frontend Engineering Manager with 16+ years of expertise in building scalable web applications.',
+    siteName: 'Santhosh  Portfolio',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Santhosh M - Frontend Engineering Manager',
-    description: 'Experienced Frontend Engineering Manager with 10+ years of expertise in building scalable web applications.',
+    title: 'Santhosh  - Frontend Engineering Manager',
+    description: 'Experienced Frontend Engineering Manager with 16+ years of expertise in building scalable web applications.',
     creator: '@santhosh_ui',
   },
   robots: {

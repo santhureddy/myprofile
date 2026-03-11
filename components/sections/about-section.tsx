@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
+import Image from 'next/image'
 import { Award, Users, Clock, Target } from 'lucide-react'
 import { Card, CardContent } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
@@ -72,8 +73,21 @@ export function AboutSection() {
   }
 
   return (
-    <section id="about" className="section-padding bg-muted/30">
-      <div className="container mx-auto px-4">
+    <section id="about" className="section-padding relative overflow-hidden">
+      {/* Subtle IT Background */}
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="/images/code-bg.jpg"
+          alt="Code background - Programming and development workspace"
+          fill
+          className="object-cover object-center opacity-5 dark:opacity-3"
+          placeholder="blur"
+          blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-background/95 via-background/90 to-background/95" />
+      </div>
+      
+      <div className="container mx-auto px-4 relative z-10">
         <motion.div
           ref={ref}
           variants={containerVariants}
@@ -105,7 +119,7 @@ export function AboutSection() {
                 </h3>
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>
-                    My passion for creating digital experiences began over 10 years ago when I started
+                    My passion for creating digital experiences began over 16 years ago when I started
                     my career as a software engineer. Throughout my journey, I've evolved from writing
                     my first lines of JavaScript to leading engineering teams and architecting
                     large-scale frontend applications.

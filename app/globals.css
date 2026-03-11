@@ -138,11 +138,40 @@ html {
   }
 }
 
-/* Hero background */
+/* Hero background - Updated for image overlay compatibility */
 .hero-bg {
   background: linear-gradient(135deg, hsl(var(--background)) 0%, hsl(var(--muted)) 100%);
 }
 
 .dark .hero-bg {
   background: linear-gradient(135deg, hsl(var(--background)) 0%, hsl(var(--secondary)) 100%);
+}
+
+/* IT Professional Background Styles */
+.tech-bg-overlay {
+  background: linear-gradient(
+    135deg,
+    rgba(var(--background), 0.95) 0%,
+    rgba(var(--background), 0.85) 50%,
+    rgba(var(--background), 0.95) 100%
+  );
+}
+
+.dark .tech-bg-overlay {
+  background: linear-gradient(
+    135deg,
+    rgba(var(--background), 0.98) 0%,
+    rgba(var(--background), 0.90) 50%,
+    rgba(var(--background), 0.98) 100%
+  );
+}
+
+/* Enhanced image optimization for IT backgrounds */
+.tech-background {
+  filter: contrast(1.1) brightness(0.9);
+  transition: all 0.3s ease;
+}
+
+.dark .tech-background {
+  filter: contrast(1.2) brightness(0.7);
 }

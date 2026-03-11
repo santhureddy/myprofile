@@ -1,6 +1,6 @@
-# Santhosh M - Portfolio Website
+# Santhosh  - Portfolio Website
 
-A modern, responsive portfolio website built with Next.js 14, TypeScript, and Tailwind CSS, showcasing the professional experience and technical expertise of Santhosh M, a Frontend Engineering Manager.
+A modern, responsive portfolio website built with Next.js 14, TypeScript, and Tailwind CSS, showcasing the professional experience and technical expertise of Santhosh , a Frontend Engineering Manager.
 
 ## 🚀 Features
 
@@ -164,7 +164,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 ## 📞 Contact
 
-Santhosh M - [santhu.reddy19@gmail.com](mailto:santhu.reddy19@gmail.com)
+Santhosh  - [santhu.reddy19@gmail.com](mailto:santhu.reddy19@gmail.com)
 
 Project Link: [Portfolio Website](https://santhosh-portfolio.vercel.app)
 

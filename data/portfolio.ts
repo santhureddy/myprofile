@@ -1,4 +1,4 @@
-// Portfolio data extracted from Santhosh Manager's resume
+// Portfolio data extracted from Santhosh anager's resume
 
 export interface Experience {
   id: string;
@@ -43,13 +43,13 @@ export interface PersonalInfo {
 
 // Personal Information
 export const personalInfo: PersonalInfo = {
-  name: "Santhosh M",
+  name: "Santhosh ",
   title: "Manager Experience Engineering – Frontend Platforms",
   email: "santhu.reddy19@gmail.com",
   linkedin: "https://www.linkedin.com/in/santhosh-ui",
   phone: "+91 8310849328",
   location: "Bangalore, India",
-  summary: "Experienced Frontend Engineering Manager with 10+ years of expertise in building scalable web applications, leading high-performing teams, and driving technical excellence in modern JavaScript frameworks and frontend technologies."
+  summary: "Experienced Frontend Engineering Manager with 16+ years of expertise in building scalable web applications, leading high-performing teams, and driving technical excellence in modern JavaScript frameworks and frontend technologies."
 };
 
 // Professional Experience
