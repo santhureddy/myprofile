@@ -37,7 +37,7 @@ export function HeroSection() {
 
   const handleDownloadCV = () => {
     // In a real application, you would link to the actual CV file
-    window.open('/santhosh-manager-cv.pdf', '_blank')
+    window.open('/Santhosh-Engineering-Manager.pdf', '_blank')
   }
 
   return (

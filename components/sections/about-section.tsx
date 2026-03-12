@@ -11,19 +11,19 @@ import { personalInfo, awards } from '@/data/portfolio'
 const stats = [
   {
     icon: Clock,
-    value: '10+',
+    value: '16+',
     label: 'Years Experience',
     description: 'Building scalable web applications'
   },
   {
     icon: Users,
-    value: '50+',
+    value: '60+',
     label: 'Projects Delivered',
     description: 'Across various industries'
   },
   {
     icon: Target,
-    value: '200K+',
+    value: '300K+',
     label: 'Users Impacted',
     description: 'Through accessibility improvements'
   },
