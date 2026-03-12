@@ -1,0 +1,95 @@
+{
+  "projects": [
+    {
+      "id": "proj-001",
+      "name": "Enterprise Pharmacy Benefits Platform",
+      "domain": "Healthcare / Pharmacy Benefits Management",
+      "description": "Large-scale enterprise web platform used by pharmacy benefit administrators to manage prescriptions, pricing rules, and claims processing.",
+      "techStack": {
+        "frontend": ["React", "Next.js", "TypeScript"],
+        "backend": ["Node.js", "Express"],
+        "stateManagement": ["Redux Toolkit", "React Query"],
+        "styling": ["Tailwind CSS", "CSS Modules"],
+        "testing": ["Jest", "React Testing Library"],
+        "cloud": ["Azure"],
+        "monitoring": ["Azure Application Insights"]
+      },
+      "role": "Staff Front-End Engineer / Front-End Lead",
+      "responsibilities": [
+        "Designed scalable front-end architecture",
+        "Implemented Micro Frontend strategy",
+        "Integrated Azure Application Insights telemetry",
+        "Improved accessibility and performance"
+      ],
+      "impact": [
+        "Reduced page load time by 35%",
+        "Improved build performance by 25%",
+        "Enabled independent deployments via Micro Frontend architecture"
+      ],
+      "projectType": "Internal",
+      "organization": "Optum",
+      "teamSize": 12,
+      "duration": {
+        "start": "2023-01",
+        "end": "Present"
+      },
+      "deployment": {
+        "environment": ["Dev", "QA", "Production"],
+        "hosting": "Azure Cloud"
+      },
+      "links": {
+        "project": "https://example-project-link.com",
+        "repository": "https://github.com/example/repo",
+        "documentation": "https://docs.example.com"
+      },
+      "highlights": [
+        "Monorepo architecture",
+        "Telemetry instrumentation",
+        "DevOps pipeline optimization"
+      ]
+    },
+    {
+      "id": "proj-002",
+      "name": "E-Commerce Product Discovery Platform",
+      "domain": "Retail / E-Commerce",
+      "description": "Customer-facing product discovery application supporting advanced filtering, search, and product comparison.",
+      "techStack": {
+        "frontend": ["React", "Next.js", "TypeScript"],
+        "backend": ["GraphQL", "Node.js"],
+        "stateManagement": ["React Query"],
+        "styling": ["Styled Components"],
+        "testing": ["Jest", "Cypress"]
+      },
+      "role": "Senior Front-End Engineer",
+      "responsibilities": [
+        "Developed reusable component library",
+        "Implemented SSR for SEO optimization",
+        "Improved accessibility compliance (WCAG)"
+      ],
+      "impact": [
+        "Improved SEO ranking",
+        "Increased conversion rate by 18%",
+        "Reduced bundle size by 20%"
+      ],
+      "projectType": "External",
+      "organization": "Client Project",
+      "teamSize": 8,
+      "duration": {
+        "start": "2021-06",
+        "end": "2022-12"
+      },
+      "deployment": {
+        "environment": ["Production"],
+        "hosting": "AWS"
+      },
+      "links": {
+        "project": "https://example-store.com"
+      },
+      "highlights": [
+        "SEO optimized SSR",
+        "Performance optimization",
+        "Component-driven architecture"
+      ]
+    }
+  ]
+}

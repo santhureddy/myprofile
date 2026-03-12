@@ -1,0 +1,2865 @@
+{
+  "app\\portfolio.tsx": {
+    "filename": "portfolio.tsx",
+    "path": "app\\portfolio.tsx",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "98b6ff": {
+        "user": "Santhosh Mahanthesh",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1773338855,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.2.0",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {},
+        "hash": "53367553",
+        "messageId": null,
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "98b6ff",
+        "hash": "4783ed27",
+        "encoded": "'use%20client';",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "98b6ff",
+        "hash": "5f132faf",
+        "encoded": "import%20React,%20%7B%20useState,%20useMemo%20%7D%20from%20'react';",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "98b6ff",
+        "hash": "5e09094f",
+        "encoded": "import%20%7B%20Card%20%7D%20from%20'@/components/ui/card';",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "98b6ff",
+        "hash": "45aa59c0",
+        "encoded": "import%20%7B%20Button%20%7D%20from%20'@/components/ui/button';",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "98b6ff",
+        "hash": "c9d2d3a1",
+        "encoded": "import%20%7B%20Badge%20%7D%20from%20'@/components/ui/badge';",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "98b6ff",
+        "hash": "18db0b92",
+        "encoded": "import%20%7B%20Separator%20%7D%20from%20'@/components/ui/separator';",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "98b6ff",
+        "hash": "4daceddc",
+        "encoded": "import%20%7B%20Search,%20ChevronUp,%20ChevronDown,%20X,%20ExternalLink%20%7D%20from%20'lucide-react';",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "98b6ff",
+        "hash": "4538ebec",
+        "encoded": "import%20projectsData%20from%20'@/data/projects.json';",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "98b6ff",
+        "hash": "f0f02b67",
+        "encoded": "//%20TypeScript%20interfaces",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "98b6ff",
+        "hash": "43f0c593",
+        "encoded": "interface%20TechStack%20%7B",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "98b6ff",
+        "hash": "09ec004a",
+        "encoded": "frontend?:%20string%5B%5D;",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "98b6ff",
+        "hash": "562c0170",
+        "encoded": "backend?:%20string%5B%5D;",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "98b6ff",
+        "hash": "4ff1a32c",
+        "encoded": "stateManagement?:%20string%5B%5D;",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "98b6ff",
+        "hash": "a11acb63",
+        "encoded": "styling?:%20string%5B%5D;",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "98b6ff",
+        "hash": "b1b1509e",
+        "encoded": "testing?:%20string%5B%5D;",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "98b6ff",
+        "hash": "d5195eeb",
+        "encoded": "cloud?:%20string%5B%5D;",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "98b6ff",
+        "hash": "be0917a8",
+        "encoded": "monitoring?:%20string%5B%5D;",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "98b6ff",
+        "hash": "ee39c532",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "98b6ff",
+        "hash": "ea7089f9",
+        "encoded": "interface%20Duration%20%7B",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "98b6ff",
+        "hash": "a61a11c0",
+        "encoded": "start:%20string;",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "98b6ff",
+        "hash": "a19edc67",
+        "encoded": "end:%20string;",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "98b6ff",
+        "hash": "71870443",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "98b6ff",
+        "hash": "cf33badd",
+        "encoded": "interface%20Deployment%20%7B",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "98b6ff",
+        "hash": "4ccbb98a",
+        "encoded": "environment:%20string%5B%5D;",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "98b6ff",
+        "hash": "7c8c30cb",
+        "encoded": "hosting:%20string;",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "98b6ff",
+        "hash": "7721e417",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "98b6ff",
+        "hash": "23e4c4a2",
+        "encoded": "interface%20Links%20%7B",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "98b6ff",
+        "hash": "3b7222a9",
+        "encoded": "project?:%20string;",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "98b6ff",
+        "hash": "9ca0ce88",
+        "encoded": "repository?:%20string;",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "98b6ff",
+        "hash": "e52e689a",
+        "encoded": "documentation?:%20string;",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "98b6ff",
+        "hash": "dfad4947",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "98b6ff",
+        "hash": "8209d876",
+        "encoded": "interface%20Project%20%7B",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "98b6ff",
+        "hash": "48617d50",
+        "encoded": "id:%20string;",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "98b6ff",
+        "hash": "9fce5b8d",
+        "encoded": "name:%20string;",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "98b6ff",
+        "hash": "1bb3beab",
+        "encoded": "domain:%20string;",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "98b6ff",
+        "hash": "ff4c2c09",
+        "encoded": "description:%20string;",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "98b6ff",
+        "hash": "060f1212",
+        "encoded": "techStack:%20TechStack;",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "98b6ff",
+        "hash": "503e6bc0",
+        "encoded": "role:%20string;",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "98b6ff",
+        "hash": "35582665",
+        "encoded": "responsibilities:%20string%5B%5D;",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "98b6ff",
+        "hash": "0f1e30a6",
+        "encoded": "impact:%20string%5B%5D;",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "98b6ff",
+        "hash": "9c3119db",
+        "encoded": "projectType:%20string;",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "98b6ff",
+        "hash": "1254c8a9",
+        "encoded": "organization:%20string;",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "98b6ff",
+        "hash": "55e3360f",
+        "encoded": "teamSize:%20number;",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "98b6ff",
+        "hash": "a03d84e5",
+        "encoded": "duration:%20Duration;",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "98b6ff",
+        "hash": "ad1704dd",
+        "encoded": "deployment:%20Deployment;",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "98b6ff",
+        "hash": "cd7b0b07",
+        "encoded": "links:%20Links;",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "98b6ff",
+        "hash": "37bb29c2",
+        "encoded": "highlights:%20string%5B%5D;",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "98b6ff",
+        "hash": "e392f376",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "98b6ff",
+        "hash": "9365bba3",
+        "encoded": "type%20SortField%20=%20'name'%20%7C%20'domain'%20%7C%20'role'%20%7C%20'projectType'%20%7C%20'duration';",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "98b6ff",
+        "hash": "5bb9221f",
+        "encoded": "type%20SortDirection%20=%20'asc'%20%7C%20'desc';",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "98b6ff",
+        "hash": "6e539113",
+        "encoded": "interface%20SortConfig%20%7B",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "98b6ff",
+        "hash": "c8890286",
+        "encoded": "field:%20SortField;",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "98b6ff",
+        "hash": "f610002d",
+        "encoded": "direction:%20SortDirection;",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "98b6ff",
+        "hash": "92368879",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "98b6ff",
+        "hash": "c5a2669d",
+        "encoded": "const%20PortfolioPage:%20React.FC%20=%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "98b6ff",
+        "hash": "b8716801",
+        "encoded": "const%20%5BsearchTerm,%20setSearchTerm%5D%20=%20useState('');",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "98b6ff",
+        "hash": "44b17312",
+        "encoded": "const%20%5BcurrentPage,%20setCurrentPage%5D%20=%20useState(1);",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "98b6ff",
+        "hash": "ebcea3fb",
+        "encoded": "const%20%5BsortConfig,%20setSortConfig%5D%20=%20useState%3CSortConfig%3E(%7B%20field:%20'name',%20direction:%20'asc'%20%7D);",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "98b6ff",
+        "hash": "86620a34",
+        "encoded": "const%20%5BselectedProject,%20setSelectedProject%5D%20=%20useState%3CProject%20%7C%20null%3E(null);",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "98b6ff",
+        "hash": "697783bb",
+        "encoded": "const%20%5BisModalOpen,%20setIsModalOpen%5D%20=%20useState(false);",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "98b6ff",
+        "hash": "124f9154",
+        "encoded": "const%20itemsPerPage%20=%205;",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "98b6ff",
+        "hash": "1266b2c1",
+        "encoded": "const%20projects:%20Project%5B%5D%20=%20projectsData.projects;",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "98b6ff",
+        "hash": "041fe414",
+        "encoded": "//%20Helper%20function%20to%20get%20tech%20stack%20summary",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "98b6ff",
+        "hash": "f84845b2",
+        "encoded": "const%20getTechStackSummary%20=%20(techStack:%20TechStack):%20string%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "98b6ff",
+        "hash": "f176d06d",
+        "encoded": "const%20allTech%20=%20%5B",
+        "prevChunkIds": []
+      },
+      "76": {
+        "chunkId": "98b6ff",
+        "hash": "277fa6bb",
+        "encoded": "...(techStack.frontend%20%7C%7C%20%5B%5D),",
+        "prevChunkIds": []
+      },
+      "77": {
+        "chunkId": "98b6ff",
+        "hash": "10d88002",
+        "encoded": "...(techStack.backend%20%7C%7C%20%5B%5D),",
+        "prevChunkIds": []
+      },
+      "78": {
+        "chunkId": "98b6ff",
+        "hash": "80c644a1",
+        "encoded": "...(techStack.stateManagement%20%7C%7C%20%5B%5D),",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "98b6ff",
+        "hash": "b99bc0ca",
+        "encoded": "...(techStack.styling%20%7C%7C%20%5B%5D)",
+        "prevChunkIds": []
+      },
+      "80": {
+        "chunkId": "98b6ff",
+        "hash": "45a81b11",
+        "encoded": "%5D;",
+        "prevChunkIds": []
+      },
+      "81": {
+        "chunkId": "98b6ff",
+        "hash": "6f7f2a1b",
+        "encoded": "return%20allTech.slice(0,%203).join(',%20')%20+%20(allTech.length%20%3E%203%20?%20'...'%20:%20'');",
+        "prevChunkIds": []
+      },
+      "82": {
+        "chunkId": "98b6ff",
+        "hash": "0fb1d46d",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "84": {
+        "chunkId": "98b6ff",
+        "hash": "69b9a6dd",
+        "encoded": "//%20Helper%20function%20to%20format%20duration",
+        "prevChunkIds": []
+      },
+      "85": {
+        "chunkId": "98b6ff",
+        "hash": "f4febf5c",
+        "encoded": "const%20formatDuration%20=%20(duration:%20Duration):%20string%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "86": {
+        "chunkId": "98b6ff",
+        "hash": "ea7dec15",
+        "encoded": "const%20start%20=%20new%20Date(duration.start%20+%20'-01');",
+        "prevChunkIds": []
+      },
+      "87": {
+        "chunkId": "98b6ff",
+        "hash": "6ece777c",
+        "encoded": "const%20end%20=%20duration.end%20===%20'Present'%20?%20new%20Date()%20:%20new%20Date(duration.end%20+%20'-01');",
+        "prevChunkIds": []
+      },
+      "88": {
+        "chunkId": "98b6ff",
+        "hash": "db347261",
+        "encoded": "const%20months%20=%20(end.getFullYear()%20-%20start.getFullYear())%20*%2012%20+%20(end.getMonth()%20-%20start.getMonth());",
+        "prevChunkIds": []
+      },
+      "89": {
+        "chunkId": "98b6ff",
+        "hash": "4459ea6c",
+        "encoded": "const%20years%20=%20Math.floor(months%20/%2012);",
+        "prevChunkIds": []
+      },
+      "90": {
+        "chunkId": "98b6ff",
+        "hash": "9d5ddb35",
+        "encoded": "const%20remainingMonths%20=%20months%20%25%2012;",
+        "prevChunkIds": []
+      },
+      "92": {
+        "chunkId": "98b6ff",
+        "hash": "f56a5867",
+        "encoded": "if%20(years%20%3E%200%20&&%20remainingMonths%20%3E%200)%20%7B",
+        "prevChunkIds": []
+      },
+      "93": {
+        "chunkId": "98b6ff",
+        "hash": "8b07320e",
+        "encoded": "return%20%60$%7Byears%7Dy%20$%7BremainingMonths%7Dm%60;",
+        "prevChunkIds": []
+      },
+      "94": {
+        "chunkId": "98b6ff",
+        "hash": "3ddda3e5",
+        "encoded": "%7D%20else%20if%20(years%20%3E%200)%20%7B",
+        "prevChunkIds": []
+      },
+      "95": {
+        "chunkId": "98b6ff",
+        "hash": "c5a4ee1d",
+        "encoded": "return%20%60$%7Byears%7Dy%60;",
+        "prevChunkIds": []
+      },
+      "96": {
+        "chunkId": "98b6ff",
+        "hash": "315da9a1",
+        "encoded": "%7D%20else%20%7B",
+        "prevChunkIds": []
+      },
+      "97": {
+        "chunkId": "98b6ff",
+        "hash": "c66ca2e2",
+        "encoded": "return%20%60$%7BremainingMonths%7Dm%60;",
+        "prevChunkIds": []
+      },
+      "98": {
+        "chunkId": "98b6ff",
+        "hash": "998d938c",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "99": {
+        "chunkId": "98b6ff",
+        "hash": "1ada558b",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "101": {
+        "chunkId": "98b6ff",
+        "hash": "9c22cf21",
+        "encoded": "//%20Filter%20and%20sort%20projects",
+        "prevChunkIds": []
+      },
+      "102": {
+        "chunkId": "98b6ff",
+        "hash": "a4fd2463",
+        "encoded": "const%20filteredAndSortedProjects%20=%20useMemo(()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "103": {
+        "chunkId": "98b6ff",
+        "hash": "58383dee",
+        "encoded": "let%20filtered%20=%20projects.filter(project%20=%3E",
+        "prevChunkIds": []
+      },
+      "104": {
+        "chunkId": "98b6ff",
+        "hash": "cad30ff0",
+        "encoded": "project.name.toLowerCase().includes(searchTerm.toLowerCase())%20%7C%7C",
+        "prevChunkIds": []
+      },
+      "105": {
+        "chunkId": "98b6ff",
+        "hash": "1253d96b",
+        "encoded": "project.domain.toLowerCase().includes(searchTerm.toLowerCase())%20%7C%7C",
+        "prevChunkIds": []
+      },
+      "106": {
+        "chunkId": "98b6ff",
+        "hash": "ec2dabbe",
+        "encoded": "project.role.toLowerCase().includes(searchTerm.toLowerCase())%20%7C%7C",
+        "prevChunkIds": []
+      },
+      "107": {
+        "chunkId": "98b6ff",
+        "hash": "d27e3d03",
+        "encoded": "project.projectType.toLowerCase().includes(searchTerm.toLowerCase())%20%7C%7C",
+        "prevChunkIds": []
+      },
+      "108": {
+        "chunkId": "98b6ff",
+        "hash": "1c06826a",
+        "encoded": "getTechStackSummary(project.techStack).toLowerCase().includes(searchTerm.toLowerCase())",
+        "prevChunkIds": []
+      },
+      "109": {
+        "chunkId": "98b6ff",
+        "hash": "ae891e06",
+        "encoded": ");",
+        "prevChunkIds": []
+      },
+      "111": {
+        "chunkId": "98b6ff",
+        "hash": "059d765f",
+        "encoded": "filtered.sort((a,%20b)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "112": {
+        "chunkId": "98b6ff",
+        "hash": "3f52996e",
+        "encoded": "let%20aValue:%20any;",
+        "prevChunkIds": []
+      },
+      "113": {
+        "chunkId": "98b6ff",
+        "hash": "3cff76da",
+        "encoded": "let%20bValue:%20any;",
+        "prevChunkIds": []
+      },
+      "115": {
+        "chunkId": "98b6ff",
+        "hash": "8fdf8822",
+        "encoded": "switch%20(sortConfig.field)%20%7B",
+        "prevChunkIds": []
+      },
+      "116": {
+        "chunkId": "98b6ff",
+        "hash": "05ad34bc",
+        "encoded": "case%20'name':",
+        "prevChunkIds": []
+      },
+      "117": {
+        "chunkId": "98b6ff",
+        "hash": "8f7d63b0",
+        "encoded": "aValue%20=%20a.name.toLowerCase();",
+        "prevChunkIds": []
+      },
+      "118": {
+        "chunkId": "98b6ff",
+        "hash": "5ce1dea6",
+        "encoded": "bValue%20=%20b.name.toLowerCase();",
+        "prevChunkIds": []
+      },
+      "119": {
+        "chunkId": "98b6ff",
+        "hash": "a803b776",
+        "encoded": "break;",
+        "prevChunkIds": []
+      },
+      "120": {
+        "chunkId": "98b6ff",
+        "hash": "8715ae45",
+        "encoded": "case%20'domain':",
+        "prevChunkIds": []
+      },
+      "121": {
+        "chunkId": "98b6ff",
+        "hash": "bfded076",
+        "encoded": "aValue%20=%20a.domain.toLowerCase();",
+        "prevChunkIds": []
+      },
+      "122": {
+        "chunkId": "98b6ff",
+        "hash": "ad9ce8c4",
+        "encoded": "bValue%20=%20b.domain.toLowerCase();",
+        "prevChunkIds": []
+      },
+      "123": {
+        "chunkId": "98b6ff",
+        "hash": "15a2d0e0",
+        "encoded": "break;",
+        "prevChunkIds": []
+      },
+      "124": {
+        "chunkId": "98b6ff",
+        "hash": "aac04d07",
+        "encoded": "case%20'role':",
+        "prevChunkIds": []
+      },
+      "125": {
+        "chunkId": "98b6ff",
+        "hash": "84f2aa14",
+        "encoded": "aValue%20=%20a.role.toLowerCase();",
+        "prevChunkIds": []
+      },
+      "126": {
+        "chunkId": "98b6ff",
+        "hash": "fc4e79f1",
+        "encoded": "bValue%20=%20b.role.toLowerCase();",
+        "prevChunkIds": []
+      },
+      "127": {
+        "chunkId": "98b6ff",
+        "hash": "99f7d9c2",
+        "encoded": "break;",
+        "prevChunkIds": []
+      },
+      "128": {
+        "chunkId": "98b6ff",
+        "hash": "c6598aba",
+        "encoded": "case%20'projectType':",
+        "prevChunkIds": []
+      },
+      "129": {
+        "chunkId": "98b6ff",
+        "hash": "130bb146",
+        "encoded": "aValue%20=%20a.projectType.toLowerCase();",
+        "prevChunkIds": []
+      },
+      "130": {
+        "chunkId": "98b6ff",
+        "hash": "62a09dc8",
+        "encoded": "bValue%20=%20b.projectType.toLowerCase();",
+        "prevChunkIds": []
+      },
+      "131": {
+        "chunkId": "98b6ff",
+        "hash": "915a6b61",
+        "encoded": "break;",
+        "prevChunkIds": []
+      },
+      "132": {
+        "chunkId": "98b6ff",
+        "hash": "656c9348",
+        "encoded": "case%20'duration':",
+        "prevChunkIds": []
+      },
+      "133": {
+        "chunkId": "98b6ff",
+        "hash": "a4b5c4c2",
+        "encoded": "aValue%20=%20new%20Date(a.duration.start%20+%20'-01').getTime();",
+        "prevChunkIds": []
+      },
+      "134": {
+        "chunkId": "98b6ff",
+        "hash": "028b60ee",
+        "encoded": "bValue%20=%20new%20Date(b.duration.start%20+%20'-01').getTime();",
+        "prevChunkIds": []
+      },
+      "135": {
+        "chunkId": "98b6ff",
+        "hash": "fed6f383",
+        "encoded": "break;",
+        "prevChunkIds": []
+      },
+      "136": {
+        "chunkId": "98b6ff",
+        "hash": "c39fbcf0",
+        "encoded": "default:",
+        "prevChunkIds": []
+      },
+      "137": {
+        "chunkId": "98b6ff",
+        "hash": "ea150911",
+        "encoded": "aValue%20=%20a.name.toLowerCase();",
+        "prevChunkIds": []
+      },
+      "138": {
+        "chunkId": "98b6ff",
+        "hash": "ef2ce9b5",
+        "encoded": "bValue%20=%20b.name.toLowerCase();",
+        "prevChunkIds": []
+      },
+      "139": {
+        "chunkId": "98b6ff",
+        "hash": "8e724f24",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "141": {
+        "chunkId": "98b6ff",
+        "hash": "0dd5b79a",
+        "encoded": "if%20(aValue%20%3C%20bValue)%20%7B",
+        "prevChunkIds": []
+      },
+      "142": {
+        "chunkId": "98b6ff",
+        "hash": "435de378",
+        "encoded": "return%20sortConfig.direction%20===%20'asc'%20?%20-1%20:%201;",
+        "prevChunkIds": []
+      },
+      "143": {
+        "chunkId": "98b6ff",
+        "hash": "52c5d6be",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "144": {
+        "chunkId": "98b6ff",
+        "hash": "8e66f760",
+        "encoded": "if%20(aValue%20%3E%20bValue)%20%7B",
+        "prevChunkIds": []
+      },
+      "145": {
+        "chunkId": "98b6ff",
+        "hash": "2ff9605e",
+        "encoded": "return%20sortConfig.direction%20===%20'asc'%20?%201%20:%20-1;",
+        "prevChunkIds": []
+      },
+      "146": {
+        "chunkId": "98b6ff",
+        "hash": "2d25e64b",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "147": {
+        "chunkId": "98b6ff",
+        "hash": "1b847d89",
+        "encoded": "return%200;",
+        "prevChunkIds": []
+      },
+      "148": {
+        "chunkId": "98b6ff",
+        "hash": "2f343238",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "150": {
+        "chunkId": "98b6ff",
+        "hash": "d3d44e1f",
+        "encoded": "return%20filtered;",
+        "prevChunkIds": []
+      },
+      "151": {
+        "chunkId": "98b6ff",
+        "hash": "607ec521",
+        "encoded": "%7D,%20%5Bprojects,%20searchTerm,%20sortConfig%5D);",
+        "prevChunkIds": []
+      },
+      "153": {
+        "chunkId": "98b6ff",
+        "hash": "bcd6d055",
+        "encoded": "//%20Pagination",
+        "prevChunkIds": []
+      },
+      "154": {
+        "chunkId": "98b6ff",
+        "hash": "fe1b146c",
+        "encoded": "const%20totalPages%20=%20Math.ceil(filteredAndSortedProjects.length%20/%20itemsPerPage);",
+        "prevChunkIds": []
+      },
+      "155": {
+        "chunkId": "98b6ff",
+        "hash": "d1cd88e7",
+        "encoded": "const%20startIndex%20=%20(currentPage%20-%201)%20*%20itemsPerPage;",
+        "prevChunkIds": []
+      },
+      "156": {
+        "chunkId": "98b6ff",
+        "hash": "5d5b40bf",
+        "encoded": "const%20endIndex%20=%20startIndex%20+%20itemsPerPage;",
+        "prevChunkIds": []
+      },
+      "157": {
+        "chunkId": "98b6ff",
+        "hash": "602611c5",
+        "encoded": "const%20currentProjects%20=%20filteredAndSortedProjects.slice(startIndex,%20endIndex);",
+        "prevChunkIds": []
+      },
+      "159": {
+        "chunkId": "98b6ff",
+        "hash": "4733f993",
+        "encoded": "//%20Sort%20handler",
+        "prevChunkIds": []
+      },
+      "160": {
+        "chunkId": "98b6ff",
+        "hash": "02aebae0",
+        "encoded": "const%20handleSort%20=%20(field:%20SortField)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "161": {
+        "chunkId": "98b6ff",
+        "hash": "c94090d6",
+        "encoded": "setSortConfig(prev%20=%3E%20(%7B",
+        "prevChunkIds": []
+      },
+      "162": {
+        "chunkId": "98b6ff",
+        "hash": "54316f23",
+        "encoded": "field,",
+        "prevChunkIds": []
+      },
+      "163": {
+        "chunkId": "98b6ff",
+        "hash": "24f3e7d8",
+        "encoded": "direction:%20prev.field%20===%20field%20&&%20prev.direction%20===%20'asc'%20?%20'desc'%20:%20'asc'",
+        "prevChunkIds": []
+      },
+      "164": {
+        "chunkId": "98b6ff",
+        "hash": "53803af7",
+        "encoded": "%7D));",
+        "prevChunkIds": []
+      },
+      "165": {
+        "chunkId": "98b6ff",
+        "hash": "81f69507",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "167": {
+        "chunkId": "98b6ff",
+        "hash": "3e6539dd",
+        "encoded": "//%20Modal%20handlers",
+        "prevChunkIds": []
+      },
+      "168": {
+        "chunkId": "98b6ff",
+        "hash": "f80cf994",
+        "encoded": "const%20openModal%20=%20(project:%20Project)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "169": {
+        "chunkId": "98b6ff",
+        "hash": "5f3f501d",
+        "encoded": "setSelectedProject(project);",
+        "prevChunkIds": []
+      },
+      "170": {
+        "chunkId": "98b6ff",
+        "hash": "d73c16f0",
+        "encoded": "setIsModalOpen(true);",
+        "prevChunkIds": []
+      },
+      "171": {
+        "chunkId": "98b6ff",
+        "hash": "10254b7d",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "173": {
+        "chunkId": "98b6ff",
+        "hash": "ed714664",
+        "encoded": "const%20closeModal%20=%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "174": {
+        "chunkId": "98b6ff",
+        "hash": "eae217c1",
+        "encoded": "setIsModalOpen(false);",
+        "prevChunkIds": []
+      },
+      "175": {
+        "chunkId": "98b6ff",
+        "hash": "dae85c14",
+        "encoded": "setSelectedProject(null);",
+        "prevChunkIds": []
+      },
+      "176": {
+        "chunkId": "98b6ff",
+        "hash": "f1a6ccf6",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "178": {
+        "chunkId": "98b6ff",
+        "hash": "bcfbf5d8",
+        "encoded": "//%20Render%20sort%20icon",
+        "prevChunkIds": []
+      },
+      "179": {
+        "chunkId": "98b6ff",
+        "hash": "9e5dc624",
+        "encoded": "const%20renderSortIcon%20=%20(field:%20SortField)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "180": {
+        "chunkId": "98b6ff",
+        "hash": "5743552c",
+        "encoded": "if%20(sortConfig.field%20!==%20field)%20%7B",
+        "prevChunkIds": []
+      },
+      "181": {
+        "chunkId": "98b6ff",
+        "hash": "706280f1",
+        "encoded": "return%20%3CChevronUp%20className=%22w-4%20h-4%20text-gray-400%22%20/%3E;",
+        "prevChunkIds": []
+      },
+      "182": {
+        "chunkId": "98b6ff",
+        "hash": "ad066da5",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "183": {
+        "chunkId": "98b6ff",
+        "hash": "ae325311",
+        "encoded": "return%20sortConfig.direction%20===%20'asc'%20?",
+        "prevChunkIds": []
+      },
+      "184": {
+        "chunkId": "98b6ff",
+        "hash": "3db37334",
+        "encoded": "%3CChevronUp%20className=%22w-4%20h-4%20text-blue-600%22%20/%3E%20:",
+        "prevChunkIds": []
+      },
+      "185": {
+        "chunkId": "98b6ff",
+        "hash": "d7cb24e4",
+        "encoded": "%3CChevronDown%20className=%22w-4%20h-4%20text-blue-600%22%20/%3E;",
+        "prevChunkIds": []
+      },
+      "186": {
+        "chunkId": "98b6ff",
+        "hash": "215a471f",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "188": {
+        "chunkId": "98b6ff",
+        "hash": "b2f7b745",
+        "encoded": "return%20(",
+        "prevChunkIds": []
+      },
+      "189": {
+        "chunkId": "98b6ff",
+        "hash": "65104311",
+        "encoded": "%3Cdiv%20className=%22min-h-screen%20bg-gradient-to-br%20from-gray-50%20to-gray-100%20dark:from-gray-900%20dark:to-gray-800%20py-12%20px-4%22%3E",
+        "prevChunkIds": []
+      },
+      "190": {
+        "chunkId": "98b6ff",
+        "hash": "92e5f648",
+        "encoded": "%3Cdiv%20className=%22max-w-7xl%20mx-auto%22%3E",
+        "prevChunkIds": []
+      },
+      "191": {
+        "chunkId": "98b6ff",
+        "hash": "631455b7",
+        "encoded": "%7B/*%20Header%20*/%7D",
+        "prevChunkIds": []
+      },
+      "192": {
+        "chunkId": "98b6ff",
+        "hash": "598cd60b",
+        "encoded": "%3Cdiv%20className=%22text-center%20mb-12%22%3E",
+        "prevChunkIds": []
+      },
+      "193": {
+        "chunkId": "98b6ff",
+        "hash": "ba077f91",
+        "encoded": "%3Ch1%20className=%22text-4xl%20font-bold%20text-gray-900%20dark:text-white%20mb-4%22%3E",
+        "prevChunkIds": []
+      },
+      "194": {
+        "chunkId": "98b6ff",
+        "hash": "35ab5476",
+        "encoded": "Project%20Portfolio",
+        "prevChunkIds": []
+      },
+      "195": {
+        "chunkId": "98b6ff",
+        "hash": "0d2ccfd0",
+        "encoded": "%3C/h1%3E",
+        "prevChunkIds": []
+      },
+      "196": {
+        "chunkId": "98b6ff",
+        "hash": "3552de4e",
+        "encoded": "%3Cp%20className=%22text-lg%20text-gray-600%20dark:text-gray-300%20max-w-2xl%20mx-auto%22%3E",
+        "prevChunkIds": []
+      },
+      "197": {
+        "chunkId": "98b6ff",
+        "hash": "750bd93e",
+        "encoded": "Explore%20my%20professional%20projects%20with%20detailed%20insights%20into%20technologies,",
+        "prevChunkIds": []
+      },
+      "198": {
+        "chunkId": "98b6ff",
+        "hash": "3efa5f0a",
+        "encoded": "responsibilities,%20and%20impact%20delivered.",
+        "prevChunkIds": []
+      },
+      "199": {
+        "chunkId": "98b6ff",
+        "hash": "2a57b080",
+        "encoded": "%3C/p%3E",
+        "prevChunkIds": []
+      },
+      "200": {
+        "chunkId": "98b6ff",
+        "hash": "bbc84eab",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "202": {
+        "chunkId": "98b6ff",
+        "hash": "1ba6e288",
+        "encoded": "%7B/*%20Search%20and%20Controls%20*/%7D",
+        "prevChunkIds": []
+      },
+      "203": {
+        "chunkId": "98b6ff",
+        "hash": "789ef770",
+        "encoded": "%3CCard%20className=%22mb-8%20p-6%22%3E",
+        "prevChunkIds": []
+      },
+      "204": {
+        "chunkId": "98b6ff",
+        "hash": "de4d54c2",
+        "encoded": "%3Cdiv%20className=%22flex%20flex-col%20md:flex-row%20gap-4%20items-center%20justify-between%22%3E",
+        "prevChunkIds": []
+      },
+      "205": {
+        "chunkId": "98b6ff",
+        "hash": "472872ec",
+        "encoded": "%3Cdiv%20className=%22relative%20flex-1%20max-w-md%22%3E",
+        "prevChunkIds": []
+      },
+      "206": {
+        "chunkId": "98b6ff",
+        "hash": "9a557066",
+        "encoded": "%3CSearch%20className=%22absolute%20left-3%20top-1/2%20transform%20-translate-y-1/2%20text-gray-400%20w-4%20h-4%22%20/%3E",
+        "prevChunkIds": []
+      },
+      "207": {
+        "chunkId": "98b6ff",
+        "hash": "e755af25",
+        "encoded": "%3Cinput",
+        "prevChunkIds": []
+      },
+      "208": {
+        "chunkId": "98b6ff",
+        "hash": "7a590a16",
+        "encoded": "type=%22text%22",
+        "prevChunkIds": []
+      },
+      "209": {
+        "chunkId": "98b6ff",
+        "hash": "0b68cd54",
+        "encoded": "placeholder=%22Search%20projects...%22",
+        "prevChunkIds": []
+      },
+      "210": {
+        "chunkId": "98b6ff",
+        "hash": "c60c8c64",
+        "encoded": "value=%7BsearchTerm%7D",
+        "prevChunkIds": []
+      },
+      "211": {
+        "chunkId": "98b6ff",
+        "hash": "dc41d1c7",
+        "encoded": "onChange=%7B(e)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "212": {
+        "chunkId": "98b6ff",
+        "hash": "531684ce",
+        "encoded": "setSearchTerm(e.target.value);",
+        "prevChunkIds": []
+      },
+      "213": {
+        "chunkId": "98b6ff",
+        "hash": "517581ff",
+        "encoded": "setCurrentPage(1);",
+        "prevChunkIds": []
+      },
+      "214": {
+        "chunkId": "98b6ff",
+        "hash": "8435c384",
+        "encoded": "%7D%7D",
+        "prevChunkIds": []
+      },
+      "215": {
+        "chunkId": "98b6ff",
+        "hash": "4ef7cba3",
+        "encoded": "className=%22w-full%20pl-10%20pr-4%20py-2%20border%20border-gray-300%20rounded-lg%20focus:ring-2%20focus:ring-blue-500%20focus:border-transparent%20dark:border-gray-600%20dark:bg-gray-700%20dark:text-white%22",
+        "prevChunkIds": []
+      },
+      "216": {
+        "chunkId": "98b6ff",
+        "hash": "b5047dd6",
+        "encoded": "/%3E",
+        "prevChunkIds": []
+      },
+      "217": {
+        "chunkId": "98b6ff",
+        "hash": "e3f46116",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "218": {
+        "chunkId": "98b6ff",
+        "hash": "e214f23e",
+        "encoded": "%3Cdiv%20className=%22text-sm%20text-gray-600%20dark:text-gray-300%22%3E",
+        "prevChunkIds": []
+      },
+      "219": {
+        "chunkId": "98b6ff",
+        "hash": "4de861db",
+        "encoded": "%7BfilteredAndSortedProjects.length%7D%20project%7BfilteredAndSortedProjects.length%20!==%201%20?%20's'%20:%20''%7D%20found",
+        "prevChunkIds": []
+      },
+      "220": {
+        "chunkId": "98b6ff",
+        "hash": "54629013",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "221": {
+        "chunkId": "98b6ff",
+        "hash": "26e5dd15",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "222": {
+        "chunkId": "98b6ff",
+        "hash": "9637f84a",
+        "encoded": "%3C/Card%3E",
+        "prevChunkIds": []
+      },
+      "224": {
+        "chunkId": "98b6ff",
+        "hash": "29cdc0ea",
+        "encoded": "%7B/*%20Table%20*/%7D",
+        "prevChunkIds": []
+      },
+      "225": {
+        "chunkId": "98b6ff",
+        "hash": "e565066e",
+        "encoded": "%3CCard%20className=%22mb-8%20overflow-hidden%22%3E",
+        "prevChunkIds": []
+      },
+      "226": {
+        "chunkId": "98b6ff",
+        "hash": "55322736",
+        "encoded": "%3Cdiv%20className=%22overflow-x-auto%22%3E",
+        "prevChunkIds": []
+      },
+      "227": {
+        "chunkId": "98b6ff",
+        "hash": "e712a97e",
+        "encoded": "%3Ctable%20className=%22w-full%22%3E",
+        "prevChunkIds": []
+      },
+      "228": {
+        "chunkId": "98b6ff",
+        "hash": "04ce33db",
+        "encoded": "%3Cthead%20className=%22bg-gray-50%20dark:bg-gray-800%22%3E",
+        "prevChunkIds": []
+      },
+      "229": {
+        "chunkId": "98b6ff",
+        "hash": "17c2eddb",
+        "encoded": "%3Ctr%3E",
+        "prevChunkIds": []
+      },
+      "230": {
+        "chunkId": "98b6ff",
+        "hash": "a84202e7",
+        "encoded": "%3Cth",
+        "prevChunkIds": []
+      },
+      "231": {
+        "chunkId": "98b6ff",
+        "hash": "5b1f8498",
+        "encoded": "className=%22px-6%20py-4%20text-left%20text-xs%20font-medium%20text-gray-500%20dark:text-gray-300%20uppercase%20tracking-wider%20cursor-pointer%20hover:bg-gray-100%20dark:hover:bg-gray-700%22",
+        "prevChunkIds": []
+      },
+      "232": {
+        "chunkId": "98b6ff",
+        "hash": "40b73f25",
+        "encoded": "onClick=%7B()%20=%3E%20handleSort('name')%7D",
+        "prevChunkIds": []
+      },
+      "233": {
+        "chunkId": "98b6ff",
+        "hash": "83d0941a",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "234": {
+        "chunkId": "98b6ff",
+        "hash": "badf256c",
+        "encoded": "%3Cdiv%20className=%22flex%20items-center%20space-x-1%22%3E",
+        "prevChunkIds": []
+      },
+      "235": {
+        "chunkId": "98b6ff",
+        "hash": "d136a81b",
+        "encoded": "%3Cspan%3EProject%20Name%3C/span%3E",
+        "prevChunkIds": []
+      },
+      "236": {
+        "chunkId": "98b6ff",
+        "hash": "4973ad8e",
+        "encoded": "%7BrenderSortIcon('name')%7D",
+        "prevChunkIds": []
+      },
+      "237": {
+        "chunkId": "98b6ff",
+        "hash": "6a8f30d0",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "238": {
+        "chunkId": "98b6ff",
+        "hash": "98accebd",
+        "encoded": "%3C/th%3E",
+        "prevChunkIds": []
+      },
+      "239": {
+        "chunkId": "98b6ff",
+        "hash": "92fbd12a",
+        "encoded": "%3Cth",
+        "prevChunkIds": []
+      },
+      "240": {
+        "chunkId": "98b6ff",
+        "hash": "17173325",
+        "encoded": "className=%22px-6%20py-4%20text-left%20text-xs%20font-medium%20text-gray-500%20dark:text-gray-300%20uppercase%20tracking-wider%20cursor-pointer%20hover:bg-gray-100%20dark:hover:bg-gray-700%22",
+        "prevChunkIds": []
+      },
+      "241": {
+        "chunkId": "98b6ff",
+        "hash": "1f6e4f32",
+        "encoded": "onClick=%7B()%20=%3E%20handleSort('domain')%7D",
+        "prevChunkIds": []
+      },
+      "242": {
+        "chunkId": "98b6ff",
+        "hash": "b2466b4f",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "243": {
+        "chunkId": "98b6ff",
+        "hash": "f430b09a",
+        "encoded": "%3Cdiv%20className=%22flex%20items-center%20space-x-1%22%3E",
+        "prevChunkIds": []
+      },
+      "244": {
+        "chunkId": "98b6ff",
+        "hash": "ffaa451d",
+        "encoded": "%3Cspan%3EDomain%3C/span%3E",
+        "prevChunkIds": []
+      },
+      "245": {
+        "chunkId": "98b6ff",
+        "hash": "ec65b115",
+        "encoded": "%7BrenderSortIcon('domain')%7D",
+        "prevChunkIds": []
+      },
+      "246": {
+        "chunkId": "98b6ff",
+        "hash": "9d41698b",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "247": {
+        "chunkId": "98b6ff",
+        "hash": "6f3e84bc",
+        "encoded": "%3C/th%3E",
+        "prevChunkIds": []
+      },
+      "248": {
+        "chunkId": "98b6ff",
+        "hash": "bfe43e1f",
+        "encoded": "%3Cth%20className=%22px-6%20py-4%20text-left%20text-xs%20font-medium%20text-gray-500%20dark:text-gray-300%20uppercase%20tracking-wider%22%3E",
+        "prevChunkIds": []
+      },
+      "249": {
+        "chunkId": "98b6ff",
+        "hash": "d304ee41",
+        "encoded": "Tech%20Stack",
+        "prevChunkIds": []
+      },
+      "250": {
+        "chunkId": "98b6ff",
+        "hash": "41dd97d0",
+        "encoded": "%3C/th%3E",
+        "prevChunkIds": []
+      },
+      "251": {
+        "chunkId": "98b6ff",
+        "hash": "a484d97f",
+        "encoded": "%3Cth",
+        "prevChunkIds": []
+      },
+      "252": {
+        "chunkId": "98b6ff",
+        "hash": "9d599eb3",
+        "encoded": "className=%22px-6%20py-4%20text-left%20text-xs%20font-medium%20text-gray-500%20dark:text-gray-300%20uppercase%20tracking-wider%20cursor-pointer%20hover:bg-gray-100%20dark:hover:bg-gray-700%22",
+        "prevChunkIds": []
+      },
+      "253": {
+        "chunkId": "98b6ff",
+        "hash": "c68da797",
+        "encoded": "onClick=%7B()%20=%3E%20handleSort('role')%7D",
+        "prevChunkIds": []
+      },
+      "254": {
+        "chunkId": "98b6ff",
+        "hash": "2eead1f5",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "255": {
+        "chunkId": "98b6ff",
+        "hash": "ec2f3b3d",
+        "encoded": "%3Cdiv%20className=%22flex%20items-center%20space-x-1%22%3E",
+        "prevChunkIds": []
+      },
+      "256": {
+        "chunkId": "98b6ff",
+        "hash": "16a30c68",
+        "encoded": "%3Cspan%3ERole%3C/span%3E",
+        "prevChunkIds": []
+      },
+      "257": {
+        "chunkId": "98b6ff",
+        "hash": "3956eb02",
+        "encoded": "%7BrenderSortIcon('role')%7D",
+        "prevChunkIds": []
+      },
+      "258": {
+        "chunkId": "98b6ff",
+        "hash": "8f6fb8db",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "259": {
+        "chunkId": "98b6ff",
+        "hash": "b24365c2",
+        "encoded": "%3C/th%3E",
+        "prevChunkIds": []
+      },
+      "260": {
+        "chunkId": "98b6ff",
+        "hash": "2298126c",
+        "encoded": "%3Cth",
+        "prevChunkIds": []
+      },
+      "261": {
+        "chunkId": "98b6ff",
+        "hash": "116c6163",
+        "encoded": "className=%22px-6%20py-4%20text-left%20text-xs%20font-medium%20text-gray-500%20dark:text-gray-300%20uppercase%20tracking-wider%20cursor-pointer%20hover:bg-gray-100%20dark:hover:bg-gray-700%22",
+        "prevChunkIds": []
+      },
+      "262": {
+        "chunkId": "98b6ff",
+        "hash": "22462503",
+        "encoded": "onClick=%7B()%20=%3E%20handleSort('projectType')%7D",
+        "prevChunkIds": []
+      },
+      "263": {
+        "chunkId": "98b6ff",
+        "hash": "85b67e39",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "264": {
+        "chunkId": "98b6ff",
+        "hash": "bf4b4c4e",
+        "encoded": "%3Cdiv%20className=%22flex%20items-center%20space-x-1%22%3E",
+        "prevChunkIds": []
+      },
+      "265": {
+        "chunkId": "98b6ff",
+        "hash": "316be07e",
+        "encoded": "%3Cspan%3EType%3C/span%3E",
+        "prevChunkIds": []
+      },
+      "266": {
+        "chunkId": "98b6ff",
+        "hash": "ebb23b0b",
+        "encoded": "%7BrenderSortIcon('projectType')%7D",
+        "prevChunkIds": []
+      },
+      "267": {
+        "chunkId": "98b6ff",
+        "hash": "f1348fb2",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "268": {
+        "chunkId": "98b6ff",
+        "hash": "eddc4504",
+        "encoded": "%3C/th%3E",
+        "prevChunkIds": []
+      },
+      "269": {
+        "chunkId": "98b6ff",
+        "hash": "597cb7dd",
+        "encoded": "%3Cth",
+        "prevChunkIds": []
+      },
+      "270": {
+        "chunkId": "98b6ff",
+        "hash": "2bf1bc80",
+        "encoded": "className=%22px-6%20py-4%20text-left%20text-xs%20font-medium%20text-gray-500%20dark:text-gray-300%20uppercase%20tracking-wider%20cursor-pointer%20hover:bg-gray-100%20dark:hover:bg-gray-700%22",
+        "prevChunkIds": []
+      },
+      "271": {
+        "chunkId": "98b6ff",
+        "hash": "3b155671",
+        "encoded": "onClick=%7B()%20=%3E%20handleSort('duration')%7D",
+        "prevChunkIds": []
+      },
+      "272": {
+        "chunkId": "98b6ff",
+        "hash": "24442892",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "273": {
+        "chunkId": "98b6ff",
+        "hash": "e42eddd4",
+        "encoded": "%3Cdiv%20className=%22flex%20items-center%20space-x-1%22%3E",
+        "prevChunkIds": []
+      },
+      "274": {
+        "chunkId": "98b6ff",
+        "hash": "21be0b41",
+        "encoded": "%3Cspan%3EDuration%3C/span%3E",
+        "prevChunkIds": []
+      },
+      "275": {
+        "chunkId": "98b6ff",
+        "hash": "c8d2ae28",
+        "encoded": "%7BrenderSortIcon('duration')%7D",
+        "prevChunkIds": []
+      },
+      "276": {
+        "chunkId": "98b6ff",
+        "hash": "2c73cf7f",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "277": {
+        "chunkId": "98b6ff",
+        "hash": "d1f71ed2",
+        "encoded": "%3C/th%3E",
+        "prevChunkIds": []
+      },
+      "278": {
+        "chunkId": "98b6ff",
+        "hash": "d8f952b1",
+        "encoded": "%3C/tr%3E",
+        "prevChunkIds": []
+      },
+      "279": {
+        "chunkId": "98b6ff",
+        "hash": "7477d258",
+        "encoded": "%3C/thead%3E",
+        "prevChunkIds": []
+      },
+      "280": {
+        "chunkId": "98b6ff",
+        "hash": "0682ea7e",
+        "encoded": "%3Ctbody%20className=%22bg-white%20dark:bg-gray-900%20divide-y%20divide-gray-200%20dark:divide-gray-700%22%3E",
+        "prevChunkIds": []
+      },
+      "281": {
+        "chunkId": "98b6ff",
+        "hash": "94b95929",
+        "encoded": "%7BcurrentProjects.map((project)%20=%3E%20(",
+        "prevChunkIds": []
+      },
+      "282": {
+        "chunkId": "98b6ff",
+        "hash": "617cdc50",
+        "encoded": "%3Ctr",
+        "prevChunkIds": []
+      },
+      "283": {
+        "chunkId": "98b6ff",
+        "hash": "f71272fe",
+        "encoded": "key=%7Bproject.id%7D",
+        "prevChunkIds": []
+      },
+      "284": {
+        "chunkId": "98b6ff",
+        "hash": "858d2651",
+        "encoded": "className=%22hover:bg-gray-50%20dark:hover:bg-gray-800%20cursor-pointer%20transition-colors%22",
+        "prevChunkIds": []
+      },
+      "285": {
+        "chunkId": "98b6ff",
+        "hash": "9c6ed7a4",
+        "encoded": "onClick=%7B()%20=%3E%20openModal(project)%7D",
+        "prevChunkIds": []
+      },
+      "286": {
+        "chunkId": "98b6ff",
+        "hash": "7a6efa33",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "287": {
+        "chunkId": "98b6ff",
+        "hash": "e9073fc0",
+        "encoded": "%3Ctd%20className=%22px-6%20py-4%20whitespace-nowrap%22%3E",
+        "prevChunkIds": []
+      },
+      "288": {
+        "chunkId": "98b6ff",
+        "hash": "738f0b17",
+        "encoded": "%3Cdiv%20className=%22text-sm%20font-medium%20text-gray-900%20dark:text-white%22%3E",
+        "prevChunkIds": []
+      },
+      "289": {
+        "chunkId": "98b6ff",
+        "hash": "b26be7a0",
+        "encoded": "%7Bproject.name%7D",
+        "prevChunkIds": []
+      },
+      "290": {
+        "chunkId": "98b6ff",
+        "hash": "dde1bc8c",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "291": {
+        "chunkId": "98b6ff",
+        "hash": "d978c618",
+        "encoded": "%3C/td%3E",
+        "prevChunkIds": []
+      },
+      "292": {
+        "chunkId": "98b6ff",
+        "hash": "48502f08",
+        "encoded": "%3Ctd%20className=%22px-6%20py-4%20whitespace-nowrap%22%3E",
+        "prevChunkIds": []
+      },
+      "293": {
+        "chunkId": "98b6ff",
+        "hash": "8928d68f",
+        "encoded": "%3Cdiv%20className=%22text-sm%20text-gray-900%20dark:text-gray-300%22%3E",
+        "prevChunkIds": []
+      },
+      "294": {
+        "chunkId": "98b6ff",
+        "hash": "c6131dc7",
+        "encoded": "%7Bproject.domain%7D",
+        "prevChunkIds": []
+      },
+      "295": {
+        "chunkId": "98b6ff",
+        "hash": "3e86d180",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "296": {
+        "chunkId": "98b6ff",
+        "hash": "2af1a162",
+        "encoded": "%3C/td%3E",
+        "prevChunkIds": []
+      },
+      "297": {
+        "chunkId": "98b6ff",
+        "hash": "8deff1a3",
+        "encoded": "%3Ctd%20className=%22px-6%20py-4%22%3E",
+        "prevChunkIds": []
+      },
+      "298": {
+        "chunkId": "98b6ff",
+        "hash": "ccb94a8b",
+        "encoded": "%3Cdiv%20className=%22text-sm%20text-gray-900%20dark:text-gray-300%22%3E",
+        "prevChunkIds": []
+      },
+      "299": {
+        "chunkId": "98b6ff",
+        "hash": "672fca17",
+        "encoded": "%7BgetTechStackSummary(project.techStack)%7D",
+        "prevChunkIds": []
+      },
+      "300": {
+        "chunkId": "98b6ff",
+        "hash": "0a874113",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "301": {
+        "chunkId": "98b6ff",
+        "hash": "9b403e6a",
+        "encoded": "%3C/td%3E",
+        "prevChunkIds": []
+      },
+      "302": {
+        "chunkId": "98b6ff",
+        "hash": "3cb39dc3",
+        "encoded": "%3Ctd%20className=%22px-6%20py-4%20whitespace-nowrap%22%3E",
+        "prevChunkIds": []
+      },
+      "303": {
+        "chunkId": "98b6ff",
+        "hash": "369968bc",
+        "encoded": "%3Cdiv%20className=%22text-sm%20text-gray-900%20dark:text-gray-300%22%3E",
+        "prevChunkIds": []
+      },
+      "304": {
+        "chunkId": "98b6ff",
+        "hash": "c99076cd",
+        "encoded": "%7Bproject.role%7D",
+        "prevChunkIds": []
+      },
+      "305": {
+        "chunkId": "98b6ff",
+        "hash": "947a6b32",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "306": {
+        "chunkId": "98b6ff",
+        "hash": "327d993d",
+        "encoded": "%3C/td%3E",
+        "prevChunkIds": []
+      },
+      "307": {
+        "chunkId": "98b6ff",
+        "hash": "0fd9508e",
+        "encoded": "%3Ctd%20className=%22px-6%20py-4%20whitespace-nowrap%22%3E",
+        "prevChunkIds": []
+      },
+      "308": {
+        "chunkId": "98b6ff",
+        "hash": "c7d3575f",
+        "encoded": "%3CBadge",
+        "prevChunkIds": []
+      },
+      "309": {
+        "chunkId": "98b6ff",
+        "hash": "ec105f3a",
+        "encoded": "variant=%7Bproject.projectType%20===%20'Internal'%20?%20'default'%20:%20'secondary'%7D",
+        "prevChunkIds": []
+      },
+      "310": {
+        "chunkId": "98b6ff",
+        "hash": "ac9b0a9d",
+        "encoded": "className=%22text-xs%22",
+        "prevChunkIds": []
+      },
+      "311": {
+        "chunkId": "98b6ff",
+        "hash": "43c219bf",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "312": {
+        "chunkId": "98b6ff",
+        "hash": "7bd2ac7a",
+        "encoded": "%7Bproject.projectType%7D",
+        "prevChunkIds": []
+      },
+      "313": {
+        "chunkId": "98b6ff",
+        "hash": "bd235e61",
+        "encoded": "%3C/Badge%3E",
+        "prevChunkIds": []
+      },
+      "314": {
+        "chunkId": "98b6ff",
+        "hash": "9a29a1f4",
+        "encoded": "%3C/td%3E",
+        "prevChunkIds": []
+      },
+      "315": {
+        "chunkId": "98b6ff",
+        "hash": "84abb01b",
+        "encoded": "%3Ctd%20className=%22px-6%20py-4%20whitespace-nowrap%22%3E",
+        "prevChunkIds": []
+      },
+      "316": {
+        "chunkId": "98b6ff",
+        "hash": "3cafa8e3",
+        "encoded": "%3Cdiv%20className=%22text-sm%20text-gray-900%20dark:text-gray-300%22%3E",
+        "prevChunkIds": []
+      },
+      "317": {
+        "chunkId": "98b6ff",
+        "hash": "557bf0d0",
+        "encoded": "%7BformatDuration(project.duration)%7D",
+        "prevChunkIds": []
+      },
+      "318": {
+        "chunkId": "98b6ff",
+        "hash": "ca7b5946",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "319": {
+        "chunkId": "98b6ff",
+        "hash": "ba8466db",
+        "encoded": "%3C/td%3E",
+        "prevChunkIds": []
+      },
+      "320": {
+        "chunkId": "98b6ff",
+        "hash": "a1d1ce50",
+        "encoded": "%3C/tr%3E",
+        "prevChunkIds": []
+      },
+      "321": {
+        "chunkId": "98b6ff",
+        "hash": "0dcf78ef",
+        "encoded": "))%7D",
+        "prevChunkIds": []
+      },
+      "322": {
+        "chunkId": "98b6ff",
+        "hash": "68219195",
+        "encoded": "%3C/tbody%3E",
+        "prevChunkIds": []
+      },
+      "323": {
+        "chunkId": "98b6ff",
+        "hash": "9640fed8",
+        "encoded": "%3C/table%3E",
+        "prevChunkIds": []
+      },
+      "324": {
+        "chunkId": "98b6ff",
+        "hash": "3883f1f8",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "325": {
+        "chunkId": "98b6ff",
+        "hash": "8f9583dd",
+        "encoded": "%3C/Card%3E",
+        "prevChunkIds": []
+      },
+      "327": {
+        "chunkId": "98b6ff",
+        "hash": "117d5bc3",
+        "encoded": "%7B/*%20Pagination%20*/%7D",
+        "prevChunkIds": []
+      },
+      "328": {
+        "chunkId": "98b6ff",
+        "hash": "c6d4ab55",
+        "encoded": "%7BtotalPages%20%3E%201%20&&%20(",
+        "prevChunkIds": []
+      },
+      "329": {
+        "chunkId": "98b6ff",
+        "hash": "5d61b451",
+        "encoded": "%3CCard%20className=%22p-4%22%3E",
+        "prevChunkIds": []
+      },
+      "330": {
+        "chunkId": "98b6ff",
+        "hash": "e971002a",
+        "encoded": "%3Cdiv%20className=%22flex%20items-center%20justify-between%22%3E",
+        "prevChunkIds": []
+      },
+      "331": {
+        "chunkId": "98b6ff",
+        "hash": "5de9908b",
+        "encoded": "%3Cdiv%20className=%22text-sm%20text-gray-600%20dark:text-gray-300%22%3E",
+        "prevChunkIds": []
+      },
+      "332": {
+        "chunkId": "98b6ff",
+        "hash": "15550da8",
+        "encoded": "Showing%20%7BstartIndex%20+%201%7D%20to%20%7BMath.min(endIndex,%20filteredAndSortedProjects.length)%7D%20of%20%7BfilteredAndSortedProjects.length%7D%20results",
+        "prevChunkIds": []
+      },
+      "333": {
+        "chunkId": "98b6ff",
+        "hash": "f05913d6",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "334": {
+        "chunkId": "98b6ff",
+        "hash": "d315b75e",
+        "encoded": "%3Cdiv%20className=%22flex%20space-x-2%22%3E",
+        "prevChunkIds": []
+      },
+      "335": {
+        "chunkId": "98b6ff",
+        "hash": "948bdae3",
+        "encoded": "%3CButton",
+        "prevChunkIds": []
+      },
+      "336": {
+        "chunkId": "98b6ff",
+        "hash": "b67d18ce",
+        "encoded": "variant=%22outline%22",
+        "prevChunkIds": []
+      },
+      "337": {
+        "chunkId": "98b6ff",
+        "hash": "5944d5de",
+        "encoded": "size=%22sm%22",
+        "prevChunkIds": []
+      },
+      "338": {
+        "chunkId": "98b6ff",
+        "hash": "31867876",
+        "encoded": "onClick=%7B()%20=%3E%20setCurrentPage(prev%20=%3E%20Math.max(prev%20-%201,%201))%7D",
+        "prevChunkIds": []
+      },
+      "339": {
+        "chunkId": "98b6ff",
+        "hash": "d5e51e1f",
+        "encoded": "disabled=%7BcurrentPage%20===%201%7D",
+        "prevChunkIds": []
+      },
+      "340": {
+        "chunkId": "98b6ff",
+        "hash": "5c49f7c5",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "341": {
+        "chunkId": "98b6ff",
+        "hash": "e2145267",
+        "encoded": "Previous",
+        "prevChunkIds": []
+      },
+      "342": {
+        "chunkId": "98b6ff",
+        "hash": "ffbbd6fa",
+        "encoded": "%3C/Button%3E",
+        "prevChunkIds": []
+      },
+      "344": {
+        "chunkId": "98b6ff",
+        "hash": "94f3a3dc",
+        "encoded": "%7BArray.from(%7B%20length:%20totalPages%20%7D,%20(_,%20i)%20=%3E%20i%20+%201).map(page%20=%3E%20(",
+        "prevChunkIds": []
+      },
+      "345": {
+        "chunkId": "98b6ff",
+        "hash": "6d6eca59",
+        "encoded": "%3CButton",
+        "prevChunkIds": []
+      },
+      "346": {
+        "chunkId": "98b6ff",
+        "hash": "12460a25",
+        "encoded": "key=%7Bpage%7D",
+        "prevChunkIds": []
+      },
+      "347": {
+        "chunkId": "98b6ff",
+        "hash": "22db91fc",
+        "encoded": "variant=%7BcurrentPage%20===%20page%20?%20%22default%22%20:%20%22outline%22%7D",
+        "prevChunkIds": []
+      },
+      "348": {
+        "chunkId": "98b6ff",
+        "hash": "7d57c66c",
+        "encoded": "size=%22sm%22",
+        "prevChunkIds": []
+      },
+      "349": {
+        "chunkId": "98b6ff",
+        "hash": "bac1c844",
+        "encoded": "onClick=%7B()%20=%3E%20setCurrentPage(page)%7D",
+        "prevChunkIds": []
+      },
+      "350": {
+        "chunkId": "98b6ff",
+        "hash": "70922c6b",
+        "encoded": "className=%22min-w-%5B2.5rem%5D%22",
+        "prevChunkIds": []
+      },
+      "351": {
+        "chunkId": "98b6ff",
+        "hash": "f94b1ce7",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "352": {
+        "chunkId": "98b6ff",
+        "hash": "48d3855f",
+        "encoded": "%7Bpage%7D",
+        "prevChunkIds": []
+      },
+      "353": {
+        "chunkId": "98b6ff",
+        "hash": "296be74d",
+        "encoded": "%3C/Button%3E",
+        "prevChunkIds": []
+      },
+      "354": {
+        "chunkId": "98b6ff",
+        "hash": "c47fd0ea",
+        "encoded": "))%7D",
+        "prevChunkIds": []
+      },
+      "356": {
+        "chunkId": "98b6ff",
+        "hash": "103348e1",
+        "encoded": "%3CButton",
+        "prevChunkIds": []
+      },
+      "357": {
+        "chunkId": "98b6ff",
+        "hash": "3c222f46",
+        "encoded": "variant=%22outline%22",
+        "prevChunkIds": []
+      },
+      "358": {
+        "chunkId": "98b6ff",
+        "hash": "5dd9a496",
+        "encoded": "size=%22sm%22",
+        "prevChunkIds": []
+      },
+      "359": {
+        "chunkId": "98b6ff",
+        "hash": "4936961a",
+        "encoded": "onClick=%7B()%20=%3E%20setCurrentPage(prev%20=%3E%20Math.min(prev%20+%201,%20totalPages))%7D",
+        "prevChunkIds": []
+      },
+      "360": {
+        "chunkId": "98b6ff",
+        "hash": "33ed342f",
+        "encoded": "disabled=%7BcurrentPage%20===%20totalPages%7D",
+        "prevChunkIds": []
+      },
+      "361": {
+        "chunkId": "98b6ff",
+        "hash": "c8f23803",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "362": {
+        "chunkId": "98b6ff",
+        "hash": "25a1b946",
+        "encoded": "Next",
+        "prevChunkIds": []
+      },
+      "363": {
+        "chunkId": "98b6ff",
+        "hash": "5f8b09e6",
+        "encoded": "%3C/Button%3E",
+        "prevChunkIds": []
+      },
+      "364": {
+        "chunkId": "98b6ff",
+        "hash": "c764d59b",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "365": {
+        "chunkId": "98b6ff",
+        "hash": "1dedb01d",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "366": {
+        "chunkId": "98b6ff",
+        "hash": "c9c59162",
+        "encoded": "%3C/Card%3E",
+        "prevChunkIds": []
+      },
+      "367": {
+        "chunkId": "98b6ff",
+        "hash": "1586a2d9",
+        "encoded": ")%7D",
+        "prevChunkIds": []
+      },
+      "369": {
+        "chunkId": "98b6ff",
+        "hash": "b1b48cad",
+        "encoded": "%7B/*%20Modal%20*/%7D",
+        "prevChunkIds": []
+      },
+      "370": {
+        "chunkId": "98b6ff",
+        "hash": "48e25a0c",
+        "encoded": "%7BisModalOpen%20&&%20selectedProject%20&&%20(",
+        "prevChunkIds": []
+      },
+      "371": {
+        "chunkId": "98b6ff",
+        "hash": "eee5dc56",
+        "encoded": "%3Cdiv%20className=%22fixed%20inset-0%20bg-black%20bg-opacity-50%20flex%20items-center%20justify-center%20p-4%20z-50%22%3E",
+        "prevChunkIds": []
+      },
+      "372": {
+        "chunkId": "98b6ff",
+        "hash": "2c000bd0",
+        "encoded": "%3Cdiv%20className=%22bg-white%20dark:bg-gray-900%20rounded-lg%20max-w-4xl%20w-full%20max-h-%5B90vh%5D%20overflow-y-auto%22%3E",
+        "prevChunkIds": []
+      },
+      "373": {
+        "chunkId": "98b6ff",
+        "hash": "35311160",
+        "encoded": "%3Cdiv%20className=%22sticky%20top-0%20bg-white%20dark:bg-gray-900%20border-b%20border-gray-200%20dark:border-gray-700%20p-6%22%3E",
+        "prevChunkIds": []
+      },
+      "374": {
+        "chunkId": "98b6ff",
+        "hash": "c7d4c47a",
+        "encoded": "%3Cdiv%20className=%22flex%20items-center%20justify-between%22%3E",
+        "prevChunkIds": []
+      },
+      "375": {
+        "chunkId": "98b6ff",
+        "hash": "e0448849",
+        "encoded": "%3Ch2%20className=%22text-2xl%20font-bold%20text-gray-900%20dark:text-white%22%3E",
+        "prevChunkIds": []
+      },
+      "376": {
+        "chunkId": "98b6ff",
+        "hash": "e0e52f41",
+        "encoded": "%7BselectedProject.name%7D",
+        "prevChunkIds": []
+      },
+      "377": {
+        "chunkId": "98b6ff",
+        "hash": "9581dcb6",
+        "encoded": "%3C/h2%3E",
+        "prevChunkIds": []
+      },
+      "378": {
+        "chunkId": "98b6ff",
+        "hash": "e223afa8",
+        "encoded": "%3CButton",
+        "prevChunkIds": []
+      },
+      "379": {
+        "chunkId": "98b6ff",
+        "hash": "b19b481d",
+        "encoded": "variant=%22ghost%22",
+        "prevChunkIds": []
+      },
+      "380": {
+        "chunkId": "98b6ff",
+        "hash": "82f5f3dc",
+        "encoded": "size=%22sm%22",
+        "prevChunkIds": []
+      },
+      "381": {
+        "chunkId": "98b6ff",
+        "hash": "b709acf9",
+        "encoded": "onClick=%7BcloseModal%7D",
+        "prevChunkIds": []
+      },
+      "382": {
+        "chunkId": "98b6ff",
+        "hash": "2430ad95",
+        "encoded": "className=%22text-gray-500%20hover:text-gray-700%20dark:text-gray-400%20dark:hover:text-gray-200%22",
+        "prevChunkIds": []
+      },
+      "383": {
+        "chunkId": "98b6ff",
+        "hash": "c7f16bef",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "384": {
+        "chunkId": "98b6ff",
+        "hash": "fbda50e9",
+        "encoded": "%3CX%20className=%22w-5%20h-5%22%20/%3E",
+        "prevChunkIds": []
+      },
+      "385": {
+        "chunkId": "98b6ff",
+        "hash": "bfc6ee50",
+        "encoded": "%3C/Button%3E",
+        "prevChunkIds": []
+      },
+      "386": {
+        "chunkId": "98b6ff",
+        "hash": "bfb81ddc",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "387": {
+        "chunkId": "98b6ff",
+        "hash": "d474cc2c",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "389": {
+        "chunkId": "98b6ff",
+        "hash": "65236786",
+        "encoded": "%3Cdiv%20className=%22p-6%20space-y-6%22%3E",
+        "prevChunkIds": []
+      },
+      "390": {
+        "chunkId": "98b6ff",
+        "hash": "ff86d799",
+        "encoded": "%7B/*%20Project%20Overview%20*/%7D",
+        "prevChunkIds": []
+      },
+      "391": {
+        "chunkId": "98b6ff",
+        "hash": "704f1b3c",
+        "encoded": "%3Cdiv%3E",
+        "prevChunkIds": []
+      },
+      "392": {
+        "chunkId": "98b6ff",
+        "hash": "c580aace",
+        "encoded": "%3Ch3%20className=%22text-lg%20font-semibold%20text-gray-900%20dark:text-white%20mb-3%22%3E",
+        "prevChunkIds": []
+      },
+      "393": {
+        "chunkId": "98b6ff",
+        "hash": "bee1d152",
+        "encoded": "Project%20Overview",
+        "prevChunkIds": []
+      },
+      "394": {
+        "chunkId": "98b6ff",
+        "hash": "ac75ec67",
+        "encoded": "%3C/h3%3E",
+        "prevChunkIds": []
+      },
+      "395": {
+        "chunkId": "98b6ff",
+        "hash": "bcb872d4",
+        "encoded": "%3Cp%20className=%22text-gray-700%20dark:text-gray-300%20mb-4%22%3E",
+        "prevChunkIds": []
+      },
+      "396": {
+        "chunkId": "98b6ff",
+        "hash": "0be6f1ae",
+        "encoded": "%7BselectedProject.description%7D",
+        "prevChunkIds": []
+      },
+      "397": {
+        "chunkId": "98b6ff",
+        "hash": "83b2edb4",
+        "encoded": "%3C/p%3E",
+        "prevChunkIds": []
+      },
+      "398": {
+        "chunkId": "98b6ff",
+        "hash": "c6c415ac",
+        "encoded": "%3Cdiv%20className=%22grid%20grid-cols-1%20md:grid-cols-2%20gap-4%20text-sm%22%3E",
+        "prevChunkIds": []
+      },
+      "399": {
+        "chunkId": "98b6ff",
+        "hash": "84b00091",
+        "encoded": "%3Cdiv%3E",
+        "prevChunkIds": []
+      },
+      "400": {
+        "chunkId": "98b6ff",
+        "hash": "01e723c1",
+        "encoded": "%3Cspan%20className=%22font-medium%20text-gray-900%20dark:text-white%22%3EDomain:%3C/span%3E",
+        "prevChunkIds": []
+      },
+      "401": {
+        "chunkId": "98b6ff",
+        "hash": "612d10a4",
+        "encoded": "%3Cspan%20className=%22ml-2%20text-gray-700%20dark:text-gray-300%22%3E%7BselectedProject.domain%7D%3C/span%3E",
+        "prevChunkIds": []
+      },
+      "402": {
+        "chunkId": "98b6ff",
+        "hash": "dc3c36b9",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "403": {
+        "chunkId": "98b6ff",
+        "hash": "164009f6",
+        "encoded": "%3Cdiv%3E",
+        "prevChunkIds": []
+      },
+      "404": {
+        "chunkId": "98b6ff",
+        "hash": "f6cdcea9",
+        "encoded": "%3Cspan%20className=%22font-medium%20text-gray-900%20dark:text-white%22%3EOrganization:%3C/span%3E",
+        "prevChunkIds": []
+      },
+      "405": {
+        "chunkId": "98b6ff",
+        "hash": "9f6a40be",
+        "encoded": "%3Cspan%20className=%22ml-2%20text-gray-700%20dark:text-gray-300%22%3E%7BselectedProject.organization%7D%3C/span%3E",
+        "prevChunkIds": []
+      },
+      "406": {
+        "chunkId": "98b6ff",
+        "hash": "b18ecf0a",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "407": {
+        "chunkId": "98b6ff",
+        "hash": "354e2396",
+        "encoded": "%3Cdiv%3E",
+        "prevChunkIds": []
+      },
+      "408": {
+        "chunkId": "98b6ff",
+        "hash": "71e3f86a",
+        "encoded": "%3Cspan%20className=%22font-medium%20text-gray-900%20dark:text-white%22%3ETeam%20Size:%3C/span%3E",
+        "prevChunkIds": []
+      },
+      "409": {
+        "chunkId": "98b6ff",
+        "hash": "03b81c02",
+        "encoded": "%3Cspan%20className=%22ml-2%20text-gray-700%20dark:text-gray-300%22%3E%7BselectedProject.teamSize%7D%20members%3C/span%3E",
+        "prevChunkIds": []
+      },
+      "410": {
+        "chunkId": "98b6ff",
+        "hash": "16f5e2bf",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "411": {
+        "chunkId": "98b6ff",
+        "hash": "f8281f57",
+        "encoded": "%3Cdiv%3E",
+        "prevChunkIds": []
+      },
+      "412": {
+        "chunkId": "98b6ff",
+        "hash": "a3b23c87",
+        "encoded": "%3Cspan%20className=%22font-medium%20text-gray-900%20dark:text-white%22%3EDuration:%3C/span%3E",
+        "prevChunkIds": []
+      },
+      "413": {
+        "chunkId": "98b6ff",
+        "hash": "ac94fd5f",
+        "encoded": "%3Cspan%20className=%22ml-2%20text-gray-700%20dark:text-gray-300%22%3E%7BformatDuration(selectedProject.duration)%7D%3C/span%3E",
+        "prevChunkIds": []
+      },
+      "414": {
+        "chunkId": "98b6ff",
+        "hash": "78a282f1",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "415": {
+        "chunkId": "98b6ff",
+        "hash": "babbadf2",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "416": {
+        "chunkId": "98b6ff",
+        "hash": "0e7bc15c",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "418": {
+        "chunkId": "98b6ff",
+        "hash": "b3ff039e",
+        "encoded": "%3CSeparator%20/%3E",
+        "prevChunkIds": []
+      },
+      "420": {
+        "chunkId": "98b6ff",
+        "hash": "fb6adc5d",
+        "encoded": "%7B/*%20Full%20Tech%20Stack%20*/%7D",
+        "prevChunkIds": []
+      },
+      "421": {
+        "chunkId": "98b6ff",
+        "hash": "cc235fd2",
+        "encoded": "%3Cdiv%3E",
+        "prevChunkIds": []
+      },
+      "422": {
+        "chunkId": "98b6ff",
+        "hash": "1308f30f",
+        "encoded": "%3Ch3%20className=%22text-lg%20font-semibold%20text-gray-900%20dark:text-white%20mb-3%22%3E",
+        "prevChunkIds": []
+      },
+      "423": {
+        "chunkId": "98b6ff",
+        "hash": "2460796c",
+        "encoded": "Technology%20Stack",
+        "prevChunkIds": []
+      },
+      "424": {
+        "chunkId": "98b6ff",
+        "hash": "7c0b6d25",
+        "encoded": "%3C/h3%3E",
+        "prevChunkIds": []
+      },
+      "425": {
+        "chunkId": "98b6ff",
+        "hash": "85bcc26a",
+        "encoded": "%3Cdiv%20className=%22grid%20grid-cols-1%20md:grid-cols-2%20gap-4%22%3E",
+        "prevChunkIds": []
+      },
+      "426": {
+        "chunkId": "98b6ff",
+        "hash": "58f27181",
+        "encoded": "%7BObject.entries(selectedProject.techStack).map((%5Bcategory,%20technologies%5D)%20=%3E%20(",
+        "prevChunkIds": []
+      },
+      "427": {
+        "chunkId": "98b6ff",
+        "hash": "6ed0ec41",
+        "encoded": "%3Cdiv%20key=%7Bcategory%7D%3E",
+        "prevChunkIds": []
+      },
+      "428": {
+        "chunkId": "98b6ff",
+        "hash": "b7c9045e",
+        "encoded": "%3Ch4%20className=%22font-medium%20text-gray-900%20dark:text-white%20mb-2%20capitalize%22%3E",
+        "prevChunkIds": []
+      },
+      "429": {
+        "chunkId": "98b6ff",
+        "hash": "9aa84131",
+        "encoded": "%7Bcategory.replace(/(%5BA-Z%5D)/g,%20'%20$1').trim()%7D",
+        "prevChunkIds": []
+      },
+      "430": {
+        "chunkId": "98b6ff",
+        "hash": "e6522365",
+        "encoded": "%3C/h4%3E",
+        "prevChunkIds": []
+      },
+      "431": {
+        "chunkId": "98b6ff",
+        "hash": "4f36daea",
+        "encoded": "%3Cdiv%20className=%22flex%20flex-wrap%20gap-2%22%3E",
+        "prevChunkIds": []
+      },
+      "432": {
+        "chunkId": "98b6ff",
+        "hash": "cdc2266b",
+        "encoded": "%7Btechnologies.map((tech,%20index)%20=%3E%20(",
+        "prevChunkIds": []
+      },
+      "433": {
+        "chunkId": "98b6ff",
+        "hash": "835d4ce8",
+        "encoded": "%3CBadge%20key=%7Bindex%7D%20variant=%22secondary%22%20className=%22text-xs%22%3E",
+        "prevChunkIds": []
+      },
+      "434": {
+        "chunkId": "98b6ff",
+        "hash": "34ab47db",
+        "encoded": "%7Btech%7D",
+        "prevChunkIds": []
+      },
+      "435": {
+        "chunkId": "98b6ff",
+        "hash": "689fdb9a",
+        "encoded": "%3C/Badge%3E",
+        "prevChunkIds": []
+      },
+      "436": {
+        "chunkId": "98b6ff",
+        "hash": "860aeb58",
+        "encoded": "))%7D",
+        "prevChunkIds": []
+      },
+      "437": {
+        "chunkId": "98b6ff",
+        "hash": "2dfb39b2",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "438": {
+        "chunkId": "98b6ff",
+        "hash": "a8ea829b",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "439": {
+        "chunkId": "98b6ff",
+        "hash": "aafb5423",
+        "encoded": "))%7D",
+        "prevChunkIds": []
+      },
+      "440": {
+        "chunkId": "98b6ff",
+        "hash": "cda61ce0",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "441": {
+        "chunkId": "98b6ff",
+        "hash": "dfa5d616",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "443": {
+        "chunkId": "98b6ff",
+        "hash": "776b610a",
+        "encoded": "%3CSeparator%20/%3E",
+        "prevChunkIds": []
+      },
+      "445": {
+        "chunkId": "98b6ff",
+        "hash": "4ed3fa67",
+        "encoded": "%7B/*%20Responsibilities%20*/%7D",
+        "prevChunkIds": []
+      },
+      "446": {
+        "chunkId": "98b6ff",
+        "hash": "6224b771",
+        "encoded": "%3Cdiv%3E",
+        "prevChunkIds": []
+      },
+      "447": {
+        "chunkId": "98b6ff",
+        "hash": "a5e52ca8",
+        "encoded": "%3Ch3%20className=%22text-lg%20font-semibold%20text-gray-900%20dark:text-white%20mb-3%22%3E",
+        "prevChunkIds": []
+      },
+      "448": {
+        "chunkId": "98b6ff",
+        "hash": "31b8dcfe",
+        "encoded": "Key%20Responsibilities",
+        "prevChunkIds": []
+      },
+      "449": {
+        "chunkId": "98b6ff",
+        "hash": "1830f232",
+        "encoded": "%3C/h3%3E",
+        "prevChunkIds": []
+      },
+      "450": {
+        "chunkId": "98b6ff",
+        "hash": "e6f1b88b",
+        "encoded": "%3Cul%20className=%22space-y-2%22%3E",
+        "prevChunkIds": []
+      },
+      "451": {
+        "chunkId": "98b6ff",
+        "hash": "5b9d2e49",
+        "encoded": "%7BselectedProject.responsibilities.map((responsibility,%20index)%20=%3E%20(",
+        "prevChunkIds": []
+      },
+      "452": {
+        "chunkId": "98b6ff",
+        "hash": "d395ee79",
+        "encoded": "%3Cli%20key=%7Bindex%7D%20className=%22flex%20items-start%22%3E",
+        "prevChunkIds": []
+      },
+      "453": {
+        "chunkId": "98b6ff",
+        "hash": "b0fc8e10",
+        "encoded": "%3Cspan%20className=%22w-2%20h-2%20bg-blue-500%20rounded-full%20mt-2%20mr-3%20flex-shrink-0%22%3E%3C/span%3E",
+        "prevChunkIds": []
+      },
+      "454": {
+        "chunkId": "98b6ff",
+        "hash": "84a2cbd0",
+        "encoded": "%3Cspan%20className=%22text-gray-700%20dark:text-gray-300%22%3E%7Bresponsibility%7D%3C/span%3E",
+        "prevChunkIds": []
+      },
+      "455": {
+        "chunkId": "98b6ff",
+        "hash": "10b2155e",
+        "encoded": "%3C/li%3E",
+        "prevChunkIds": []
+      },
+      "456": {
+        "chunkId": "98b6ff",
+        "hash": "3225c61d",
+        "encoded": "))%7D",
+        "prevChunkIds": []
+      },
+      "457": {
+        "chunkId": "98b6ff",
+        "hash": "eb3e868c",
+        "encoded": "%3C/ul%3E",
+        "prevChunkIds": []
+      },
+      "458": {
+        "chunkId": "98b6ff",
+        "hash": "f6787813",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "460": {
+        "chunkId": "98b6ff",
+        "hash": "3b359e6b",
+        "encoded": "%3CSeparator%20/%3E",
+        "prevChunkIds": []
+      },
+      "462": {
+        "chunkId": "98b6ff",
+        "hash": "76f5e7e7",
+        "encoded": "%7B/*%20Project%20Impact%20*/%7D",
+        "prevChunkIds": []
+      },
+      "463": {
+        "chunkId": "98b6ff",
+        "hash": "53872f2a",
+        "encoded": "%3Cdiv%3E",
+        "prevChunkIds": []
+      },
+      "464": {
+        "chunkId": "98b6ff",
+        "hash": "35070f11",
+        "encoded": "%3Ch3%20className=%22text-lg%20font-semibold%20text-gray-900%20dark:text-white%20mb-3%22%3E",
+        "prevChunkIds": []
+      },
+      "465": {
+        "chunkId": "98b6ff",
+        "hash": "9a0164b7",
+        "encoded": "Project%20Impact",
+        "prevChunkIds": []
+      },
+      "466": {
+        "chunkId": "98b6ff",
+        "hash": "31777fc9",
+        "encoded": "%3C/h3%3E",
+        "prevChunkIds": []
+      },
+      "467": {
+        "chunkId": "98b6ff",
+        "hash": "7f8c5e68",
+        "encoded": "%3Cul%20className=%22space-y-2%22%3E",
+        "prevChunkIds": []
+      },
+      "468": {
+        "chunkId": "98b6ff",
+        "hash": "e63eaa63",
+        "encoded": "%7BselectedProject.impact.map((impact,%20index)%20=%3E%20(",
+        "prevChunkIds": []
+      },
+      "469": {
+        "chunkId": "98b6ff",
+        "hash": "b3fd57be",
+        "encoded": "%3Cli%20key=%7Bindex%7D%20className=%22flex%20items-start%22%3E",
+        "prevChunkIds": []
+      },
+      "470": {
+        "chunkId": "98b6ff",
+        "hash": "cd016625",
+        "encoded": "%3Cspan%20className=%22w-2%20h-2%20bg-green-500%20rounded-full%20mt-2%20mr-3%20flex-shrink-0%22%3E%3C/span%3E",
+        "prevChunkIds": []
+      },
+      "471": {
+        "chunkId": "98b6ff",
+        "hash": "77887b20",
+        "encoded": "%3Cspan%20className=%22text-gray-700%20dark:text-gray-300%22%3E%7Bimpact%7D%3C/span%3E",
+        "prevChunkIds": []
+      },
+      "472": {
+        "chunkId": "98b6ff",
+        "hash": "820e2347",
+        "encoded": "%3C/li%3E",
+        "prevChunkIds": []
+      },
+      "473": {
+        "chunkId": "98b6ff",
+        "hash": "a4d1a58f",
+        "encoded": "))%7D",
+        "prevChunkIds": []
+      },
+      "474": {
+        "chunkId": "98b6ff",
+        "hash": "8ebb60f2",
+        "encoded": "%3C/ul%3E",
+        "prevChunkIds": []
+      },
+      "475": {
+        "chunkId": "98b6ff",
+        "hash": "a9c7aa00",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "477": {
+        "chunkId": "98b6ff",
+        "hash": "5300afa6",
+        "encoded": "%7B/*%20Links%20*/%7D",
+        "prevChunkIds": []
+      },
+      "478": {
+        "chunkId": "98b6ff",
+        "hash": "123759d5",
+        "encoded": "%7BselectedProject.links%20&&%20Object.keys(selectedProject.links).length%20%3E%200%20&&%20(",
+        "prevChunkIds": []
+      },
+      "479": {
+        "chunkId": "98b6ff",
+        "hash": "6649ea8a",
+        "encoded": "%3C%3E",
+        "prevChunkIds": []
+      },
+      "480": {
+        "chunkId": "98b6ff",
+        "hash": "8fef27e6",
+        "encoded": "%3CSeparator%20/%3E",
+        "prevChunkIds": []
+      },
+      "481": {
+        "chunkId": "98b6ff",
+        "hash": "9b5301ae",
+        "encoded": "%3Cdiv%3E",
+        "prevChunkIds": []
+      },
+      "482": {
+        "chunkId": "98b6ff",
+        "hash": "3c041afd",
+        "encoded": "%3Ch3%20className=%22text-lg%20font-semibold%20text-gray-900%20dark:text-white%20mb-3%22%3E",
+        "prevChunkIds": []
+      },
+      "483": {
+        "chunkId": "98b6ff",
+        "hash": "15f7f044",
+        "encoded": "Project%20Links",
+        "prevChunkIds": []
+      },
+      "484": {
+        "chunkId": "98b6ff",
+        "hash": "4d8030bb",
+        "encoded": "%3C/h3%3E",
+        "prevChunkIds": []
+      },
+      "485": {
+        "chunkId": "98b6ff",
+        "hash": "464f8bbc",
+        "encoded": "%3Cdiv%20className=%22flex%20flex-wrap%20gap-3%22%3E",
+        "prevChunkIds": []
+      },
+      "486": {
+        "chunkId": "98b6ff",
+        "hash": "126e45bb",
+        "encoded": "%7BObject.entries(selectedProject.links).map((%5Btype,%20url%5D)%20=%3E%20(",
+        "prevChunkIds": []
+      },
+      "487": {
+        "chunkId": "98b6ff",
+        "hash": "91fc37e8",
+        "encoded": "%3Ca",
+        "prevChunkIds": []
+      },
+      "488": {
+        "chunkId": "98b6ff",
+        "hash": "eef65898",
+        "encoded": "key=%7Btype%7D",
+        "prevChunkIds": []
+      },
+      "489": {
+        "chunkId": "98b6ff",
+        "hash": "e002ec22",
+        "encoded": "href=%7Burl%7D",
+        "prevChunkIds": []
+      },
+      "490": {
+        "chunkId": "98b6ff",
+        "hash": "5a95d3a3",
+        "encoded": "target=%22_blank%22",
+        "prevChunkIds": []
+      },
+      "491": {
+        "chunkId": "98b6ff",
+        "hash": "1450e708",
+        "encoded": "rel=%22noopener%20noreferrer%22",
+        "prevChunkIds": []
+      },
+      "492": {
+        "chunkId": "98b6ff",
+        "hash": "234d8f2c",
+        "encoded": "className=%22inline-flex%20items-center%20px-4%20py-2%20bg-blue-600%20hover:bg-blue-700%20text-white%20text-sm%20font-medium%20rounded-lg%20transition-colors%22",
+        "prevChunkIds": []
+      },
+      "493": {
+        "chunkId": "98b6ff",
+        "hash": "6886ee39",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "494": {
+        "chunkId": "98b6ff",
+        "hash": "51277f7c",
+        "encoded": "%3CExternalLink%20className=%22w-4%20h-4%20mr-2%22%20/%3E",
+        "prevChunkIds": []
+      },
+      "495": {
+        "chunkId": "98b6ff",
+        "hash": "fa07fca5",
+        "encoded": "%7Btype.charAt(0).toUpperCase()%20+%20type.slice(1)%7D",
+        "prevChunkIds": []
+      },
+      "496": {
+        "chunkId": "98b6ff",
+        "hash": "8bcefaf7",
+        "encoded": "%3C/a%3E",
+        "prevChunkIds": []
+      },
+      "497": {
+        "chunkId": "98b6ff",
+        "hash": "be7815ae",
+        "encoded": "))%7D",
+        "prevChunkIds": []
+      },
+      "498": {
+        "chunkId": "98b6ff",
+        "hash": "ef5763f8",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "499": {
+        "chunkId": "98b6ff",
+        "hash": "d98805b5",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "500": {
+        "chunkId": "98b6ff",
+        "hash": "efa55c40",
+        "encoded": "%3C/%3E",
+        "prevChunkIds": []
+      },
+      "501": {
+        "chunkId": "98b6ff",
+        "hash": "59c95bc7",
+        "encoded": ")%7D",
+        "prevChunkIds": []
+      },
+      "502": {
+        "chunkId": "98b6ff",
+        "hash": "031efde2",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "503": {
+        "chunkId": "98b6ff",
+        "hash": "cea66ca5",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "504": {
+        "chunkId": "98b6ff",
+        "hash": "34c9c782",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "505": {
+        "chunkId": "98b6ff",
+        "hash": "22b60733",
+        "encoded": ")%7D",
+        "prevChunkIds": []
+      },
+      "506": {
+        "chunkId": "98b6ff",
+        "hash": "2d3e1724",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "507": {
+        "chunkId": "98b6ff",
+        "hash": "a7143120",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "508": {
+        "chunkId": "98b6ff",
+        "hash": "ae52a237",
+        "encoded": ");",
+        "prevChunkIds": []
+      },
+      "509": {
+        "chunkId": "98b6ff",
+        "hash": "5dc31399",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "511": {
+        "chunkId": "98b6ff",
+        "hash": "b0b5f327",
+        "encoded": "export%20default%20PortfolioPage;",
+        "prevChunkIds": []
+      }
+    }
+  }
+}
